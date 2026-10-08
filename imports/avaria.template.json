@@ -1,0 +1,21 @@
+[
+  {
+    "codigo": "PREENCHER",
+    "titulo": "TRANSCRITO DO DOCUMENTO",
+    "categoria": "TRANSCRITA DO DOCUMENTO",
+    "aparencia": "TRANSCRITA DO DOCUMENTO",
+    "causas": [
+      "TRANSCRITAS DO DOCUMENTO"
+    ],
+    "acao": "TRANSCRITA DO DOCUMENTO",
+    "precaucao": "TRANSCRITA DO DOCUMENTO",
+    "imagens": [],
+    "fonte": {
+      "nome": "Vipal",
+      "documento": "NOME E EDIÇÃO DO GUIA",
+      "pagina": 1,
+      "url": ""
+    },
+    "ativo": true
+  }
+]

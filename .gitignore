@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+coverage/
+imports/local/
+uploads/avarias/*
+!uploads/avarias/.gitkeep
+*.log
+
+public/
+.netlify/
+

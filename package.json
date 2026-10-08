@@ -1,0 +1,37 @@
+{
+  "name": "api-laudo-pneus",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "seed:medidas": "node scripts/seed.js medidas",
+    "seed:marcas": "node scripts/seed.js marcas",
+    "seed:bandas": "node scripts/seed.js bandas",
+    "seed:pneus": "node scripts/seed.js pneus",
+    "import:avarias": "node scripts/importAvarias.js",
+    "import:catalogo": "node scripts/importCatalogo.js",
+    "extract:vipal": "node scripts/extractVipal.js",
+    "check": "node scripts/check.js",
+    "test": "node --test --test-concurrency=1",
+    "build": "node scripts/buildNetlify.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "pdfjs-dist": "^5.4.149",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.2.0"
+  }
+}
