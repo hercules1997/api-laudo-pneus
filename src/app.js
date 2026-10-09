@@ -2,7 +2,6 @@ import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import mongoose from 'mongoose';
 import { uploadsDir } from './config/paths.js';
 import errorHandler from './middlewares/errorHandler.js';
 import notFound from './middlewares/notFound.js';
@@ -22,13 +21,9 @@ app.use(cors({ origin(origin, callback) {
 app.use(express.json({ limit: '1mb' }));
 if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
-app.get('/ready', (req, res) => res.status(mongoose.connection.readyState === 1 ? 200 : 503).json({ database: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected' }));
+app.get('/ready', (req, res) => res.json({ status: 'ok', storage: 'json' }));
 app.use('/uploads', express.static(uploadsDir, { dotfiles: 'deny', index: false }));
 app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }));
-app.use('/api', (req, res, next) => {
-  if (mongoose.connection.readyState !== 1) return res.status(503).json({ message: 'Banco de dados indisponível.' });
-  next();
-});
 app.use('/api/avarias', avariaRoutes);
 app.use('/api/medidas', medidaRoutes);
 app.use('/api/marcas', marcaRoutes);

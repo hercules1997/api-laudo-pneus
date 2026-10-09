@@ -5,11 +5,17 @@
 
 [build.environment]
   NODE_VERSION = "22"
-  MONGOMS_DISABLE_POSTINSTALL = "1"
 
 [functions]
   node_bundler = "esbuild"
-  external_node_modules = ["express", "mongoose", "serverless-http"]
+  external_node_modules = ["express", "serverless-http"]
+
+[[headers]]
+  for = "/catalogos/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "public, max-age=0, must-revalidate"
 
 [[redirects]]
   from = "/api/*"

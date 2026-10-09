@@ -1,2 +1,2 @@
-// Dados reais entram pelo importador local.
-export const avarias = [];
+import { catalogs } from './catalogos.js';
+export const avarias = catalogs.avarias;

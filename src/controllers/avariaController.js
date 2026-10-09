@@ -1,3 +1,3 @@
-import Model from '../models/Avaria.js';
+import { catalogs } from '../data/catalogos.js';
 import { catalogController } from './catalogController.js';
-export default catalogController(Model, ["codigo","categoria"], ["titulo","aparencia","causas"]);
+export default catalogController(catalogs.avarias, ["codigo","categoria"], ["titulo","aparencia","causas"], ["codigo"]);

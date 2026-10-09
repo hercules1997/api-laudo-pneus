@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a9",
+    "fabricante": "Continental",
+    "medida": "295/80 R22.5",
+    "modelo": "HSC1",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.457Z",
+    "descricao": "",
+    "eixo": [],
+    "fonte": "https://www.continental-reifen.de/products/truck/tires/hsc1/",
+    "imagem": "",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "updatedAt": "2026-10-08T03:33:11.457Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61aa",
+    "fabricante": "Continental",
+    "medida": "315/80 R22.5",
+    "modelo": "HSC1",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.470Z",
+    "descricao": "",
+    "eixo": [],
+    "fonte": "https://www.continental-reifen.de/products/truck/tires/hsc1/",
+    "imagem": "",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "updatedAt": "2026-10-08T03:33:11.470Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ab",
+    "fabricante": "Royal Black",
+    "medida": "295/80 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.485Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "152/149",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-08T03:33:11.485Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ac",
+    "fabricante": "Royal Black",
+    "medida": "295/75 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.507Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "146/143",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-08T03:33:11.507Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ad",
+    "fabricante": "Royal Black",
+    "medida": "315/80 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.520Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "156/150",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-08T03:33:11.520Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ae",
+    "fabricante": "Royal Black",
+    "medida": "285/75 R24.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.536Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "147/144",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-08T03:33:11.536Z"
+  }
+]

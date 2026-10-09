@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a4",
+    "nome": "Continental",
+    "ativo": true,
+    "categorias": [
+      "Carga",
+      "Comercial"
+    ],
+    "createdAt": "2026-10-08T03:33:11.378Z",
+    "updatedAt": "2026-10-08T03:33:11.378Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a5",
+    "nome": "Royal Black",
+    "ativo": true,
+    "categorias": [
+      "Carga"
+    ],
+    "createdAt": "2026-10-08T03:33:11.392Z",
+    "updatedAt": "2026-10-08T03:33:11.392Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a6",
+    "nome": "Vipal",
+    "ativo": true,
+    "categorias": [
+      "Reforma",
+      "Bandas"
+    ],
+    "createdAt": "2026-10-08T03:33:11.405Z",
+    "updatedAt": "2026-10-08T03:33:11.405Z"
+  }
+]

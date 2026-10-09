@@ -1,3 +1,3 @@
-import Model from '../models/Banda.js';
+import { catalogs } from '../data/catalogos.js';
 import { catalogController } from './catalogController.js';
-export default catalogController(Model, ["codigo","nome","aplicacao","eixo","medidas"], ["codigo","nome","descricao"]);
+export default catalogController(catalogs.bandas, ["codigo","nome","aplicacao","eixo","medidas"], ["codigo","nome","descricao"], ["codigo","nome"]);

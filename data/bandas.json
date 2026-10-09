@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a7",
+    "codigo": "VT110",
+    "aplicacao": [],
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.421Z",
+    "descricao": "",
+    "eixo": [],
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/pt/catalogo/renovado-de-pneus",
+    "imagem": "",
+    "medidas": [],
+    "nome": "VT110",
+    "updatedAt": "2026-10-08T03:33:11.421Z"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a8",
+    "codigo": "VRT3",
+    "aplicacao": [],
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.440Z",
+    "descricao": "",
+    "eixo": [],
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/pt/catalogo/renovado-de-pneus",
+    "imagem": "",
+    "medidas": [],
+    "nome": "VRT3",
+    "updatedAt": "2026-10-08T03:33:11.440Z"
+  }
+]

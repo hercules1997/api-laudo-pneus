@@ -1,3 +1,3 @@
-import Model from '../models/Marca.js';
+import { catalogs } from '../data/catalogos.js';
 import { catalogController } from './catalogController.js';
-export default catalogController(Model, ["nome","categorias"], ["nome"]);
+export default catalogController(catalogs.marcas, ["nome","categorias"], ["nome"], ["nome"]);

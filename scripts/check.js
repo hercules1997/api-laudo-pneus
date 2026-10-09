@@ -13,6 +13,5 @@ async function walk(dir) {
 }
 for (const dir of ['src','scripts','test','netlify']) await walk(dir);
 await import('../src/app.js');
-await import('../src/services/catalogs.js');
 await import('../netlify/functions/api.js');
-console.log('Sintaxe e imports OK.');
+console.log('Sintaxe, imports e catálogos JSON OK.');
