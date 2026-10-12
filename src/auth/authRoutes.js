@@ -7,7 +7,7 @@ const fail=(status,message)=>Object.assign(new Error(message),{status});
 const normalize=v=>String(v||'').trim().toLowerCase();
 function validateAccount(body){
   if(!/^[a-z0-9._-]{3,80}$/.test(normalize(body.username)))throw fail(400,'Usuário deve ter 3 a 80 caracteres: letras, números, ponto, hífen ou sublinhado.');
-  if(!['admin','consultor','leitor'].includes(body.role||'consultor'))throw fail(400,'Perfil inválido.');
+  if(!['admin','consultor','gestor','leitor'].includes(body.role||'consultor'))throw fail(400,'Perfil inválido.');
   if(typeof body.name!=='string'||!body.name.trim()||body.name.length>100)throw fail(400,'Informe o nome.');
 }
 export function createAuthRouter(store=createGithubUsers()) {
@@ -79,7 +79,7 @@ export function createAuthRouter(store=createGithubUsers()) {
     if(!user)throw fail(404,'Usuário não encontrado.');
     if(Object.keys(body).some(k=>!['active','role','name','password'].includes(k)))throw fail(400,'Campo não permitido.');
     if(body.active!==undefined&&typeof body.active!=='boolean')throw fail(400,'active deve ser booleano.');
-    if(body.role!==undefined&&!['admin','consultor','leitor'].includes(body.role))throw fail(400,'Perfil inválido.');
+    if(body.role!==undefined&&!['admin','consultor','gestor','leitor'].includes(body.role))throw fail(400,'Perfil inválido.');
     if(body.name!==undefined&&(typeof body.name!=='string'||!body.name.trim()||body.name.length>100))throw fail(400,'Nome inválido.');
     if(user.id===req.authUser.id&&(body.active===false||(body.role&&body.role!=='admin')))throw fail(400,'Não é permitido suspender ou remover seu próprio perfil de administrador.');
     if(body.name!==undefined)user.name=body.name.trim();

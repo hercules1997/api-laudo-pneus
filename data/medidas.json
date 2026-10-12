@@ -170,11 +170,27 @@
       {
         "label": "8.25 R16",
         "value": "8.25 R16"
+      },
+      {
+        "label": "7.00 R16LT",
+        "value": "7.00 R16LT"
+      },
+      {
+        "label": "7.50 R16LT",
+        "value": "7.50 R16LT"
+      },
+      {
+        "label": "8.25 R16LT",
+        "value": "8.25 R16LT"
       }
     ],
     "ordem": 3,
     "title": "Carga leve – aro 16 (Diagonal)",
-    "updatedAt": "2026-10-08T03:33:11.253Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.royalblacktyre.com/product_19_RD688.html",
+      "https://www.royalblacktyre.com/product_44_RD880.html"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b619e",
@@ -197,11 +213,40 @@
       {
         "label": "12.00 R20",
         "value": "12.00 R20"
+      },
+      {
+        "label": "325/95 R24",
+        "value": "325/95 R24"
+      },
+      {
+        "label": "11.00 R22",
+        "value": "11.00 R22"
+      },
+      {
+        "label": "8.25 R20",
+        "value": "8.25 R20"
+      },
+      {
+        "label": "12.00 R24",
+        "value": "12.00 R24"
       }
     ],
     "ordem": 4,
     "title": "Carga média – aro 20 (Diagonal)",
-    "updatedAt": "2026-10-08T03:33:11.269Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.conti.com.br/products/truck/search-results/",
+      "https://www.royalblacktyre.com/product_19_RD688.html",
+      "https://es.royalblacktyre.com/product_37_RD689.html",
+      "https://www.royalblacktyre.com/product_22_RD801.html",
+      "https://www.royalblacktyre.com/product_43_RD860.html",
+      "https://www.royalblacktyre.com/product_44_RD880.html",
+      "https://www.royalblacktyre.com/product_13_RS600.html",
+      "https://www.royalblacktyre.com/product_37_RS618.html",
+      "https://www.royalblacktyre.com/product_16_RS901.html",
+      "https://es.royalblacktyre.com/product_36_RS902.html",
+      "https://www.royalblacktyre.com/product_41_RT609.html"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b619f",
@@ -224,11 +269,38 @@
       {
         "label": "265/70 R19.5",
         "value": "265/70 R19.5"
+      },
+      {
+        "label": "245/70 R17.5",
+        "value": "245/70 R17.5"
+      },
+      {
+        "label": "285/70 R19.5",
+        "value": "285/70 R19.5"
+      },
+      {
+        "label": "435/50 R19.5",
+        "value": "435/50 R19.5"
+      },
+      {
+        "label": "445/45 R19.5",
+        "value": "445/45 R19.5"
+      },
+      {
+        "label": "225/70 R19.5",
+        "value": "225/70 R19.5"
       }
     ],
     "ordem": 5,
     "title": "Carga pesada – aro 17.5 / 19.5",
-    "updatedAt": "2026-10-08T03:33:11.286Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.nokiantyres.com/heavy/tires-by-size/",
+      "https://www.conti.com.br/products/truck/search-results/",
+      "https://www.royalblacktyre.com/product_22_RD801.html",
+      "https://www.royalblacktyre.com/product_17_RS201.html",
+      "https://www.royalblacktyre.com/product_21_RT706.html"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61a0",
@@ -263,11 +335,61 @@
       {
         "label": "285/75 R24.5",
         "value": "285/75 R24.5"
+      },
+      {
+        "label": "295/60 R22.5",
+        "value": "295/60 R22.5"
+      },
+      {
+        "label": "315/60 R22.5",
+        "value": "315/60 R22.5"
+      },
+      {
+        "label": "315/70 R22.5",
+        "value": "315/70 R22.5"
+      },
+      {
+        "label": "385/55 R22.5",
+        "value": "385/55 R22.5"
+      },
+      {
+        "label": "12 R22.5",
+        "value": "12 R22.5"
+      },
+      {
+        "label": "295/75 R22.5",
+        "value": "295/75 R22.5"
+      },
+      {
+        "label": "11 R24.5",
+        "value": "11 R24.5"
+      },
+      {
+        "label": "13 R22.5",
+        "value": "13 R22.5"
       }
     ],
     "ordem": 6,
     "title": "Carga pesada – aro 22.5 / 24.5",
-    "updatedAt": "2026-10-08T03:33:11.300Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.nokiantyres.com/heavy/tires-by-size/",
+      "https://www.conti.com.br/products/truck/search-results/",
+      "https://www.continental-reifen.de/products/truck/tires/hsc1/",
+      "https://www.royalblacktyre.com/product_40_RD268.html",
+      "https://royalblacktyre.com/product_36_RD270.html",
+      "https://www.royalblacktyre.com/product_22_RD801.html",
+      "https://www.royalblacktyre.com/product_23_RD802.html",
+      "https://es.royalblacktyre.com/product_26_RD805.html",
+      "https://www.royalblacktyre.com/product_24_RD808.html",
+      "https://www.royalblacktyre.com/product_43_RD860.html",
+      "https://www.royalblacktyre.com/product_17_RS201.html",
+      "https://www.royalblacktyre.com/product_14_RS205.html",
+      "https://www.royalblacktyre.com/product_13_RS600.html",
+      "https://www.royalblacktyre.com/product_42_RT605.html",
+      "https://www.royalblacktyre.com/product_20_RT705.html",
+      "https://www.royalblacktyre.com/product_21_RT706.html"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61a1",
@@ -386,11 +508,1075 @@
       {
         "label": "710/70 R38",
         "value": "710/70 R38"
+      },
+      {
+        "label": "15.5 R25",
+        "value": "15.5 R25"
+      },
+      {
+        "label": "250/75 R16",
+        "value": "250/75 R16"
+      },
+      {
+        "label": "250/80 R16",
+        "value": "250/80 R16"
+      },
+      {
+        "label": "300/80 R24",
+        "value": "300/80 R24"
+      },
+      {
+        "label": "320/85 R28",
+        "value": "320/85 R28"
+      },
+      {
+        "label": "340/80 R18",
+        "value": "340/80 R18"
+      },
+      {
+        "label": "340/80 R24",
+        "value": "340/80 R24"
+      },
+      {
+        "label": "360/70 R20",
+        "value": "360/70 R20"
+      },
+      {
+        "label": "360/80 R20",
+        "value": "360/80 R20"
+      },
+      {
+        "label": "360/80 R24",
+        "value": "360/80 R24"
+      },
+      {
+        "label": "360/80 R28",
+        "value": "360/80 R28"
+      },
+      {
+        "label": "400/60 R18",
+        "value": "400/60 R18"
+      },
+      {
+        "label": "400/70 R18",
+        "value": "400/70 R18"
+      },
+      {
+        "label": "400/70 R20",
+        "value": "400/70 R20"
+      },
+      {
+        "label": "400/80 R24",
+        "value": "400/80 R24"
+      },
+      {
+        "label": "400/80 R28",
+        "value": "400/80 R28"
+      },
+      {
+        "label": "420/65 R24",
+        "value": "420/65 R24"
+      },
+      {
+        "label": "420/70 R28",
+        "value": "420/70 R28"
+      },
+      {
+        "label": "440/80 R24",
+        "value": "440/80 R24"
+      },
+      {
+        "label": "440/80 R28",
+        "value": "440/80 R28"
+      },
+      {
+        "label": "440/80 R30",
+        "value": "440/80 R30"
+      },
+      {
+        "label": "440/80 R34",
+        "value": "440/80 R34"
+      },
+      {
+        "label": "460/65 R24",
+        "value": "460/65 R24"
+      },
+      {
+        "label": "460/70 R24",
+        "value": "460/70 R24"
+      },
+      {
+        "label": "480/65 R24",
+        "value": "480/65 R24"
+      },
+      {
+        "label": "480/65 R28",
+        "value": "480/65 R28"
+      },
+      {
+        "label": "480/70 R28",
+        "value": "480/70 R28"
+      },
+      {
+        "label": "480/80 R30",
+        "value": "480/80 R30"
+      },
+      {
+        "label": "480/80 R34",
+        "value": "480/80 R34"
+      },
+      {
+        "label": "480/80 R38",
+        "value": "480/80 R38"
+      },
+      {
+        "label": "500/45-22.5",
+        "value": "500/45-22.5"
+      },
+      {
+        "label": "500/60 R22.5",
+        "value": "500/60 R22.5"
+      },
+      {
+        "label": "500/65 R24",
+        "value": "500/65 R24"
+      },
+      {
+        "label": "500/65 R28",
+        "value": "500/65 R28"
+      },
+      {
+        "label": "500/70 R24",
+        "value": "500/70 R24"
+      },
+      {
+        "label": "520/70 R38",
+        "value": "520/70 R38"
+      },
+      {
+        "label": "540/65 R24",
+        "value": "540/65 R24"
+      },
+      {
+        "label": "540/65 R28",
+        "value": "540/65 R28"
+      },
+      {
+        "label": "540/65 R30",
+        "value": "540/65 R30"
+      },
+      {
+        "label": "540/70 R24",
+        "value": "540/70 R24"
+      },
+      {
+        "label": "540/80 R38",
+        "value": "540/80 R38"
+      },
+      {
+        "label": "560/45 R22.5",
+        "value": "560/45 R22.5"
+      },
+      {
+        "label": "560/60 R22.5",
+        "value": "560/60 R22.5"
+      },
+      {
+        "label": "580/65 R22.5",
+        "value": "580/65 R22.5"
+      },
+      {
+        "label": "580/70 R38",
+        "value": "580/70 R38"
+      },
+      {
+        "label": "600/40-22.5",
+        "value": "600/40-22.5"
+      },
+      {
+        "label": "600/50 R22.5",
+        "value": "600/50 R22.5"
+      },
+      {
+        "label": "600/50-22.5",
+        "value": "600/50-22.5"
+      },
+      {
+        "label": "600/55 R26.5",
+        "value": "600/55 R26.5"
+      },
+      {
+        "label": "600/60 R30",
+        "value": "600/60 R30"
+      },
+      {
+        "label": "600/60 R30.5",
+        "value": "600/60 R30.5"
+      },
+      {
+        "label": "600/65 R28",
+        "value": "600/65 R28"
+      },
+      {
+        "label": "600/65 R34",
+        "value": "600/65 R34"
+      },
+      {
+        "label": "600/65 R38",
+        "value": "600/65 R38"
+      },
+      {
+        "label": "600/70 R28",
+        "value": "600/70 R28"
+      },
+      {
+        "label": "600/70 R30",
+        "value": "600/70 R30"
+      },
+      {
+        "label": "600/70 R34",
+        "value": "600/70 R34"
+      },
+      {
+        "label": "620/60 R26.5",
+        "value": "620/60 R26.5"
+      },
+      {
+        "label": "620/60B30",
+        "value": "620/60B30"
+      },
+      {
+        "label": "620/60B34",
+        "value": "620/60B34"
+      },
+      {
+        "label": "620/80 R42",
+        "value": "620/80 R42"
+      },
+      {
+        "label": "650/45-22.5",
+        "value": "650/45-22.5"
+      },
+      {
+        "label": "650/50 R22.5",
+        "value": "650/50 R22.5"
+      },
+      {
+        "label": "650/55 R26.5",
+        "value": "650/55 R26.5"
+      },
+      {
+        "label": "650/60 R34",
+        "value": "650/60 R34"
+      },
+      {
+        "label": "650/65 R26.5",
+        "value": "650/65 R26.5"
+      },
+      {
+        "label": "650/65 R30.5",
+        "value": "650/65 R30.5"
+      },
+      {
+        "label": "650/65 R34",
+        "value": "650/65 R34"
+      },
+      {
+        "label": "650/65 R38",
+        "value": "650/65 R38"
+      },
+      {
+        "label": "650/65 R42",
+        "value": "650/65 R42"
+      },
+      {
+        "label": "650/85 R38",
+        "value": "650/85 R38"
+      },
+      {
+        "label": "700/50 R26.5",
+        "value": "700/50 R26.5"
+      },
+      {
+        "label": "710/35 R22.5",
+        "value": "710/35 R22.5"
+      },
+      {
+        "label": "710/40-22.5",
+        "value": "710/40-22.5"
+      },
+      {
+        "label": "710/45 R22.5",
+        "value": "710/45 R22.5"
+      },
+      {
+        "label": "710/50 R26.5",
+        "value": "710/50 R26.5"
+      },
+      {
+        "label": "710/55 R34",
+        "value": "710/55 R34"
+      },
+      {
+        "label": "710/60 R34",
+        "value": "710/60 R34"
+      },
+      {
+        "label": "710/60 R42",
+        "value": "710/60 R42"
+      },
+      {
+        "label": "710/70 R42",
+        "value": "710/70 R42"
+      },
+      {
+        "label": "710/75 R42",
+        "value": "710/75 R42"
+      },
+      {
+        "label": "750/55 R26.5",
+        "value": "750/55 R26.5"
+      },
+      {
+        "label": "750/60 R30.5",
+        "value": "750/60 R30.5"
+      },
+      {
+        "label": "800/45 R26.5",
+        "value": "800/45 R26.5"
+      },
+      {
+        "label": "800/50 R34",
+        "value": "800/50 R34"
+      },
+      {
+        "label": "800/60 R32",
+        "value": "800/60 R32"
+      },
+      {
+        "label": "800/60 R34",
+        "value": "800/60 R34"
+      },
+      {
+        "label": "850/50 R30.5",
+        "value": "850/50 R30.5"
+      },
+      {
+        "label": "11-20",
+        "value": "11-20"
+      },
+      {
+        "label": "11.2 R24",
+        "value": "11.2 R24"
+      },
+      {
+        "label": "11.2 R28",
+        "value": "11.2 R28"
+      },
+      {
+        "label": "12-20",
+        "value": "12-20"
+      },
+      {
+        "label": "12.4 R20",
+        "value": "12.4 R20"
+      },
+      {
+        "label": "12.4 R24",
+        "value": "12.4 R24"
+      },
+      {
+        "label": "12.4 R28",
+        "value": "12.4 R28"
+      },
+      {
+        "label": "13-20",
+        "value": "13-20"
+      },
+      {
+        "label": "13.6 R24",
+        "value": "13.6 R24"
+      },
+      {
+        "label": "13.6 R28",
+        "value": "13.6 R28"
+      },
+      {
+        "label": "13.6 R38",
+        "value": "13.6 R38"
+      },
+      {
+        "label": "14-17",
+        "value": "14-17"
+      },
+      {
+        "label": "14.9 R24",
+        "value": "14.9 R24"
+      },
+      {
+        "label": "14.9 R28",
+        "value": "14.9 R28"
+      },
+      {
+        "label": "14.9 R30",
+        "value": "14.9 R30"
+      },
+      {
+        "label": "14.9 R34",
+        "value": "14.9 R34"
+      },
+      {
+        "label": "16.9 R24",
+        "value": "16.9 R24"
+      },
+      {
+        "label": "16.9 R28",
+        "value": "16.9 R28"
+      },
+      {
+        "label": "16.9 R30",
+        "value": "16.9 R30"
+      },
+      {
+        "label": "16.9 R34",
+        "value": "16.9 R34"
+      },
+      {
+        "label": "16.9 R38",
+        "value": "16.9 R38"
+      },
+      {
+        "label": "18-27",
+        "value": "18-27"
+      },
+      {
+        "label": "18.4 R28",
+        "value": "18.4 R28"
+      },
+      {
+        "label": "18.4 R30",
+        "value": "18.4 R30"
+      },
+      {
+        "label": "18.4 R34",
+        "value": "18.4 R34"
+      },
+      {
+        "label": "18.4 R38",
+        "value": "18.4 R38"
+      },
+      {
+        "label": "18.4 R42",
+        "value": "18.4 R42"
+      },
+      {
+        "label": "19-29",
+        "value": "19-29"
+      },
+      {
+        "label": "20.8 R34",
+        "value": "20.8 R34"
+      },
+      {
+        "label": "20.8 R38",
+        "value": "20.8 R38"
+      },
+      {
+        "label": "20.8 R42",
+        "value": "20.8 R42"
+      },
+      {
+        "label": "21L R30",
+        "value": "21L R30"
+      },
+      {
+        "label": "24.5 R32",
+        "value": "24.5 R32"
+      },
+      {
+        "label": "275/80 R20",
+        "value": "275/80 R20"
+      },
+      {
+        "label": "280/70 R20",
+        "value": "280/70 R20"
+      },
+      {
+        "label": "280/85 R24",
+        "value": "280/85 R24"
+      },
+      {
+        "label": "280/85 R28",
+        "value": "280/85 R28"
+      },
+      {
+        "label": "30.5L R32",
+        "value": "30.5L R32"
+      },
+      {
+        "label": "300/70 R20",
+        "value": "300/70 R20"
+      },
+      {
+        "label": "315/55 R16",
+        "value": "315/55 R16"
+      },
+      {
+        "label": "320/70 R20",
+        "value": "320/70 R20"
+      },
+      {
+        "label": "320/70 R24",
+        "value": "320/70 R24"
+      },
+      {
+        "label": "320/70 R28",
+        "value": "320/70 R28"
+      },
+      {
+        "label": "320/85 R20",
+        "value": "320/85 R20"
+      },
+      {
+        "label": "320/85 R24",
+        "value": "320/85 R24"
+      },
+      {
+        "label": "325/70 R18",
+        "value": "325/70 R18"
+      },
+      {
+        "label": "335/80 R20",
+        "value": "335/80 R20"
+      },
+      {
+        "label": "340/85 R24",
+        "value": "340/85 R24"
+      },
+      {
+        "label": "340/85 R28",
+        "value": "340/85 R28"
+      },
+      {
+        "label": "360/70 R24",
+        "value": "360/70 R24"
+      },
+      {
+        "label": "360/70 R28",
+        "value": "360/70 R28"
+      },
+      {
+        "label": "365/70 R18",
+        "value": "365/70 R18"
+      },
+      {
+        "label": "365/80 R20",
+        "value": "365/80 R20"
+      },
+      {
+        "label": "380/70 R20",
+        "value": "380/70 R20"
+      },
+      {
+        "label": "380/70 R24",
+        "value": "380/70 R24"
+      },
+      {
+        "label": "380/70 R28",
+        "value": "380/70 R28"
+      },
+      {
+        "label": "380/75 R24",
+        "value": "380/75 R24"
+      },
+      {
+        "label": "380/80 R38",
+        "value": "380/80 R38"
+      },
+      {
+        "label": "380/85 R24",
+        "value": "380/85 R24"
+      },
+      {
+        "label": "380/85 R28",
+        "value": "380/85 R28"
+      },
+      {
+        "label": "380/85 R30",
+        "value": "380/85 R30"
+      },
+      {
+        "label": "380/85 R34",
+        "value": "380/85 R34"
+      },
+      {
+        "label": "400/75 R38",
+        "value": "400/75 R38"
+      },
+      {
+        "label": "405/70 R20",
+        "value": "405/70 R20"
+      },
+      {
+        "label": "420/65 R20",
+        "value": "420/65 R20"
+      },
+      {
+        "label": "420/65 R28",
+        "value": "420/65 R28"
+      },
+      {
+        "label": "420/70 R24",
+        "value": "420/70 R24"
+      },
+      {
+        "label": "420/70 R30",
+        "value": "420/70 R30"
+      },
+      {
+        "label": "420/75 R28",
+        "value": "420/75 R28"
+      },
+      {
+        "label": "420/85 R24",
+        "value": "420/85 R24"
+      },
+      {
+        "label": "420/85 R28",
+        "value": "420/85 R28"
+      },
+      {
+        "label": "420/85 R30",
+        "value": "420/85 R30"
+      },
+      {
+        "label": "420/85 R34",
+        "value": "420/85 R34"
+      },
+      {
+        "label": "420/90 R30",
+        "value": "420/90 R30"
+      },
+      {
+        "label": "440/65 R24",
+        "value": "440/65 R24"
+      },
+      {
+        "label": "440/65 R28",
+        "value": "440/65 R28"
+      },
+      {
+        "label": "460/85 R30",
+        "value": "460/85 R30"
+      },
+      {
+        "label": "460/85 R34",
+        "value": "460/85 R34"
+      },
+      {
+        "label": "480/60 R28",
+        "value": "480/60 R28"
+      },
+      {
+        "label": "480/70 R24",
+        "value": "480/70 R24"
+      },
+      {
+        "label": "480/70 R30",
+        "value": "480/70 R30"
+      },
+      {
+        "label": "480/70 R34",
+        "value": "480/70 R34"
+      },
+      {
+        "label": "480/70 R38",
+        "value": "480/70 R38"
+      },
+      {
+        "label": "480/75 R28",
+        "value": "480/75 R28"
+      },
+      {
+        "label": "480/75 R34",
+        "value": "480/75 R34"
+      },
+      {
+        "label": "480/80 R42",
+        "value": "480/80 R42"
+      },
+      {
+        "label": "480/80 R46",
+        "value": "480/80 R46"
+      },
+      {
+        "label": "480/80 R50",
+        "value": "480/80 R50"
+      },
+      {
+        "label": "500/70 R28",
+        "value": "500/70 R28"
+      },
+      {
+        "label": "500/70 R34",
+        "value": "500/70 R34"
+      },
+      {
+        "label": "500/80 R28",
+        "value": "500/80 R28"
+      },
+      {
+        "label": "500/85 R24",
+        "value": "500/85 R24"
+      },
+      {
+        "label": "500/85 R30",
+        "value": "500/85 R30"
+      },
+      {
+        "label": "520/60 R28",
+        "value": "520/60 R28"
+      },
+      {
+        "label": "520/70 R30",
+        "value": "520/70 R30"
+      },
+      {
+        "label": "520/70 R34",
+        "value": "520/70 R34"
+      },
+      {
+        "label": "520/75 R34",
+        "value": "520/75 R34"
+      },
+      {
+        "label": "520/75 R38",
+        "value": "520/75 R38"
+      },
+      {
+        "label": "520/75 R46",
+        "value": "520/75 R46"
+      },
+      {
+        "label": "520/85 R30",
+        "value": "520/85 R30"
+      },
+      {
+        "label": "520/85 R38",
+        "value": "520/85 R38"
+      },
+      {
+        "label": "520/85 R46",
+        "value": "520/85 R46"
+      },
+      {
+        "label": "540/65 R34",
+        "value": "540/65 R34"
+      },
+      {
+        "label": "540/65 R38",
+        "value": "540/65 R38"
+      },
+      {
+        "label": "540/70 R34",
+        "value": "540/70 R34"
+      },
+      {
+        "label": "540/75 R28",
+        "value": "540/75 R28"
+      },
+      {
+        "label": "540/75 R34",
+        "value": "540/75 R34"
+      },
+      {
+        "label": "55 R32",
+        "value": "55 R32"
+      },
+      {
+        "label": "580/70 R42",
+        "value": "580/70 R42"
+      },
+      {
+        "label": "580/75 R46",
+        "value": "580/75 R46"
+      },
+      {
+        "label": "580/80 R34",
+        "value": "580/80 R34"
+      },
+      {
+        "label": "580/85 R42",
+        "value": "580/85 R42"
+      },
+      {
+        "label": "600/60 R28",
+        "value": "600/60 R28"
+      },
+      {
+        "label": "600/60 R34",
+        "value": "600/60 R34"
+      },
+      {
+        "label": "600/60 R38",
+        "value": "600/60 R38"
+      },
+      {
+        "label": "600/65 R30",
+        "value": "600/65 R30"
+      },
+      {
+        "label": "600/65 R42",
+        "value": "600/65 R42"
+      },
+      {
+        "label": "600/70 R38",
+        "value": "600/70 R38"
+      },
+      {
+        "label": "620/70 R26",
+        "value": "620/70 R26"
+      },
+      {
+        "label": "620/70 R30",
+        "value": "620/70 R30"
+      },
+      {
+        "label": "620/70 R38",
+        "value": "620/70 R38"
+      },
+      {
+        "label": "620/70 R42",
+        "value": "620/70 R42"
+      },
+      {
+        "label": "620/70 R46",
+        "value": "620/70 R46"
+      },
+      {
+        "label": "620/75 R30",
+        "value": "620/75 R30"
+      },
+      {
+        "label": "650/60 R38",
+        "value": "650/60 R38"
+      },
+      {
+        "label": "650/65 R46",
+        "value": "650/65 R46"
+      },
+      {
+        "label": "650/75 R30",
+        "value": "650/75 R30"
+      },
+      {
+        "label": "650/75 R32",
+        "value": "650/75 R32"
+      },
+      {
+        "label": "650/75 R34",
+        "value": "650/75 R34"
+      },
+      {
+        "label": "650/75 R42",
+        "value": "650/75 R42"
+      },
+      {
+        "label": "650/85 R42",
+        "value": "650/85 R42"
+      },
+      {
+        "label": "680/75 R32",
+        "value": "680/75 R32"
+      },
+      {
+        "label": "680/85 R32",
+        "value": "680/85 R32"
+      },
+      {
+        "label": "710/55 R30",
+        "value": "710/55 R30"
+      },
+      {
+        "label": "710/60 R30",
+        "value": "710/60 R30"
+      },
+      {
+        "label": "710/60 R38",
+        "value": "710/60 R38"
+      },
+      {
+        "label": "710/75 R32",
+        "value": "710/75 R32"
+      },
+      {
+        "label": "710/75 R34",
+        "value": "710/75 R34"
+      },
+      {
+        "label": "710/75 R38",
+        "value": "710/75 R38"
+      },
+      {
+        "label": "710/85 R38",
+        "value": "710/85 R38"
+      },
+      {
+        "label": "750/55 R30",
+        "value": "750/55 R30"
+      },
+      {
+        "label": "750/60 R42",
+        "value": "750/60 R42"
+      },
+      {
+        "label": "750/65 R26",
+        "value": "750/65 R26"
+      },
+      {
+        "label": "750/65 R34",
+        "value": "750/65 R34"
+      },
+      {
+        "label": "750/65 R38",
+        "value": "750/65 R38"
+      },
+      {
+        "label": "750/70 R44",
+        "value": "750/70 R44"
+      },
+      {
+        "label": "800/55 R46",
+        "value": "800/55 R46"
+      },
+      {
+        "label": "800/65 R32",
+        "value": "800/65 R32"
+      },
+      {
+        "label": "800/65 R42",
+        "value": "800/65 R42"
+      },
+      {
+        "label": "800/70 R32",
+        "value": "800/70 R32"
+      },
+      {
+        "label": "800/70 R38",
+        "value": "800/70 R38"
+      },
+      {
+        "label": "800/70 R42",
+        "value": "800/70 R42"
+      },
+      {
+        "label": "9-20",
+        "value": "9-20"
+      },
+      {
+        "label": "900/55 R32",
+        "value": "900/55 R32"
+      },
+      {
+        "label": "900/60 R32",
+        "value": "900/60 R32"
+      },
+      {
+        "label": "900/60 R38",
+        "value": "900/60 R38"
+      },
+      {
+        "label": "900/60 R42",
+        "value": "900/60 R42"
+      },
+      {
+        "label": "VF 420/85 R34",
+        "value": "VF 420/85 R34"
+      },
+      {
+        "label": "VF 480/80 R50",
+        "value": "VF 480/80 R50"
+      },
+      {
+        "label": "VF 500/85 R24",
+        "value": "VF 500/85 R24"
+      },
+      {
+        "label": "VF 500/85 R30",
+        "value": "VF 500/85 R30"
+      },
+      {
+        "label": "VF 540/65 R30",
+        "value": "VF 540/65 R30"
+      },
+      {
+        "label": "VF 600/60 R30",
+        "value": "VF 600/60 R30"
+      },
+      {
+        "label": "VF 600/65 R28",
+        "value": "VF 600/65 R28"
+      },
+      {
+        "label": "VF 600/70 R30",
+        "value": "VF 600/70 R30"
+      },
+      {
+        "label": "VF 620/70 R26",
+        "value": "VF 620/70 R26"
+      },
+      {
+        "label": "VF 650/60 R34",
+        "value": "VF 650/60 R34"
+      },
+      {
+        "label": "VF 650/60 R38",
+        "value": "VF 650/60 R38"
+      },
+      {
+        "label": "VF 650/65 R34",
+        "value": "VF 650/65 R34"
+      },
+      {
+        "label": "VF 650/65 R42",
+        "value": "VF 650/65 R42"
+      },
+      {
+        "label": "VF 710/60 R34",
+        "value": "VF 710/60 R34"
+      },
+      {
+        "label": "VF 710/60 R42",
+        "value": "VF 710/60 R42"
+      },
+      {
+        "label": "VF 710/70 R42",
+        "value": "VF 710/70 R42"
+      },
+      {
+        "label": "VF 710/75 R42",
+        "value": "VF 710/75 R42"
+      },
+      {
+        "label": "VF 750/65 R26",
+        "value": "VF 750/65 R26"
+      },
+      {
+        "label": "VF 750/70 R44",
+        "value": "VF 750/70 R44"
+      },
+      {
+        "label": "VF 900/60 R42",
+        "value": "VF 900/60 R42"
       }
     ],
     "ordem": 7,
     "title": "Agrícola",
-    "updatedAt": "2026-10-08T03:33:11.314Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.nokiantyres.com/heavy/tires-by-size/",
+      "https://www.conti.com.br/products/agriculture/"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61a2",
@@ -473,11 +1659,419 @@
       {
         "label": "59/80 R63",
         "value": "59/80 R63"
+      },
+      {
+        "label": "11.00-20",
+        "value": "11.00-20"
+      },
+      {
+        "label": "14.00 R24",
+        "value": "14.00 R24"
+      },
+      {
+        "label": "14.00-24",
+        "value": "14.00-24"
+      },
+      {
+        "label": "15.5 R25",
+        "value": "15.5 R25"
+      },
+      {
+        "label": "16.00-25",
+        "value": "16.00-25"
+      },
+      {
+        "label": "17.5 R25",
+        "value": "17.5 R25"
+      },
+      {
+        "label": "18.00-25",
+        "value": "18.00-25"
+      },
+      {
+        "label": "18.00-33",
+        "value": "18.00-33"
+      },
+      {
+        "label": "20.5 R25",
+        "value": "20.5 R25"
+      },
+      {
+        "label": "23.5 R25",
+        "value": "23.5 R25"
+      },
+      {
+        "label": "250/75 R16",
+        "value": "250/75 R16"
+      },
+      {
+        "label": "250/80 R16",
+        "value": "250/80 R16"
+      },
+      {
+        "label": "26.5 R25",
+        "value": "26.5 R25"
+      },
+      {
+        "label": "29.5-29",
+        "value": "29.5-29"
+      },
+      {
+        "label": "300/80 R24",
+        "value": "300/80 R24"
+      },
+      {
+        "label": "315/60 R22.5",
+        "value": "315/60 R22.5"
+      },
+      {
+        "label": "320/85 R28",
+        "value": "320/85 R28"
+      },
+      {
+        "label": "340/80 R18",
+        "value": "340/80 R18"
+      },
+      {
+        "label": "340/80 R24",
+        "value": "340/80 R24"
+      },
+      {
+        "label": "360/70 R20",
+        "value": "360/70 R20"
+      },
+      {
+        "label": "360/80 R20",
+        "value": "360/80 R20"
+      },
+      {
+        "label": "360/80 R24",
+        "value": "360/80 R24"
+      },
+      {
+        "label": "360/80 R28",
+        "value": "360/80 R28"
+      },
+      {
+        "label": "400/60 R18",
+        "value": "400/60 R18"
+      },
+      {
+        "label": "400/70 R18",
+        "value": "400/70 R18"
+      },
+      {
+        "label": "400/70 R20",
+        "value": "400/70 R20"
+      },
+      {
+        "label": "400/80 R24",
+        "value": "400/80 R24"
+      },
+      {
+        "label": "400/80 R28",
+        "value": "400/80 R28"
+      },
+      {
+        "label": "420/65 R24",
+        "value": "420/65 R24"
+      },
+      {
+        "label": "420/70 R28",
+        "value": "420/70 R28"
+      },
+      {
+        "label": "440/80 R24",
+        "value": "440/80 R24"
+      },
+      {
+        "label": "440/80 R28",
+        "value": "440/80 R28"
+      },
+      {
+        "label": "440/80 R30",
+        "value": "440/80 R30"
+      },
+      {
+        "label": "440/80 R34",
+        "value": "440/80 R34"
+      },
+      {
+        "label": "460/65 R24",
+        "value": "460/65 R24"
+      },
+      {
+        "label": "460/70 R24",
+        "value": "460/70 R24"
+      },
+      {
+        "label": "480/65 R24",
+        "value": "480/65 R24"
+      },
+      {
+        "label": "480/65 R28",
+        "value": "480/65 R28"
+      },
+      {
+        "label": "480/70 R28",
+        "value": "480/70 R28"
+      },
+      {
+        "label": "480/80 R30",
+        "value": "480/80 R30"
+      },
+      {
+        "label": "480/80 R34",
+        "value": "480/80 R34"
+      },
+      {
+        "label": "480/80 R38",
+        "value": "480/80 R38"
+      },
+      {
+        "label": "500/45-22.5",
+        "value": "500/45-22.5"
+      },
+      {
+        "label": "500/65 R24",
+        "value": "500/65 R24"
+      },
+      {
+        "label": "500/65 R28",
+        "value": "500/65 R28"
+      },
+      {
+        "label": "500/70 R24",
+        "value": "500/70 R24"
+      },
+      {
+        "label": "520/70 R38",
+        "value": "520/70 R38"
+      },
+      {
+        "label": "540/65 R24",
+        "value": "540/65 R24"
+      },
+      {
+        "label": "540/65 R28",
+        "value": "540/65 R28"
+      },
+      {
+        "label": "540/65 R30",
+        "value": "540/65 R30"
+      },
+      {
+        "label": "540/70 R24",
+        "value": "540/70 R24"
+      },
+      {
+        "label": "540/80 R38",
+        "value": "540/80 R38"
+      },
+      {
+        "label": "580/70 R38",
+        "value": "580/70 R38"
+      },
+      {
+        "label": "600/40-22.5",
+        "value": "600/40-22.5"
+      },
+      {
+        "label": "600/50 R22.5",
+        "value": "600/50 R22.5"
+      },
+      {
+        "label": "600/50-22.5",
+        "value": "600/50-22.5"
+      },
+      {
+        "label": "600/55 R26.5",
+        "value": "600/55 R26.5"
+      },
+      {
+        "label": "600/60 R30",
+        "value": "600/60 R30"
+      },
+      {
+        "label": "600/65 R28",
+        "value": "600/65 R28"
+      },
+      {
+        "label": "600/65 R34",
+        "value": "600/65 R34"
+      },
+      {
+        "label": "600/65 R38",
+        "value": "600/65 R38"
+      },
+      {
+        "label": "600/70 R28",
+        "value": "600/70 R28"
+      },
+      {
+        "label": "600/70 R30",
+        "value": "600/70 R30"
+      },
+      {
+        "label": "600/70 R34",
+        "value": "600/70 R34"
+      },
+      {
+        "label": "620/60B30",
+        "value": "620/60B30"
+      },
+      {
+        "label": "620/60B34",
+        "value": "620/60B34"
+      },
+      {
+        "label": "620/80 R42",
+        "value": "620/80 R42"
+      },
+      {
+        "label": "650/45-22.5",
+        "value": "650/45-22.5"
+      },
+      {
+        "label": "650/60 R34",
+        "value": "650/60 R34"
+      },
+      {
+        "label": "650/65 R26.5",
+        "value": "650/65 R26.5"
+      },
+      {
+        "label": "650/65 R34",
+        "value": "650/65 R34"
+      },
+      {
+        "label": "650/65 R38",
+        "value": "650/65 R38"
+      },
+      {
+        "label": "650/65 R42",
+        "value": "650/65 R42"
+      },
+      {
+        "label": "650/85 R38",
+        "value": "650/85 R38"
+      },
+      {
+        "label": "700/50 R26.5",
+        "value": "700/50 R26.5"
+      },
+      {
+        "label": "710/40-22.5",
+        "value": "710/40-22.5"
+      },
+      {
+        "label": "710/45 R22.5",
+        "value": "710/45 R22.5"
+      },
+      {
+        "label": "710/55 R34",
+        "value": "710/55 R34"
+      },
+      {
+        "label": "710/60 R34",
+        "value": "710/60 R34"
+      },
+      {
+        "label": "710/60 R42",
+        "value": "710/60 R42"
+      },
+      {
+        "label": "710/70 R38",
+        "value": "710/70 R38"
+      },
+      {
+        "label": "710/70 R42",
+        "value": "710/70 R42"
+      },
+      {
+        "label": "710/75 R42",
+        "value": "710/75 R42"
+      },
+      {
+        "label": "750/55 R26.5",
+        "value": "750/55 R26.5"
+      },
+      {
+        "label": "800/50 R34",
+        "value": "800/50 R34"
+      },
+      {
+        "label": "800/60 R34",
+        "value": "800/60 R34"
+      },
+      {
+        "label": "850/50 R30.5",
+        "value": "850/50 R30.5"
+      },
+      {
+        "label": "18.00 R33",
+        "value": "18.00 R33"
+      },
+      {
+        "label": "21.00 R33",
+        "value": "21.00 R33"
+      },
+      {
+        "label": "24.00 R35",
+        "value": "24.00 R35"
+      },
+      {
+        "label": "24.00-35",
+        "value": "24.00-35"
+      },
+      {
+        "label": "25 R35",
+        "value": "25 R35"
+      },
+      {
+        "label": "29.5 R25",
+        "value": "29.5 R25"
+      },
+      {
+        "label": "29.5 R29",
+        "value": "29.5 R29"
+      },
+      {
+        "label": "33.25 R35",
+        "value": "33.25 R35"
+      },
+      {
+        "label": "445/95 R25",
+        "value": "445/95 R25"
+      },
+      {
+        "label": "5 R25",
+        "value": "5 R25"
+      },
+      {
+        "label": "525/80 R25",
+        "value": "525/80 R25"
+      },
+      {
+        "label": "65 R33",
+        "value": "65 R33"
+      },
+      {
+        "label": "65-33",
+        "value": "65-33"
+      },
+      {
+        "label": "875/65 R33",
+        "value": "875/65 R33"
       }
     ],
     "ordem": 8,
     "title": "OTR (Off-The-Road)",
-    "updatedAt": "2026-10-08T03:33:11.334Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.nokiantyres.com/heavy/tires-by-size/",
+      "https://www.conti.com.br/products/earthmoving/"
+    ]
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61a3",
@@ -528,10 +2122,233 @@
       {
         "label": "900/60-32",
         "value": "900/60-32"
+      },
+      {
+        "label": "23.1-26",
+        "value": "23.1-26"
+      },
+      {
+        "label": "24.5-32",
+        "value": "24.5-32"
+      },
+      {
+        "label": "28L-26",
+        "value": "28L-26"
+      },
+      {
+        "label": "30.5L-32",
+        "value": "30.5L-32"
+      },
+      {
+        "label": "320/85-24",
+        "value": "320/85-24"
+      },
+      {
+        "label": "340/85-24",
+        "value": "340/85-24"
+      },
+      {
+        "label": "340/85-28",
+        "value": "340/85-28"
+      },
+      {
+        "label": "35.5L-32",
+        "value": "35.5L-32"
+      },
+      {
+        "label": "380/85-24",
+        "value": "380/85-24"
+      },
+      {
+        "label": "380/85-28",
+        "value": "380/85-28"
+      },
+      {
+        "label": "420/85-28",
+        "value": "420/85-28"
+      },
+      {
+        "label": "420/85-30",
+        "value": "420/85-30"
+      },
+      {
+        "label": "420/85-34",
+        "value": "420/85-34"
+      },
+      {
+        "label": "420/85-38",
+        "value": "420/85-38"
+      },
+      {
+        "label": "460/85-34",
+        "value": "460/85-34"
+      },
+      {
+        "label": "460/85-38",
+        "value": "460/85-38"
+      },
+      {
+        "label": "480/65 R28",
+        "value": "480/65 R28"
+      },
+      {
+        "label": "500/65 R24",
+        "value": "500/65 R24"
+      },
+      {
+        "label": "500/65 R28",
+        "value": "500/65 R28"
+      },
+      {
+        "label": "500/70-28",
+        "value": "500/70-28"
+      },
+      {
+        "label": "520/85-38",
+        "value": "520/85-38"
+      },
+      {
+        "label": "540/65 R28",
+        "value": "540/65 R28"
+      },
+      {
+        "label": "540/65 R30",
+        "value": "540/65 R30"
+      },
+      {
+        "label": "540/70 R30",
+        "value": "540/70 R30"
+      },
+      {
+        "label": "540/70-30",
+        "value": "540/70-30"
+      },
+      {
+        "label": "600/50-22.5",
+        "value": "600/50-22.5"
+      },
+      {
+        "label": "600/50-24.5",
+        "value": "600/50-24.5"
+      },
+      {
+        "label": "600/60 R28",
+        "value": "600/60 R28"
+      },
+      {
+        "label": "600/65 R28",
+        "value": "600/65 R28"
+      },
+      {
+        "label": "600/65 R34",
+        "value": "600/65 R34"
+      },
+      {
+        "label": "600/65 R38",
+        "value": "600/65 R38"
+      },
+      {
+        "label": "600/70 R30",
+        "value": "600/70 R30"
+      },
+      {
+        "label": "600/70 R34",
+        "value": "600/70 R34"
+      },
+      {
+        "label": "620/75 R30",
+        "value": "620/75 R30"
+      },
+      {
+        "label": "650/60-26.5",
+        "value": "650/60-26.5"
+      },
+      {
+        "label": "650/65 R38",
+        "value": "650/65 R38"
+      },
+      {
+        "label": "650/65 R42",
+        "value": "650/65 R42"
+      },
+      {
+        "label": "650/75 R38",
+        "value": "650/75 R38"
+      },
+      {
+        "label": "650/75-38",
+        "value": "650/75-38"
+      },
+      {
+        "label": "650/85 R38",
+        "value": "650/85 R38"
+      },
+      {
+        "label": "700/55-34",
+        "value": "700/55-34"
+      },
+      {
+        "label": "700/70-34",
+        "value": "700/70-34"
+      },
+      {
+        "label": "710/40-22.5",
+        "value": "710/40-22.5"
+      },
+      {
+        "label": "710/40-24.5",
+        "value": "710/40-24.5"
+      },
+      {
+        "label": "710/45-24.5",
+        "value": "710/45-24.5"
+      },
+      {
+        "label": "710/55-26.5",
+        "value": "710/55-26.5"
+      },
+      {
+        "label": "710/55-28.5",
+        "value": "710/55-28.5"
+      },
+      {
+        "label": "710/70 R38",
+        "value": "710/70 R38"
+      },
+      {
+        "label": "710/70 R42",
+        "value": "710/70 R42"
+      },
+      {
+        "label": "710/70-34",
+        "value": "710/70-34"
+      },
+      {
+        "label": "710/75 R42",
+        "value": "710/75 R42"
+      },
+      {
+        "label": "780/50-28.5",
+        "value": "780/50-28.5"
+      },
+      {
+        "label": "780/55-30.5",
+        "value": "780/55-30.5"
+      },
+      {
+        "label": "800/40-24.5",
+        "value": "800/40-24.5"
+      },
+      {
+        "label": "800/70 R38",
+        "value": "800/70 R38"
       }
     ],
     "ordem": 9,
     "title": "Florestal",
-    "updatedAt": "2026-10-08T03:33:11.356Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "fontes": [
+      "https://www.nokiantyres.com/heavy/tires-by-size/"
+    ]
   }
 ]

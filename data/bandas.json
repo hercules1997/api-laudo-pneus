@@ -1,5 +1,2422 @@
 [
   {
+    "_id": "c75ecb184eef7922ab60cc0b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-MM",
+    "nome": "DV-MM",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-mm",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/produtos/68/TyUrxdt2Bz35Qb333ZrZKtBqzsiNNXuZpPC1NmKq.png",
+    "aplicacao": [
+      "Regional",
+      "Misto"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440171",
+        "descricao": "VIPAMOLD DV-MM 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275  10.00  11.00"
+      },
+      {
+        "codigo": "440173",
+        "descricao": "VIPAMOLD DV-MM 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   10.00   11.00"
+      },
+      {
+        "codigo": "440175",
+        "descricao": "VIPAMOLD DV-MM 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440177",
+        "descricao": "VIPAMOLD DV-MM 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295  305  315  12.00  13.00"
+      },
+      {
+        "codigo": "440186",
+        "descricao": "VIPAMOLD DV-MM 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295  305  315  13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-MM.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d5b1c35a1575bb33877428ff",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-MT",
+    "nome": "DV-MT",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-mt",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/WIE4VZGwx5cpsF3P2UF3Y0uZujb52IrBXRBVRNam.jpg",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440070",
+        "descricao": "VIPAMOLD DV-MT 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440071",
+        "descricao": "VIPAMOLD DV-MT 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440072",
+        "descricao": "VIPAMOLD DV-MT 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,51",
+        "pneusRecomendados": "275   295   10.00   11.00"
+      },
+      {
+        "codigo": "440073",
+        "descricao": "VIPAMOLD DV-MT 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440074",
+        "descricao": "VIPAMOLD DV-MT 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440075",
+        "descricao": "VIPAMOLD DV-MT 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-MT.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "555ddb814296d6b0deeefa25",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-MTB",
+    "nome": "DV-MTB",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-mtb",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4309-dv-mt-e-dv-mte-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440061",
+        "descricao": "VIPAMOLD DV-MTB 194",
+        "versao": "LONGA",
+        "larguraMm": "194",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "215   9.00   10.00"
+      },
+      {
+        "codigo": "440062",
+        "descricao": "VIPAMOLD DV-MTB 202",
+        "versao": "LONGA",
+        "larguraMm": "202",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440063",
+        "descricao": "VIPAMOLD DV-MTB 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440064",
+        "descricao": "VIPAMOLD DV-MTB 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440065",
+        "descricao": "VIPAMOLD DV-MTB 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440066",
+        "descricao": "VIPAMOLD DV-MTB 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   10.00   11.00"
+      },
+      {
+        "codigo": "440067",
+        "descricao": "VIPAMOLD DV-MTB 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440068",
+        "descricao": "VIPAMOLD DV-MTB 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440069",
+        "descricao": "VIPAMOLD DV-MTB 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "16,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295   305   315   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-MTB.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "7540e1e6e074588004043736",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-MTE",
+    "nome": "DV-MTE",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-mte",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4313-dv-mt-e-dv-mte-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440083",
+        "descricao": "VIPAMOLD DV-MTE 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "23,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440084",
+        "descricao": "VIPAMOLD DV-MTE 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "23,5",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440085",
+        "descricao": "VIPAMOLD DV-MTE 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "23,5",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440086",
+        "descricao": "VIPAMOLD DV-MTE 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "25,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440087",
+        "descricao": "VIPAMOLD DV-MTE 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "25,5",
+        "comprimentoM": "11,50",
+        "pneusRecomendados": "295   305   315   13.00"
+      },
+      {
+        "codigo": "440089",
+        "descricao": "VIPAMOLD DV-MTE 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "25,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-MTE.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1c41a05cc9243f931a06e812",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-RM",
+    "nome": "DV-RM",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-rm",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4305-dv-rm-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440139",
+        "descricao": "VIPAMOLD DV-RM 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "205"
+      },
+      {
+        "codigo": "440141",
+        "descricao": "VIPAMOLD DV-RM 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "205   215   225   235   9.00"
+      },
+      {
+        "codigo": "440142",
+        "descricao": "VIPAMOLD DV-RM 198",
+        "versao": "LONGA",
+        "larguraMm": "198",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440143",
+        "descricao": "VIPAMOLD DV-RM 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440016",
+        "descricao": "VIPAMOLD DV-RM 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   9.00   10.00   11.00"
+      },
+      {
+        "codigo": "440017",
+        "descricao": "VIPAMOLD DV-RM 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440018",
+        "descricao": "VIPAMOLD DV-RM 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440019",
+        "descricao": "VIPAMOLD DV-RM 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440022",
+        "descricao": "VIPAMOLD DV-RM 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   295   305   315   13.00"
+      },
+      {
+        "codigo": "440021",
+        "descricao": "VIPAMOLD DV-RM 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295   305   315   13.00"
+      },
+      {
+        "codigo": "440020",
+        "descricao": "VIPAMOLD DV-RM 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-RM.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "5a393cd30d05f2acca6b5b75",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-RMB",
+    "nome": "DV-RMB",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-rmb",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4330-dv-rm-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440207",
+        "descricao": "VIPAMOLD DV-RMB 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440208",
+        "descricao": "VIPAMOLD DV-RMB 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440209",
+        "descricao": "VIPAMOLD DV-RMB 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "275   295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440210",
+        "descricao": "VIPAMOLD DV-RMB 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   305   315   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-RMB.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "4778f6e1c01403b12e922a92",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-RT2",
+    "nome": "DV-RT2",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-rt2",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4365-dv-rt2-ang4-baixa-copy_400x400.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440478",
+        "descricao": "VIPAMOLD DV-RT2 215",
+        "versao": "LONGA",
+        "larguraMm": "215",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440479",
+        "descricao": "VIPAMOLD DV-RT2 225",
+        "versao": "LONGA",
+        "larguraMm": "225",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "10.00   11.00    275"
+      },
+      {
+        "codigo": "440480",
+        "descricao": "VIPAMOLD DV-RT2 235",
+        "versao": "LONGA",
+        "larguraMm": "235",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "11.00    275  295"
+      },
+      {
+        "codigo": "440481",
+        "descricao": "VIPAMOLD DV-RT2 245",
+        "versao": "LONGA",
+        "larguraMm": "245",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "12.00   295  315"
+      },
+      {
+        "codigo": "440482",
+        "descricao": "VIPAMOLD DV-RT2 255",
+        "versao": "LONGA",
+        "larguraMm": "255",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "13.00   295   305  315"
+      },
+      {
+        "codigo": "440483",
+        "descricao": "VIPAMOLD DV-RT2 265",
+        "versao": "LONGA",
+        "larguraMm": "265",
+        "profundidadeMm": "19,0",
+        "comprimentoM": "11,66",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-RT2.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "e6ee92c8c68e4fe597509f28",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-RT5",
+    "nome": "DV-RT5",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-rt5",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4499-product-4499-dvrt5_600x600.png",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440942",
+        "descricao": "VIPAMOLD DV-RT5 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275  295  11.00"
+      },
+      {
+        "codigo": "440943",
+        "descricao": "VIPAMOLD DV-RT5 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275  295  305  12.00"
+      },
+      {
+        "codigo": "440944",
+        "descricao": "VIPAMOLD DV-RT5 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "275  295  305  315  12.00  13.00"
+      },
+      {
+        "codigo": "440945",
+        "descricao": "VIPAMOLD DV-RT5 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295  305  315  13.00"
+      },
+      {
+        "codigo": "440946",
+        "descricao": "VIPAMOLD DV-RT5 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295  305  315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-RT5.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "47ca05f07df1884299e53481",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-UM3",
+    "nome": "DV-UM3",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-um3",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4461-dv-um3-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440040",
+        "descricao": "VIPAMOLD DV-UM3 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,52",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440041",
+        "descricao": "VIPAMOLD DV-UM3 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440042",
+        "descricao": "VIPAMOLD DV-UM3 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "275   295   305   315   12.00"
+      },
+      {
+        "codigo": "440043",
+        "descricao": "VIPAMOLD DV-UM3 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   305   315   12.00"
+      },
+      {
+        "codigo": "440044",
+        "descricao": "VIPAMOLD DV-UM3 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "295   305   315   12.00"
+      },
+      {
+        "codigo": "440045",
+        "descricao": "VIPAMOLD DV-UM3 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-UM3.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1ec30ef885be186efe5e3b23",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-UM3B",
+    "nome": "DV-UM3B",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-um3b",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4308-dv-um3-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440046",
+        "descricao": "VIPAMOLD DV-UM3B 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "12,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "215   225"
+      },
+      {
+        "codigo": "440047",
+        "descricao": "VIPAMOLD DV-UM3B 198",
+        "versao": "LONGA",
+        "larguraMm": "198",
+        "profundidadeMm": "12,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "215   225   235   9.00"
+      },
+      {
+        "codigo": "440048",
+        "descricao": "VIPAMOLD DV-UM3B 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "9.00   10.00  11.00"
+      },
+      {
+        "codigo": "440049",
+        "descricao": "VIPAMOLD DV-UM3B 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   9.00   10.00   11.00"
+      },
+      {
+        "codigo": "440050",
+        "descricao": "VIPAMOLD DV-UM3B 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440051",
+        "descricao": "VIPAMOLD DV-UM3B 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440052",
+        "descricao": "VIPAMOLD DV-UM3B 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   305   315   12.00"
+      },
+      {
+        "codigo": "440053",
+        "descricao": "VIPAMOLD DV-UM3B 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   305   315   12.00"
+      },
+      {
+        "codigo": "440054",
+        "descricao": "VIPAMOLD DV-UM3B 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   12.00"
+      },
+      {
+        "codigo": "440097",
+        "descricao": "VIPAMOLD DV-UM3B 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-UM3B.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "bf95f05b6717c223d0d718e7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "DV-UMe",
+    "nome": "DV-UMe",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/dv-ume",
+    "imagem": "",
+    "aplicacao": [
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440153",
+        "descricao": "VIPAMOLD DV-UMe 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "10.00 11.00"
+      },
+      {
+        "codigo": "440227",
+        "descricao": "VIPAMOLD DV-UMe 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275 10.00 11.00"
+      },
+      {
+        "codigo": "440228",
+        "descricao": "VIPAMOLD DV-UMe 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275 295 11.00"
+      },
+      {
+        "codigo": "440134",
+        "descricao": "VIPAMOLD DV-UMe 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275  295  305  315  12.00"
+      },
+      {
+        "codigo": "440135",
+        "descricao": "VIPAMOLD DV-UMe 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,52",
+        "pneusRecomendados": "275  295  305  315  12.00"
+      },
+      {
+        "codigo": "440136",
+        "descricao": "VIPAMOLD DV-UMe 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295  305  315  12.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal DV-UMe.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a03dcd46819ccf70e4b4e59d",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VDAGRO",
+    "nome": "VDAGRO",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vdagro",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4374-vd-agro-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440643",
+        "descricao": "VIPAMOLD VD AGRO 160",
+        "versao": "LONGA",
+        "larguraMm": "160",
+        "profundidadeMm": "17,5",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "7.50 -16  7.50-18"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VDAGRO.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "7ae55281001ec65c9f0a7c4c",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VI600",
+    "nome": "VI600",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vi600",
+    "imagem": "https://s3-sa-east-1.amazonaws.com/new-vipal-prd/product-images/product-4405-vi600-ang4-editada_600x600.jpeg",
+    "aplicacao": [
+      "Industrial"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441660",
+        "descricao": "VIPAMOLD VI600 122",
+        "versao": "CURTA",
+        "larguraMm": "122",
+        "profundidadeMm": "16,0",
+        "comprimentoM": "10,74",
+        "pneusRecomendados": "5.00"
+      },
+      {
+        "codigo": "441661",
+        "descricao": "VIPAMOLD VI600 138",
+        "versao": "LONGA",
+        "larguraMm": "138",
+        "profundidadeMm": "16,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "6.00"
+      },
+      {
+        "codigo": "441662",
+        "descricao": "VIPAMOLD VI600 154",
+        "versao": "LONGA",
+        "larguraMm": "154",
+        "profundidadeMm": "16,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "6.50"
+      },
+      {
+        "codigo": "441663",
+        "descricao": "VIPAMOLD VI600 162",
+        "versao": "CURTA",
+        "larguraMm": "162",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "10,26",
+        "pneusRecomendados": "7.00"
+      },
+      {
+        "codigo": "441664",
+        "descricao": "VIPAMOLD VI600 178",
+        "versao": "CURTA",
+        "larguraMm": "178",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "10,74",
+        "pneusRecomendados": "7.00"
+      },
+      {
+        "codigo": "441691",
+        "descricao": "VIPAMOLD VI600 186",
+        "versao": "CURTA",
+        "larguraMm": "186",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "10,61",
+        "pneusRecomendados": "7.50"
+      },
+      {
+        "codigo": "441665",
+        "descricao": "VIPAMOLD VI600 194",
+        "versao": "CURTA",
+        "larguraMm": "194",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "10,76",
+        "pneusRecomendados": "7.50"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VI600.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "8b3da04951fe840be1b46aa1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VJ920",
+    "nome": "VJ920",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vj920",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4701-2_600x600.png",
+    "aplicacao": [
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441753",
+        "descricao": "VIPAMOLD VJ920 190",
+        "versao": "G",
+        "larguraMm": "190",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "10,35",
+        "pneusRecomendados": "215   225"
+      },
+      {
+        "codigo": "441754",
+        "descricao": "VIPAMOLD VJ920 200",
+        "versao": "G",
+        "larguraMm": "200",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "10,35",
+        "pneusRecomendados": "225   235"
+      },
+      {
+        "codigo": "441755",
+        "descricao": "VIPAMOLD VJ920 210",
+        "versao": "G",
+        "larguraMm": "210",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "10,32",
+        "pneusRecomendados": "255  265"
+      },
+      {
+        "codigo": "441756",
+        "descricao": "VIPAMOLD VJ920 220",
+        "versao": "G",
+        "larguraMm": "220",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "10,35",
+        "pneusRecomendados": "255  265"
+      },
+      {
+        "codigo": "441757",
+        "descricao": "VIPAMOLD VJ920 230",
+        "versao": "G",
+        "larguraMm": "230",
+        "profundidadeMm": "25,0",
+        "comprimentoM": "10,35",
+        "pneusRecomendados": "255  265  275"
+      },
+      {
+        "codigo": "441758",
+        "descricao": "VIPAMOLD VJ920 240",
+        "versao": "G",
+        "larguraMm": "240",
+        "profundidadeMm": "25,0",
+        "comprimentoM": "10,32",
+        "pneusRecomendados": "9.50  10.50  285"
+      },
+      {
+        "codigo": "441759",
+        "descricao": "VIPAMOLD VJ920 250",
+        "versao": "G",
+        "larguraMm": "250",
+        "profundidadeMm": "25,0",
+        "comprimentoM": "10,32",
+        "pneusRecomendados": "11.50   12.50"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VJ920.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "db952ed8c840e17f50953427",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VL100",
+    "nome": "VL100",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vl100",
+    "imagem": "https://s3-sa-east-1.amazonaws.com/new-vipal-prd/product-images/product-4303-vl100-ang4.png_600x600600x600.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440002",
+        "descricao": "VIPAMOLD VL100 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,52",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440003",
+        "descricao": "VIPAMOLD VL100 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "9.00   10.00   11.00   275"
+      },
+      {
+        "codigo": "440004",
+        "descricao": "VIPAMOLD VL100 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440005",
+        "descricao": "VIPAMOLD VL100 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "11.00   275  295"
+      },
+      {
+        "codigo": "440006",
+        "descricao": "VIPAMOLD VL100 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295"
+      },
+      {
+        "codigo": "440007",
+        "descricao": "VIPAMOLD VL100 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295"
+      },
+      {
+        "codigo": "440008",
+        "descricao": "VIPAMOLD VL100 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "15,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VL100.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "c28ba426c8448d199733c452",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VL10L",
+    "nome": "VL10L",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vl10l",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4399-vl10l-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441621",
+        "descricao": "VIPAMOLD VL10L 148",
+        "versao": "CURTA",
+        "larguraMm": "148",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "10,74",
+        "pneusRecomendados": "7.00"
+      },
+      {
+        "codigo": "441615",
+        "descricao": "VIPAMOLD VL10L 158",
+        "versao": "LONGA",
+        "larguraMm": "158",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,63",
+        "pneusRecomendados": "7.00   7.50"
+      },
+      {
+        "codigo": "441616",
+        "descricao": "VIPAMOLD VL10L 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "9.00"
+      },
+      {
+        "codigo": "441617",
+        "descricao": "VIPAMOLD VL10L 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "9.00"
+      },
+      {
+        "codigo": "441618",
+        "descricao": "VIPAMOLD VL10L 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441619",
+        "descricao": "VIPAMOLD VL10L 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "441620",
+        "descricao": "VIPAMOLD VL10L 215",
+        "versao": "LONGA",
+        "larguraMm": "215",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "11.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VL10L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ab10d8f06756ad20a564bec5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VL110L",
+    "nome": "VL110L",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vl110l",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4401-vl110l-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441626",
+        "descricao": "VIPAMOLD VL110L 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441627",
+        "descricao": "VIPAMOLD VL110L 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "441628",
+        "descricao": "VIPAMOLD VL110L 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441629",
+        "descricao": "VIPAMOLD VL110L 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441630",
+        "descricao": "VIPAMOLD VL110L 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "295    11.00   12.00"
+      },
+      {
+        "codigo": "441631",
+        "descricao": "VIPAMOLD VL110L 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "295   305   12.00"
+      },
+      {
+        "codigo": "441632",
+        "descricao": "VIPAMOLD VL110L 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "441633",
+        "descricao": "VIPAMOLD VL110L 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,63",
+        "pneusRecomendados": "295   315"
+      },
+      {
+        "codigo": "441634",
+        "descricao": "VIPAMOLD VL110L 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VL110L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "0ce13055c17723b16941ec08",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VL110LA",
+    "nome": "VL110LA",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vl110la",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4369-vl110la-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440915",
+        "descricao": "VIPAMOLD VL110LA 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441714",
+        "descricao": "VIPAMOLD VL110LA 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441710",
+        "descricao": "VIPAMOLD VL110LA 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   11.00   12.00"
+      },
+      {
+        "codigo": "441711",
+        "descricao": "VIPAMOLD VL110LA 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295   305   12.00"
+      },
+      {
+        "codigo": "441712",
+        "descricao": "VIPAMOLD VL110LA 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "441713",
+        "descricao": "VIPAMOLD VL110LA 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,67",
+        "pneusRecomendados": "295   315"
+      },
+      {
+        "codigo": "440602",
+        "descricao": "VIPAMOLD VL110LA 300",
+        "versao": "LONGA",
+        "larguraMm": "300",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295 305 315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VL110LA.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "64dad21439d831ecdbda06bd",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VL130",
+    "nome": "VL130",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vl130",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4307-vl130-ang4-baixa-copy.jpeg",
+    "aplicacao": [],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440032",
+        "descricao": "VIPAMOLD VL130 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "9.00   10.00   11.00"
+      },
+      {
+        "codigo": "440033",
+        "descricao": "VIPAMOLD VL130 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440224",
+        "descricao": "VIPAMOLD VL130 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "295 11.00  12.00"
+      },
+      {
+        "codigo": "440268",
+        "descricao": "VIPAMOLD VL130 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440225",
+        "descricao": "VIPAMOLD VL130 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295 305 315 12.00  13.00"
+      },
+      {
+        "codigo": "440270",
+        "descricao": "VIPAMOLD VL130 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "9,5",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "295   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VL130.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "7dee76102c03530390a4ed00",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VLW",
+    "nome": "VLW",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vlw",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4304-vlw-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Livre"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440015",
+        "descricao": "VIPAMOLD VLW 214",
+        "versao": "LONGA",
+        "larguraMm": "214",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "9.00   10.00   275"
+      },
+      {
+        "codigo": "440014",
+        "descricao": "VIPAMOLD VLW 222",
+        "versao": "LONGA",
+        "larguraMm": "222",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "10.00   11.00   275"
+      },
+      {
+        "codigo": "440009",
+        "descricao": "VIPAMOLD VLW 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "11.00   275   295"
+      },
+      {
+        "codigo": "440010",
+        "descricao": "VIPAMOLD VLW 238",
+        "versao": "LONGA",
+        "larguraMm": "238",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "11.00  275   295"
+      },
+      {
+        "codigo": "440011",
+        "descricao": "VIPAMOLD VLW 246",
+        "versao": "LONGA",
+        "larguraMm": "246",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,52",
+        "pneusRecomendados": "275   295"
+      },
+      {
+        "codigo": "440012",
+        "descricao": "VIPAMOLD VLW 254",
+        "versao": "LONGA",
+        "larguraMm": "254",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295"
+      },
+      {
+        "codigo": "440013",
+        "descricao": "VIPAMOLD VLW 262",
+        "versao": "LONGA",
+        "larguraMm": "262",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "295   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VLW.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b94fd615a35e4a491e70a893",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VM500",
+    "nome": "VM500",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vm500",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4372-vm500-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Misto"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440826",
+        "descricao": "VIPAMOLD VM500 215",
+        "versao": "LONGA",
+        "larguraMm": "215",
+        "profundidadeMm": "18,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440827",
+        "descricao": "VIPAMOLD VM500 225",
+        "versao": "LONGA",
+        "larguraMm": "225",
+        "profundidadeMm": "18,5",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275   295   10.00   11.00"
+      },
+      {
+        "codigo": "440828",
+        "descricao": "VIPAMOLD VM500 235",
+        "versao": "LONGA",
+        "larguraMm": "235",
+        "profundidadeMm": "18,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440633",
+        "descricao": "VIPAMOLD VM500 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "18,5",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440634",
+        "descricao": "VIPAMOLD VM500 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "18,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VM500.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ff4826e9d4e9aca41f007ec1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VM530L",
+    "nome": "VM530L",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vm530l",
+    "imagem": "https://s3-sa-east-1.amazonaws.com/new-vipal-prd/product-images/product-4403-vm530l-ang4_600x600.png",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441639",
+        "descricao": "VIPAMOLD VM530L 152",
+        "versao": "LONGA",
+        "larguraMm": "152",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "6.50   7.00   7.50"
+      },
+      {
+        "codigo": "441640",
+        "descricao": "VIPAMOLD VM530L 160",
+        "versao": "LONGA",
+        "larguraMm": "160",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "215   6.50   7.00   7.50"
+      },
+      {
+        "codigo": "441641",
+        "descricao": "VIPAMOLD VM530L 170",
+        "versao": "LONGA",
+        "larguraMm": "170",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,63",
+        "pneusRecomendados": "215   7.50   8.25"
+      },
+      {
+        "codigo": "441642",
+        "descricao": "VIPAMOLD VM530L 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "12,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "7.50   8.25   9.00"
+      },
+      {
+        "codigo": "441643",
+        "descricao": "VIPAMOLD VM530L 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "9.00"
+      },
+      {
+        "codigo": "441644",
+        "descricao": "VIPAMOLD VM530L 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "9.00"
+      },
+      {
+        "codigo": "441645",
+        "descricao": "VIPAMOLD VM530L 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441646",
+        "descricao": "VIPAMOLD VM530L 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441647",
+        "descricao": "VIPAMOLD VM530L 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441648",
+        "descricao": "VIPAMOLD VM530L 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "441649",
+        "descricao": "VIPAMOLD VM530L 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "295   305   12.00"
+      },
+      {
+        "codigo": "441650",
+        "descricao": "VIPAMOLD VM530L 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "441651",
+        "descricao": "VIPAMOLD VM530L 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VM530L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a665feb60d650417531d0c0c",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VP401",
+    "nome": "VP401",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vp401",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4408-vp401-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441673",
+        "descricao": "VIPAMOLD VP401 145",
+        "versao": "LONGA",
+        "larguraMm": "145",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "145   155"
+      },
+      {
+        "codigo": "441674",
+        "descricao": "VIPAMOLD VP401 155",
+        "versao": "LONGA",
+        "larguraMm": "155",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "155   165"
+      },
+      {
+        "codigo": "441675",
+        "descricao": "VIPAMOLD VP401 165",
+        "versao": "LONGA",
+        "larguraMm": "165",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "165   175"
+      },
+      {
+        "codigo": "441676",
+        "descricao": "VIPAMOLD VP401 175",
+        "versao": "LONGA",
+        "larguraMm": "175",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "175   185"
+      },
+      {
+        "codigo": "441677",
+        "descricao": "VIPAMOLD VP401 185",
+        "versao": "LONGA",
+        "larguraMm": "185",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "185   195"
+      },
+      {
+        "codigo": "441678",
+        "descricao": "VIPAMOLD VP401 195",
+        "versao": "LONGA",
+        "larguraMm": "195",
+        "profundidadeMm": "7,5",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "195   205"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VP401.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "4267afcb4f6d79cec9d02fbb",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VP410",
+    "nome": "VP410",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vp410",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/qfyN2iAV3wP4xKOv0ndwRd44x2E2YoO4Ex7SSroE.png",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440223",
+        "descricao": "VIPAMOLD VP410 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "215   225   235"
+      },
+      {
+        "codigo": "440217",
+        "descricao": "VIPAMOLD VP410 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "215   225   235"
+      },
+      {
+        "codigo": "440218",
+        "descricao": "VIPAMOLD VP410 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "235   245   255   265"
+      },
+      {
+        "codigo": "440219",
+        "descricao": "VIPAMOLD VP410 220",
+        "versao": "LONGA",
+        "larguraMm": "220",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "235   245   255   265"
+      },
+      {
+        "codigo": "440220",
+        "descricao": "VIPAMOLD VP410 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "275"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VP410.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "736392a15d228391d164987d",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VP420",
+    "nome": "VP420",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vp420",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/EsjnQKHWqEBcLutyHLAFo7UWmTj9fFvUi1F9kdLk.png",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano",
+      "Misto"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440222",
+        "descricao": "VIPAMOLD VP420 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "11,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "235   245   255"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VP420.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b30b791c5ba3594b97cf1c48",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VP430L",
+    "nome": "VP430L",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vp430l",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4402-vp430l-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441635",
+        "descricao": "VIPAMOLD VP430L 165",
+        "versao": "LONGA",
+        "larguraMm": "165",
+        "profundidadeMm": "8,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "165   175   185"
+      },
+      {
+        "codigo": "441636",
+        "descricao": "VIPAMOLD VP430L 175",
+        "versao": "LONGA",
+        "larguraMm": "175",
+        "profundidadeMm": "8,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "175   185   195"
+      },
+      {
+        "codigo": "441637",
+        "descricao": "VIPAMOLD VP430L 185",
+        "versao": "LONGA",
+        "larguraMm": "185",
+        "profundidadeMm": "8,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "185   195   205"
+      },
+      {
+        "codigo": "441638",
+        "descricao": "VIPAMOLD VP430L 195",
+        "versao": "LONGA",
+        "larguraMm": "195",
+        "profundidadeMm": "8,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "195   205   215"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VP430L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ad8acbf779ecd7c750e633b7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VRT2",
+    "nome": "VRT2",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vrt2",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4379-vrt2-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440729",
+        "descricao": "VIPAMOLD VRT2 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "275   9.00   10.00   11.00"
+      },
+      {
+        "codigo": "440730",
+        "descricao": "VIPAMOLD VRT2 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "440732",
+        "descricao": "VIPAMOLD VRT2 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440733",
+        "descricao": "VIPAMOLD VRT2 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   295"
+      },
+      {
+        "codigo": "440734",
+        "descricao": "VIPAMOLD VRT2 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,63",
+        "pneusRecomendados": "295"
+      },
+      {
+        "codigo": "440735",
+        "descricao": "VIPAMOLD VRT2 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295  305  315"
+      },
+      {
+        "codigo": "440742",
+        "descricao": "VIPAMOLD VRT2 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,63",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VRT2.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61a8",
+    "codigo": "VRT3",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.440Z",
+    "descricao": "Banda de rodagem Vipal VRT3.",
+    "eixo": [
+      "Tração"
+    ],
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vrt3",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4395-vrt3-ang4-baixa-copy.jpeg",
+    "medidas": [],
+    "nome": "VRT3",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "variantes": [
+      {
+        "codigo": "440947",
+        "descricao": "VIPAMOLD VRT3 220",
+        "versao": "LONGA",
+        "larguraMm": "220",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   9.00   10.00   11.00"
+      },
+      {
+        "codigo": "440948",
+        "descricao": "VIPAMOLD VRT3 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   10.00   11.00"
+      },
+      {
+        "codigo": "440949",
+        "descricao": "VIPAMOLD VRT3 240",
+        "versao": "LONGA",
+        "larguraMm": "240",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "275   295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440951",
+        "descricao": "VIPAMOLD VRT3 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   13.00"
+      },
+      {
+        "codigo": "440950",
+        "descricao": "VIPAMOLD VRT3 260",
+        "versao": "LONGA",
+        "larguraMm": "260",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "10,57",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440955",
+        "descricao": "VIPAMOLD VRT3 270",
+        "versao": "LONGA",
+        "larguraMm": "270",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "305   315   13.00"
+      }
+    ],
+    "mercado": "Brasil",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d1a4f1d74b5e151a03d62b7c",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VSK",
+    "nome": "VSK",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vsk",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4390-vsk-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Industrial"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440876",
+        "descricao": "VIPAMOLD VSK 285",
+        "versao": "CURTA",
+        "larguraMm": "285",
+        "profundidadeMm": "0,0",
+        "comprimentoM": "10,56",
+        "pneusRecomendados": "12.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VSK.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "0cd773b0bd8b8f57b75aa215",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT100",
+    "nome": "VT100",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt100",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4397-product-4397-vt100-ang4-baixa-copy_600x600.png",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440985",
+        "descricao": "VIPAMOLD VT100 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440986",
+        "descricao": "VIPAMOLD VT100 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "9.00  10.00 11.00 275"
+      },
+      {
+        "codigo": "440987",
+        "descricao": "VIPAMOLD VT100 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "10.00 11.00 275"
+      },
+      {
+        "codigo": "440988",
+        "descricao": "VIPAMOLD VT100 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "11.00 275 295"
+      },
+      {
+        "codigo": "440989",
+        "descricao": "VIPAMOLD VT100 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "275   295"
+      },
+      {
+        "codigo": "440990",
+        "descricao": "VIPAMOLD VT100 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "295"
+      },
+      {
+        "codigo": "440991",
+        "descricao": "VIPAMOLD VT100 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "295   315"
+      },
+      {
+        "codigo": "440996",
+        "descricao": "VIPAMOLD VT100 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "20,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT100.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
     "_id": "6ac70ef7b6c6314b2e7b61a7",
     "codigo": "VT110",
     "aplicacao": [],
@@ -15,18 +2432,727 @@
     "updatedAt": "2026-10-08T03:33:11.421Z"
   },
   {
-    "_id": "6ac70ef7b6c6314b2e7b61a8",
-    "codigo": "VRT3",
-    "aplicacao": [],
-    "ativo": true,
-    "createdAt": "2026-10-08T03:33:11.440Z",
-    "descricao": "",
-    "eixo": [],
+    "_id": "26833b4cbcb2d0169e3bc467",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT120L",
+    "nome": "VT120L",
     "fabricante": "Vipal",
-    "fonte": "https://vipal.com/pt/catalogo/renovado-de-pneus",
-    "imagem": "",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt120l",
+    "imagem": "https://s3-sa-east-1.amazonaws.com/new-vipal-prd/product-images/product-4398-vt120l-ang4-baixa.jpg_600x600600x600.jpeg",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional"
+    ],
+    "eixo": [
+      "Tração"
+    ],
     "medidas": [],
-    "nome": "VRT3",
-    "updatedAt": "2026-10-08T03:33:11.440Z"
+    "variantes": [
+      {
+        "codigo": "441607",
+        "descricao": "VIPAMOLD VT120L 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441608",
+        "descricao": "VIPAMOLD VT120L 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441609",
+        "descricao": "VIPAMOLD VT120L 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "441610",
+        "descricao": "VIPAMOLD VT120L 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "275   10.00   11.00"
+      },
+      {
+        "codigo": "441611",
+        "descricao": "VIPAMOLD VT120L 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "441612",
+        "descricao": "VIPAMOLD VT120L 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "441613",
+        "descricao": "VIPAMOLD VT120L 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "441614",
+        "descricao": "VIPAMOLD VT120L 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "441770",
+        "descricao": "VIPAMOLD VT120L 266",
+        "versao": "LONGA",
+        "larguraMm": "266",
+        "profundidadeMm": "17,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "295 305 315"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT120L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f64373959d5e4ce90ef2f3ce",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT190",
+    "nome": "VT190",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt190",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/RtRhiPtGZZ3iUMeFdrqcheNpg04SKAwaeNBrfdiC.png",
+    "aplicacao": [
+      "Rodoviário",
+      "Regional",
+      "Urbano"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441694",
+        "descricao": "VIPAMOLD VT190 160",
+        "versao": "LONGA",
+        "larguraMm": "160",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "165   175   185"
+      },
+      {
+        "codigo": "441695",
+        "descricao": "VIPAMOLD VT190 170",
+        "versao": "LONGA",
+        "larguraMm": "170",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "175   185   195"
+      },
+      {
+        "codigo": "441696",
+        "descricao": "VIPAMOLD VT190 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "185   195   205"
+      },
+      {
+        "codigo": "441697",
+        "descricao": "VIPAMOLD VT190 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "9.00  195  205  215"
+      },
+      {
+        "codigo": "441698",
+        "descricao": "VIPAMOLD VT190 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "13,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "9.00 10.00  205  215  225  235"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT190.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "632828965456194603c9c1f7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT50L",
+    "nome": "VT50L",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt50l",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4404-vt50l-ou-vcb-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada",
+      "Industrial"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441652",
+        "descricao": "VIPAMOLD VT50L 150",
+        "versao": "LONGA",
+        "larguraMm": "150",
+        "profundidadeMm": "12,5",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "7.00   7.50"
+      },
+      {
+        "codigo": "441653",
+        "descricao": "VIPAMOLD VT50L 160",
+        "versao": "LONGA",
+        "larguraMm": "160",
+        "profundidadeMm": "12,5",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "7.00 7.50"
+      },
+      {
+        "codigo": "441654",
+        "descricao": "VIPAMOLD VT50L 180",
+        "versao": "LONGA",
+        "larguraMm": "180",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "9.00"
+      },
+      {
+        "codigo": "441655",
+        "descricao": "VIPAMOLD VT50L 190",
+        "versao": "LONGA",
+        "larguraMm": "190",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441656",
+        "descricao": "VIPAMOLD VT50L 200",
+        "versao": "LONGA",
+        "larguraMm": "200",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "441657",
+        "descricao": "VIPAMOLD VT50L 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "14,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "10.00   11.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT50L.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "5f0efc57ce8a73df8668f180",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT510",
+    "nome": "VT510",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt510",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4375-vt510-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441658",
+        "descricao": "VIPAMOLD VT510 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   9.00   10.00"
+      },
+      {
+        "codigo": "441659",
+        "descricao": "VIPAMOLD VT510 220",
+        "versao": "LONGA",
+        "larguraMm": "220",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440648",
+        "descricao": "VIPAMOLD VT510 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "275 295 11.00"
+      },
+      {
+        "codigo": "440650",
+        "descricao": "VIPAMOLD VT510 240",
+        "versao": "LONGA",
+        "larguraMm": "240",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "295   315   12.00"
+      },
+      {
+        "codigo": "440652",
+        "descricao": "VIPAMOLD VT510 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "295   315   12.00"
+      },
+      {
+        "codigo": "440653",
+        "descricao": "VIPAMOLD VT510 260",
+        "versao": "LONGA",
+        "larguraMm": "260",
+        "profundidadeMm": "21,0",
+        "comprimentoM": "11,61",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT510.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "be020e6852baafc8826f96ba",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT830",
+    "nome": "VT830",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt830",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/xdu8azAXE5mq36oAIgSVGvnAU3peFhLDbVy9NiUw.jpg",
+    "aplicacao": [
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "441733",
+        "descricao": "VIPAMOLD VT830 202",
+        "versao": "LONGA",
+        "larguraMm": "202",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "9.00  10.00  11.00"
+      },
+      {
+        "codigo": "441734",
+        "descricao": "VIPAMOLD VT830 218",
+        "versao": "LONGA",
+        "larguraMm": "218",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "10.00  11.00"
+      },
+      {
+        "codigo": "441735",
+        "descricao": "VIPAMOLD VT830 226",
+        "versao": "LONGA",
+        "larguraMm": "226",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275 10.00 11.00"
+      },
+      {
+        "codigo": "441736",
+        "descricao": "VIPAMOLD VT830 234",
+        "versao": "LONGA",
+        "larguraMm": "234",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "275  295  10.00  11.00"
+      },
+      {
+        "codigo": "441737",
+        "descricao": "VIPAMOLD VT830 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "275 295 11.00 12.00"
+      },
+      {
+        "codigo": "441738",
+        "descricao": "VIPAMOLD VT830 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295 305 315 12.00 13.00"
+      },
+      {
+        "codigo": "441739",
+        "descricao": "VIPAMOLD VT830 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "20,5",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "295 305 315 13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT830.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "593c5ec65f724d41354bc7c5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT830E",
+    "nome": "VT830E",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt830e",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/5X9GsBCBlXF517w3mBIe0FsPDQtDUBd7jH4FkXwu.jpg",
+    "aplicacao": [
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440771",
+        "descricao": "VIPAMOLD VT830E 242",
+        "versao": "LONGA",
+        "larguraMm": "242",
+        "profundidadeMm": "23,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   295   11.00   12.00"
+      },
+      {
+        "codigo": "440772",
+        "descricao": "VIPAMOLD VT830E 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "25,5",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      },
+      {
+        "codigo": "440773",
+        "descricao": "VIPAMOLD VT830E 258",
+        "versao": "LONGA",
+        "larguraMm": "258",
+        "profundidadeMm": "25,5",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "295   305   315   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT830E.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "7dcdd0c564a0d29c306aabd9",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VT840",
+    "nome": "VT840",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vt840",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/vipal2024/uploads/nmo3O6jodeNLJMyQk0nvOTJsb9Ijv5QMUFoWkJrx.png",
+    "aplicacao": [
+      "Fora de estrada",
+      "Industrial"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440997",
+        "descricao": "VIPAMOLD VT840 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "10.00 11.00 275"
+      },
+      {
+        "codigo": "440164",
+        "descricao": "VIPAMOLD VT840 245",
+        "versao": "LONGA",
+        "larguraMm": "245",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,58",
+        "pneusRecomendados": "255 265 295 10X16.5 12X16.5 9.5 10.5 33.5/80R20"
+      },
+      {
+        "codigo": "440998",
+        "descricao": "VIPAMOLD VT840 260",
+        "versao": "LONGA",
+        "larguraMm": "260",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "295 305 315 13.00"
+      },
+      {
+        "codigo": "440999",
+        "descricao": "VIPAMOLD VT840 280",
+        "versao": "LONGA",
+        "larguraMm": "280",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "305 315 13.00"
+      },
+      {
+        "codigo": "441000",
+        "descricao": "VIPAMOLD VT840 310",
+        "versao": "LONGA",
+        "larguraMm": "310",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "14.00 15.5 17.5 365 385 405"
+      },
+      {
+        "codigo": "441001",
+        "descricao": "VIPAMOLD VT840 340",
+        "versao": "LONGA",
+        "larguraMm": "340",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,54",
+        "pneusRecomendados": "14.00 15.5 17.5 365 385 405"
+      },
+      {
+        "codigo": "441002",
+        "descricao": "VIPAMOLD VT840 380",
+        "versao": "LONGA",
+        "larguraMm": "380",
+        "profundidadeMm": "22,0",
+        "comprimentoM": "11,55",
+        "pneusRecomendados": "17.5 405"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VT840.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "5f1bab2d701cd8790ba7ffa9",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VZH",
+    "nome": "VZH",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vzh",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4356-vzh-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440854",
+        "descricao": "VIPAMOLD VZH 210",
+        "versao": "LONGA",
+        "larguraMm": "210",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "9.00   10.00"
+      },
+      {
+        "codigo": "440382",
+        "descricao": "VIPAMOLD VZH 220",
+        "versao": "LONGA",
+        "larguraMm": "220",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,51",
+        "pneusRecomendados": "10.00   11.00"
+      },
+      {
+        "codigo": "440383",
+        "descricao": "VIPAMOLD VZH 230",
+        "versao": "LONGA",
+        "larguraMm": "230",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "275   295   11.00"
+      },
+      {
+        "codigo": "440384",
+        "descricao": "VIPAMOLD VZH 240",
+        "versao": "LONGA",
+        "larguraMm": "240",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "295   305   12.00"
+      },
+      {
+        "codigo": "440857",
+        "descricao": "VIPAMOLD VZH 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "295 305 12.00 13.00"
+      },
+      {
+        "codigo": "440386",
+        "descricao": "VIPAMOLD VZH 260",
+        "versao": "LONGA",
+        "larguraMm": "260",
+        "profundidadeMm": "23,0",
+        "comprimentoM": "11,51",
+        "pneusRecomendados": "295   305   315   12.00   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VZH.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "40ebc2b0db389984adb1afbb",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "codigo": "VZY2",
+    "nome": "VZY2",
+    "fabricante": "Vipal",
+    "fonte": "https://vipal.com/br/produto/reforma-de-pneus/vzy2",
+    "imagem": "https://new-vipal-prd.s3.sa-east-1.amazonaws.com/product-images/product-4378-vzy2-ang4-baixa-copy.jpeg",
+    "aplicacao": [
+      "Regional",
+      "Misto",
+      "Fora de estrada"
+    ],
+    "eixo": [
+      "Tração"
+    ],
+    "medidas": [],
+    "variantes": [
+      {
+        "codigo": "440717",
+        "descricao": "VIPAMOLD VZY2 215",
+        "versao": "LONGA",
+        "larguraMm": "215",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "275   9.00   10.00"
+      },
+      {
+        "codigo": "440711",
+        "descricao": "VIPAMOLD VZY2 225",
+        "versao": "LONGA",
+        "larguraMm": "225",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,53",
+        "pneusRecomendados": "10.00 11.00 275"
+      },
+      {
+        "codigo": "440712",
+        "descricao": "VIPAMOLD VZY2 235",
+        "versao": "LONGA",
+        "larguraMm": "235",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,62",
+        "pneusRecomendados": "11.00 275 295"
+      },
+      {
+        "codigo": "440713",
+        "descricao": "VIPAMOLD VZY2 240",
+        "versao": "LONGA",
+        "larguraMm": "240",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,60",
+        "pneusRecomendados": "12.00 295 305"
+      },
+      {
+        "codigo": "440714",
+        "descricao": "VIPAMOLD VZY2 250",
+        "versao": "LONGA",
+        "larguraMm": "250",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,57",
+        "pneusRecomendados": "12.00 13.00 295 305 315"
+      },
+      {
+        "codigo": "440715",
+        "descricao": "VIPAMOLD VZY2 260",
+        "versao": "LONGA",
+        "larguraMm": "260",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,59",
+        "pneusRecomendados": "13.00 295 305 315"
+      },
+      {
+        "codigo": "440718",
+        "descricao": "VIPAMOLD VZY2 270",
+        "versao": "LONGA",
+        "larguraMm": "270",
+        "profundidadeMm": "18,0",
+        "comprimentoM": "11,56",
+        "pneusRecomendados": "305   315   13.00"
+      }
+    ],
+    "ativo": true,
+    "mercado": "Brasil",
+    "descricao": "Banda de rodagem Vipal VZY2.",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
   }
 ]

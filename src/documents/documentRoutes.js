@@ -1,0 +1,28 @@
+import {Router} from 'express';
+import {randomUUID,createHash} from 'node:crypto';
+import {issueShareTicket,readShareTicket} from './shareTickets.js';
+import {newDocument,reviseDocument,submitDocument,decideDocument,assignDocument,canReadDocument,canShareDocument,assertVersion} from './documentWorkflow.mjs';
+const fail=(status,message)=>Object.assign(new Error(message),{status});
+// Production adapters are deliberately absent until private durable storage is configured.
+// store: ready,list,get,create,compareAndSwap(id,revision,next)
+// files: ready,put({ownerId,documentId,version,bytes,sha256}),read(ref),share(ref)
+export function createDocumentRouter({requireUser,store=null,files=null,enabled=process.env.DOCUMENTS_API_ENABLED==='true',approvalsRequired=process.env.APPROVALS_REQUIRED==='true',resolveManagers=null}={}){
+ const router=Router();const configured=()=>!!(enabled&&store?.ready&&files?.ready);
+ router.use((req,res,next)=>{res.set('Cache-Control','no-store');next();});
+ router.get('/shared/:ticket',async(req,res)=>{if(!configured())throw fail(503,'Compartilhamento não configurado.');const claims=readShareTicket(req.params.ticket);const doc=await store.get(claims.id);const version=doc?.version===claims.version?doc:doc?.versions.find(v=>v.version===claims.version);if(!version||version.pdfRef?.sha256!==claims.sha256||(approvalsRequired&&(version.status!=='aprovado'||version.decision?.pdfSha256!==claims.sha256)))throw fail(403,'Esta versão não está autorizada para compartilhamento.');res.type('pdf').set('Content-Disposition','attachment; filename="documento-v'+claims.version+'.pdf"').send(await files.read(version.pdfRef));});
+ router.use(requireUser);
+ router.get('/capabilities',(req,res)=>res.json({enabled:configured(),approvalsRequired:configured()&&approvalsRequired,syncAvailable:configured(),storageConfigured:!!(store?.ready&&files?.ready)}));
+ router.use((req,res,next)=>configured()?next():next(fail(503,'Sincronização de documentos ainda não configurada. O armazenamento local continua disponível.')));
+ async function read(req){const doc=await store.get(req.params.id);if(!doc)throw fail(404,'Documento não encontrado.');if(!canReadDocument(doc,req.authUser))throw fail(403,'Acesso não autorizado.');return doc;}
+ router.get('/',async(req,res)=>{const list=await store.list();const {ownerId,type,status,from,to}=req.query;res.json(list.filter(d=>canReadDocument(d,req.authUser)&&(!ownerId||d.ownerId===ownerId)&&(!type||d.type===type)&&(!status||d.status===status)&&(!from||d.createdAt>=from)&&(!to||d.createdAt<=to)));});
+ router.post('/',async(req,res)=>{const doc=newDocument({id:randomUUID(),type:req.body?.type,payload:req.body?.payload},req.authUser);await store.create(doc);res.status(201).json(doc);});
+ router.get('/:id',async(req,res)=>res.json(await read(req)));
+ router.patch('/:id',async(req,res)=>{const current=await read(req);const next=reviseDocument(current,{payload:req.body?.payload,expectedRevision:req.body?.expectedRevision},req.authUser);await store.compareAndSwap(current.id,current.revision,next);res.json(next);});
+ router.post('/:id/pdf',async(req,res)=>{const current=await read(req);assertVersion(current,req.body?.expectedRevision);if(current.ownerId!==req.authUser.id||!['consultor','admin'].includes(req.authUser.role)||current.status!=='rascunho')throw fail(403,'PDF só pode ser enviado pelo autor na versão em rascunho.');const raw=req.body?.base64;if(typeof raw!=='string'||raw.length>6*1024*1024||!/^[A-Za-z0-9+/]*={0,2}$/.test(raw))throw fail(400,'PDF inválido ou maior que o limite de 4 MB.');const bytes=Buffer.from(raw,'base64');if(bytes.length>4*1024*1024||bytes.subarray(0,5).toString()!=='%PDF-')throw fail(400,'Arquivo PDF inválido.');const sha256=createHash('sha256').update(bytes).digest('hex');const ref=await files.put({ownerId:current.ownerId,documentId:current.id,version:current.version,bytes,sha256});const next={...current,pdfRef:{...ref,sha256},revision:current.revision+1};await store.compareAndSwap(current.id,current.revision,next);res.json(next);});
+ router.post('/:id/submit',async(req,res)=>{const current=await read(req),next=submitDocument(current,req.body||{},req.authUser);await store.compareAndSwap(current.id,current.revision,next);res.json(next);});
+ router.post('/:id/decision',async(req,res)=>{const current=await read(req),next=decideDocument(current,req.body||{},req.authUser);await store.compareAndSwap(current.id,current.revision,next);res.json(next);});
+ router.post('/:id/assignment',async(req,res)=>{const current=await read(req);if(!resolveManagers)throw fail(503,'Validação de gestores não configurada.');const managers=await resolveManagers(req.body?.managerIds);if(managers.some(u=>!u||u.active===false||!['gestor','admin'].includes(u.role)))throw fail(400,'Gestor inválido.');const next=assignDocument(current,req.body||{},req.authUser);await store.compareAndSwap(current.id,current.revision,next);res.json(next);});
+ router.get('/:id/pdf',async(req,res)=>{const doc=await read(req);if(!doc.pdfRef)throw fail(404,'PDF ausente.');const bytes=await files.read(doc.pdfRef);res.type('pdf').set('Content-Disposition','inline').send(bytes);});
+ router.post('/:id/share',async(req,res)=>{const doc=await read(req);assertVersion(doc,req.body?.expectedRevision);if(!doc.pdfRef||!canShareDocument(doc,req.authUser,{approvalsRequired}))throw fail(403,'A aprovação do gestor é necessária para compartilhar esta versão.');await files.read(doc.pdfRef);const ticket=issueShareTicket(doc);res.json({path:'/api/documentos/shared/'+ticket,expiresIn:300,version:doc.version,sha256:doc.pdfRef.sha256});});
+ return router;
+}

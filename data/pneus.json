@@ -1,5 +1,643 @@
 [
   {
+    "_id": "308c3e5c0e40d169f55402a6",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAC 3",
+    "medida": "10.00 R20",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05154950000",
+        "indiceCargaVelocidade": "147/143L",
+        "lonas": "016",
+        "profundidadeMm": "0.0"
+      }
+    ]
+  },
+  {
+    "_id": "8f2c2405772414be1df043a1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAC 3",
+    "medida": "12 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05155920000",
+        "indiceCargaVelocidade": "152/149K",
+        "lonas": "016",
+        "profundidadeMm": "18.9"
+      }
+    ]
+  },
+  {
+    "_id": "5779b96406a5943cf9d0f4bf",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAC 3",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05654530000",
+        "indiceCargaVelocidade": "149/146K",
+        "lonas": "016",
+        "profundidadeMm": "20.5"
+      },
+      {
+        "codigoFabricante": "05155480000",
+        "indiceCargaVelocidade": "149/146K",
+        "lonas": "016",
+        "profundidadeMm": "20.5"
+      }
+    ]
+  },
+  {
+    "_id": "dc5d8851277c289ede1d7da5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAC 3",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05155490000",
+        "indiceCargaVelocidade": "152/148K",
+        "lonas": "016",
+        "profundidadeMm": "18.3"
+      },
+      {
+        "codigoFabricante": "05652810000",
+        "indiceCargaVelocidade": "152/148K",
+        "lonas": "016",
+        "profundidadeMm": "18.3"
+      }
+    ]
+  },
+  {
+    "_id": "223fb2a5af2d974ed6f7b8a1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAU 3",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05653230000",
+        "indiceCargaVelocidade": "149/146J",
+        "lonas": "016",
+        "profundidadeMm": "17.7"
+      },
+      {
+        "codigoFabricante": "05141180000",
+        "indiceCargaVelocidade": "149/146J",
+        "lonas": "016",
+        "profundidadeMm": "17.7"
+      }
+    ]
+  },
+  {
+    "_id": "08595eefcab34f74aaf6db82",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HAU 3",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05653240000",
+        "indiceCargaVelocidade": "152/148J",
+        "lonas": "016",
+        "profundidadeMm": "17.7"
+      },
+      {
+        "codigoFabricante": "05141190000",
+        "indiceCargaVelocidade": "152/148J",
+        "lonas": "016",
+        "profundidadeMm": "17.7"
+      }
+    ]
+  },
+  {
+    "_id": "261cc068f520eb7d727435bb",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti HT 3",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05655500000",
+        "indiceCargaVelocidade": "160K",
+        "lonas": "020",
+        "profundidadeMm": "16.7"
+      },
+      {
+        "codigoFabricante": "05322950000",
+        "indiceCargaVelocidade": "160K",
+        "lonas": "020",
+        "profundidadeMm": "16.7"
+      }
+    ]
+  },
+  {
+    "_id": "fbebd2725b7297abb2180498",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid HD3",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Longa distância",
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05210800000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "21.5"
+      },
+      {
+        "codigoFabricante": "05652770000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "21.5"
+      }
+    ]
+  },
+  {
+    "_id": "1f7fa37e486070a26680634b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid HD3",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Longa distância",
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05221570000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "22.0"
+      },
+      {
+        "codigoFabricante": "05655300000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "22.0"
+      }
+    ]
+  },
+  {
+    "_id": "92271ce8ae3e253680691723",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid HS3",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05652780000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "15.9"
+      },
+      {
+        "codigoFabricante": "05111100000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "15.9"
+      }
+    ]
+  },
+  {
+    "_id": "ed22df306f418042d875eceb",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid HS3",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05123420000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "16.0"
+      },
+      {
+        "codigoFabricante": "05651430000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "16.0"
+      }
+    ]
+  },
+  {
+    "_id": "db70dd64e15284c5e3dd2f09",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid HS3",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05124060000",
+        "indiceCargaVelocidade": "160K",
+        "lonas": "020",
+        "profundidadeMm": "15.5"
+      },
+      {
+        "codigoFabricante": "05652720000",
+        "indiceCargaVelocidade": "160K",
+        "lonas": "020",
+        "profundidadeMm": "15.5"
+      }
+    ]
+  },
+  {
+    "_id": "7a40e31c8a278c0e5565e1d5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid LA3",
+    "medida": "215/75 R17.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05656750000",
+        "indiceCargaVelocidade": "126/124M",
+        "lonas": "012",
+        "profundidadeMm": "13.5"
+      },
+      {
+        "codigoFabricante": "05129550000",
+        "indiceCargaVelocidade": "126/124M",
+        "lonas": "012",
+        "profundidadeMm": "13.5"
+      }
+    ]
+  },
+  {
+    "_id": "8d305f2081b6368662ac4980",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "Conti Hybrid LA3",
+    "medida": "235/75 R17.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "All Axle Position"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "04121660000",
+        "indiceCargaVelocidade": "132/130M",
+        "lonas": "012",
+        "profundidadeMm": "12.9"
+      },
+      {
+        "codigoFabricante": "05652950000",
+        "indiceCargaVelocidade": "132/130M",
+        "lonas": "012",
+        "profundidadeMm": "12.9"
+      }
+    ]
+  },
+  {
+    "_id": "3907d161026d6665f57d99db",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HCS",
+    "medida": "325/95 R24",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Fora de estrada"
+    ],
+    "aro": "24",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05260120000",
+        "indiceCargaVelocidade": "162/160K",
+        "lonas": "018",
+        "profundidadeMm": "30.9"
+      }
+    ]
+  },
+  {
+    "_id": "7c0475877d98fa7407d30e88",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HDC1+",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05656740000",
+        "indiceCargaVelocidade": "149/146K",
+        "lonas": "016",
+        "profundidadeMm": "18.0"
+      }
+    ]
+  },
+  {
+    "_id": "2d19d5e8cb493a9c67c7cf55",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HDC1+",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05651460000",
+        "indiceCargaVelocidade": "152/148K",
+        "lonas": "016",
+        "profundidadeMm": "22.0"
+      },
+      {
+        "codigoFabricante": "05250980000",
+        "indiceCargaVelocidade": "152/148K",
+        "lonas": "016",
+        "profundidadeMm": "22.0"
+      }
+    ]
+  },
+  {
+    "_id": "137570ea1e991ea38d5618a0",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HDR2",
+    "medida": "10.00 R20",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05220520000",
+        "indiceCargaVelocidade": "146/143L",
+        "lonas": "016",
+        "profundidadeMm": "18.3"
+      }
+    ]
+  },
+  {
+    "_id": "e6878a03981a92be6a25a111",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSC1",
+    "medida": "11.00 R22",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [],
+    "aro": "22",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05151690000",
+        "indiceCargaVelocidade": "151/148K",
+        "lonas": "016",
+        "profundidadeMm": "19.1"
+      }
+    ]
+  },
+  {
     "_id": "6ac70ef7b6c6314b2e7b61a9",
     "fabricante": "Continental",
     "medida": "295/80 R22.5",
@@ -14,7 +652,8 @@
     "imagem": "",
     "indiceCarga": "",
     "indiceVelocidade": "",
-    "updatedAt": "2026-10-08T03:33:11.457Z"
+    "updatedAt": "2026-10-08T03:33:11.457Z",
+    "mercado": "Internacional"
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61aa",
@@ -31,64 +670,1698 @@
     "imagem": "",
     "indiceCarga": "",
     "indiceVelocidade": "",
-    "updatedAt": "2026-10-08T03:33:11.470Z"
+    "updatedAt": "2026-10-08T03:33:11.470Z",
+    "mercado": "Internacional"
   },
   {
-    "_id": "6ac70ef7b6c6314b2e7b61ab",
-    "fabricante": "Royal Black",
+    "_id": "fc18d7e883364539fca48dca",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSC1+",
+    "medida": "11.00 R22",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Misto"
+    ],
+    "aro": "22",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05153420000",
+        "indiceCargaVelocidade": "151/148K",
+        "lonas": "016",
+        "profundidadeMm": "19.1"
+      }
+    ]
+  },
+  {
+    "_id": "95e139bac7570b19c657161a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSL2+ Eco Plus",
     "medida": "295/80 R22.5",
-    "modelo": "RS205",
-    "aplicacao": [],
-    "aro": "22.5",
-    "ativo": true,
-    "createdAt": "2026-10-08T03:33:11.485Z",
-    "descricao": "",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
     "eixo": [
       "Direcional"
     ],
-    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
-    "imagem": "",
-    "indiceCarga": "152/149",
-    "indiceVelocidade": "M",
-    "updatedAt": "2026-10-08T03:33:11.485Z"
-  },
-  {
-    "_id": "6ac70ef7b6c6314b2e7b61ac",
-    "fabricante": "Royal Black",
-    "medida": "295/75 R22.5",
-    "modelo": "RS205",
-    "aplicacao": [],
+    "aplicacao": [
+      "Longa distância"
+    ],
     "aro": "22.5",
     "ativo": true,
-    "createdAt": "2026-10-08T03:33:11.507Z",
-    "descricao": "",
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "04650130000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "13.4"
+      },
+      {
+        "codigoFabricante": "05111320000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "13.4"
+      }
+    ]
+  },
+  {
+    "_id": "373c6b565b9dc446e1b3c142",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSR1",
+    "medida": "11.00 R22",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
     "eixo": [
       "Direcional"
     ],
-    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
-    "imagem": "",
-    "indiceCarga": "146/143",
-    "indiceVelocidade": "M",
-    "updatedAt": "2026-10-08T03:33:11.507Z"
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05121100000",
+        "indiceCargaVelocidade": "151/148K",
+        "lonas": "016",
+        "profundidadeMm": "14.8"
+      }
+    ]
   },
   {
-    "_id": "6ac70ef7b6c6314b2e7b61ad",
+    "_id": "3f067e0f919b8b4baab05081",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSR2",
+    "medida": "10.00 R20",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05120490000",
+        "indiceCargaVelocidade": "146/143L",
+        "lonas": "016",
+        "profundidadeMm": "14.9"
+      }
+    ]
+  },
+  {
+    "_id": "e290f01b53575ab4d7eb9aaf",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSR2",
+    "medida": "275/70 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05123260000",
+        "indiceCargaVelocidade": "148/145L",
+        "lonas": "018",
+        "profundidadeMm": "14.3"
+      },
+      {
+        "codigoFabricante": "05652740000",
+        "indiceCargaVelocidade": "148/145L",
+        "lonas": "018",
+        "profundidadeMm": "14.3"
+      }
+    ]
+  },
+  {
+    "_id": "73ae4a051b5bf71a4b5572a4",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSR2",
+    "medida": "275/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05652790000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "15.8"
+      },
+      {
+        "codigoFabricante": "05121120000",
+        "indiceCargaVelocidade": "149/146L",
+        "lonas": "016",
+        "profundidadeMm": "15.8"
+      }
+    ]
+  },
+  {
+    "_id": "92b85f771c56f1dea27e9c5f",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HSR2 EE",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05123670000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "16.5"
+      },
+      {
+        "codigoFabricante": "05652800000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "16.5"
+      }
+    ]
+  },
+  {
+    "_id": "c73a9a3ee12270b6285a6a88",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HTR1",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05655290000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "14.3"
+      },
+      {
+        "codigoFabricante": "05321240000",
+        "indiceCargaVelocidade": "152/148M",
+        "lonas": "016",
+        "profundidadeMm": "14.3"
+      }
+    ]
+  },
+  {
+    "_id": "b2054e40914299478973ece4",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "HTR2",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "05652730000",
+        "indiceCargaVelocidade": "160K",
+        "lonas": "020",
+        "profundidadeMm": "16.7"
+      }
+    ]
+  },
+  {
+    "_id": "3b8e29e088558a041aabf4ff",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Continental",
+    "modelo": "LDR1",
+    "medida": "215/75 R17.5",
+    "fonte": "https://www.conti.com.br/products/truck/search-results/",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [
+      "Regional"
+    ],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11",
+    "variantes": [
+      {
+        "codigoFabricante": "04220120000",
+        "indiceCargaVelocidade": "126/124M",
+        "lonas": "012",
+        "profundidadeMm": "15.3"
+      }
+    ]
+  },
+  {
+    "_id": "ee9ce77e4ab623396981437e",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
     "fabricante": "Royal Black",
+    "modelo": "RD268",
+    "medida": "12 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_40_RD268.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "e713102f7f080fc699f3209b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD268",
     "medida": "315/80 R22.5",
-    "modelo": "RS205",
+    "fonte": "https://www.royalblacktyre.com/product_40_RD268.html",
+    "eixo": [
+      "Tração"
+    ],
     "aplicacao": [],
     "aro": "22.5",
     "ativo": true,
-    "createdAt": "2026-10-08T03:33:11.520Z",
-    "descricao": "",
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "23942cf14239cfd1232ee720",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD270",
+    "medida": "12 R22.5",
+    "fonte": "https://royalblacktyre.com/product_36_RD270.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "337a261b8f3bbb681d8adaf4",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "10.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "db2da16ca78a2c8ed9f5d7bd",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a3c446e0e07ae52d8774902f",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "12.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "e759b58b9aed01d9b433a787",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "7.00 R16LT",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "16",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a90005d209f87406573c6a3b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "7.50 R16LT",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "16",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d5e96be560aa46f746b97afb",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "8.25 R16LT",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "16",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6904c347aa77e2a94bdee407",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "8.25 R20",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "4dc081e46a32fb23628eae77",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD688",
+    "medida": "9.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_19_RD688.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ac4c5dcd34775279145c5810",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD689",
+    "medida": "11.00 R20",
+    "fonte": "https://es.royalblacktyre.com/product_37_RD689.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "78e5f47283d6f2e4b58e95aa",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD689",
+    "medida": "12.00 R20",
+    "fonte": "https://es.royalblacktyre.com/product_37_RD689.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b25baa91760906824e858796",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "10.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6f8c407c601c326496447d94",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f762a816b44246ab6fa68aed",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "215/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1e3c6c4dc5e4d1d470dc6f1a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "225/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "29d60e026caa926a24dbd495",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "235/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f8fff6b38bfc5ae6052aca75",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "245/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "0daf985f44bdf8f5371dcf42",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "265/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "53a7be362ba8534aa9f75181",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "275/70 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "71f995c6a4f6901c8f39dc0b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "285/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "3db78fafba7be735d7a1731b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "295/75 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "34f46af99da0e27143363683",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "fc01b75b15b67f4b4524ed0c",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "315/70 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "7a621e097a6c226f11b8e0ff",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD801",
+    "medida": "315/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_22_RD801.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "4eef29ddd6b5bbaad53749c1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD802",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_23_RD802.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "949486ef0621a4b72e8bb2d7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD802",
+    "medida": "11 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_23_RD802.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d8f5016905b731c70cd74b65",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD802",
+    "medida": "13 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_23_RD802.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "38e9df237b2945ec8646d35a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD802",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_23_RD802.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "45b587b09c76d8173a922a55",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD802",
+    "medida": "315/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_23_RD802.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "277a1a9add6ba7177dc7c26b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD805",
+    "medida": "315/80 R22.5",
+    "fonte": "https://es.royalblacktyre.com/product_26_RD805.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "3e8b29d5bfc8ae6487de59ca",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD808",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_24_RD808.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "02fc30f4290764a9d9bf537b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD808",
+    "medida": "11 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_24_RD808.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d395560e9c10fc7729827582",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD808",
+    "medida": "285/75 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_24_RD808.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "34d29ba848903a80f7f8e175",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD808",
+    "medida": "295/75 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_24_RD808.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ecfd5143f8bff000e55e2133",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b8ef06e80f6d59e4408bf172",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b81c0fb82e29cb7da50c765a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "12 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "77e9211b568ba87231cf46e7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "12.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "06a6a351e739d2fea1eb382e",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "12.00 R24",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "24",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a53504432400761660606af0",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "13 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "43fc24bc6a25d13771dc6eb6",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD860",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_43_RD860.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1abeeefa29e4cf4c12361959",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "10.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ab2d04533e0328fe79abb2f4",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ca07cfa3a7bd01e892a031c7",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "12.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d9c13cdf11ecd9b44c270c9a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "8.25 R16LT",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "16",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "606826e3f5cb1b2d8a6429a8",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "8.25 R20",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6da5164a8d3fe335736c3511",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RD880",
+    "medida": "9.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_44_RD880.html",
+    "eixo": [
+      "Tração"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1269ad824e355c694752aff6",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "32645afb59db509a947db0b1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "11 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d9fbedadcfb3ce6927c3076f",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "215/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "5eafeba665e76ef55d769fc8",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "225/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a2ce1cc68f0c647494f77afe",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "235/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d3db871ce25267dacf5d42ab",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "245/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "309a5e16431387d4eb403d74",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "265/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "8f88fab39cc30c16507ce003",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "275/70 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "fcce0480592951d307bcec34",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "285/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "05c45bb3a8c49c96988e0a61",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "285/75 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "e26479e962276c45033e3a3f",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "295/75 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "9c8f61611e82f274c9f31101",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "295/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "b92e46d036671bbd12c38107",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "315/70 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "c3f43b08c6610f20a916d645",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "315/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "428af2edf22316ecb040b337",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "385/55 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ce1656e7c5e5d56a2d17b21c",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS201",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_17_RS201.html",
+    "eixo": [
+      "Livre"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "eda3c4b97aa6ff92c459d511",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS205",
+    "medida": "11 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
     "eixo": [
       "Direcional"
     ],
-    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f6234bb743a2b8a2f1bd28e9",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
     "imagem": "",
-    "indiceCarga": "156/150",
-    "indiceVelocidade": "M",
-    "updatedAt": "2026-10-08T03:33:11.520Z"
+    "fabricante": "Royal Black",
+    "modelo": "RS205",
+    "medida": "11 R24.5",
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [],
+    "aro": "24.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "cded36101ffb12bdcfb958dd",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS205",
+    "medida": "12 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "eixo": [
+      "Direcional"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61ae",
@@ -107,6 +2380,571 @@
     "imagem": "",
     "indiceCarga": "147/144",
     "indiceVelocidade": "M",
-    "updatedAt": "2026-10-08T03:33:11.536Z"
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ac",
+    "fabricante": "Royal Black",
+    "medida": "295/75 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.507Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "146/143",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ab",
+    "fabricante": "Royal Black",
+    "medida": "295/80 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.485Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "152/149",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "6ac70ef7b6c6314b2e7b61ad",
+    "fabricante": "Royal Black",
+    "medida": "315/80 R22.5",
+    "modelo": "RS205",
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "createdAt": "2026-10-08T03:33:11.520Z",
+    "descricao": "",
+    "eixo": [
+      "Direcional"
+    ],
+    "fonte": "https://www.royalblacktyre.com/product_14_RS205.html",
+    "imagem": "",
+    "indiceCarga": "156/150",
+    "indiceVelocidade": "M",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f6987c2115387d7118a2838a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "10.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "eb6300d4fc7f26e1f2c77f4b",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f4d84da7c76548506c0cfbf4",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "12.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "9845c3bada3e0e83ca259dea",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "12.00 R24",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "24",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "23eb8308d7cb4f6f8d1afaa2",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "13 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "785d2357725216964e4c9a77",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "315/80 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "9702efc8d46bbda4fb64e7ca",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS600",
+    "medida": "9.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_13_RS600.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "4024008f2c5ac9707f85e4cd",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS618",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_37_RS618.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "0c31bb5ee1b96503e88a60c5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS901",
+    "medida": "12.00 R24",
+    "fonte": "https://www.royalblacktyre.com/product_16_RS901.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "24",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "424363110a9c5fed3cef0cc3",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RS902",
+    "medida": "12.00 R24",
+    "fonte": "https://es.royalblacktyre.com/product_36_RS902.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "24",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "42a13900cffcaceae6120cc6",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT605",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_42_RT605.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "fa0a5f22d11a93c21c16c1b6",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT609",
+    "medida": "10.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_41_RT609.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "57b303d1422b2c1f397022bf",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT609",
+    "medida": "11.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_41_RT609.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "80853b729ecdd89405dfea65",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT609",
+    "medida": "12.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_41_RT609.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "55149a299bd9032ec4950ac0",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT609",
+    "medida": "9.00 R20",
+    "fonte": "https://www.royalblacktyre.com/product_41_RT609.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "20",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "9ff35bcb7dc13dbd6a1e437a",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT705",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_20_RT705.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "d608ec24a7b4b70626a1d141",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "215/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "ef2e6d5c2ed57328f5e04a2d",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "225/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "1e713c96b83374f6d82b2cae",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "235/75 R17.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "17.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "f873c1c89efdc958aa440cc1",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "245/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "9d238658cf5a2ede4e7750ab",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "265/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "137011d8e42ee303a47517b5",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "275/70 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "fe2d3bf2c76a3c6494cd76ce",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "285/70 R19.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "19.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "a8b9da296a82e70fd8acdb75",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "385/55 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
+  },
+  {
+    "_id": "0701a84f07b33704a52f663f",
+    "createdAt": "2026-10-11T15:00:00.000Z",
+    "indiceCarga": "",
+    "indiceVelocidade": "",
+    "imagem": "",
+    "fabricante": "Royal Black",
+    "modelo": "RT706",
+    "medida": "385/65 R22.5",
+    "fonte": "https://www.royalblacktyre.com/product_21_RT706.html",
+    "eixo": [
+      "Todas as posições"
+    ],
+    "aplicacao": [],
+    "aro": "22.5",
+    "ativo": true,
+    "mercado": "Internacional - confirmar disponibilidade no Brasil",
+    "updatedAt": "2026-10-11T15:00:00.000Z",
+    "verificadoEm": "2026-10-11"
   }
 ]

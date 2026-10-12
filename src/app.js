@@ -1,3 +1,5 @@
+import {createDocumentRouter} from "./documents/documentRoutes.js";
+import {createGithubDocumentStorage} from './documents/githubDocumentStorage.js';
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -21,7 +23,8 @@ app.use(cors({ origin(origin, callback) {
   callback(null, !origin || !allowed.length || allowed.includes(origin));
 } }));
 app.use(serverlessJson);
-app.use(express.json({ limit: '1mb' }));
+const jsonParser=express.json({limit:'1mb'}),pdfJsonParser=express.json({limit:'6mb'});
+app.use((req,res,next)=>(/^\/api\/documentos\/[^/]+\/pdf$/.test(req.path)?pdfJsonParser:jsonParser)(req,res,next));
 if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
 app.get('/ready', (req, res) => res.json({ status: 'ok', storage: 'json' }));
@@ -29,6 +32,7 @@ app.use('/uploads', express.static(uploadsDir, { dotfiles: 'deny', index: false 
 app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }));
 const { router: authRoutes, requireUser } = createAuthRouter();
 app.use('/api/auth', authRoutes);
+app.use('/api/documentos', createDocumentRouter({requireUser,...createGithubDocumentStorage()}));
 app.use('/api', (req, res, next) => process.env.AUTH_REQUIRE_LOGIN === 'true' ? requireUser(req, res, next) : next());
 app.use('/api/avarias', avariaRoutes);
 app.use('/api/medidas', medidaRoutes);

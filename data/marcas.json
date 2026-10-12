@@ -1,5 +1,870 @@
 [
   {
+    "_id": "6c29f20fe47238ee2ff92d4b",
+    "nome": "ACCEIRA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "24291ed312c4ce6c663ff546",
+    "nome": "ACEEL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6aaa1dfc1a27722031ddabb0",
+    "nome": "ACELERA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "562b0b4e895b0c2cb6a4a35e",
+    "nome": "ACHANCE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5122bf8671cb4263d6ee533f",
+    "nome": "ACHILLES",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e6cfc6dfb9ea486600203aab",
+    "nome": "ACRIMASTER",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d03bad93a8ef95655beea5ea",
+    "nome": "ADERENZA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8d41d16c7a6db4775f61d81c",
+    "nome": "ADVANCE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5e644cdbf05a45e7804f8cbb",
+    "nome": "ADVENTURO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "52563ecf56ff733c5f633896",
+    "nome": "AEOLUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "99a9614cea5e226e55e25c0f",
+    "nome": "AGATE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4013730cd774940f669c5f2a",
+    "nome": "AGS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "11c211b977d9079292ec5e5a",
+    "nome": "AGUIA TYRES",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ff36005c44e6b7f4204e00a3",
+    "nome": "AHS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "82daf920a50735dea4a66722",
+    "nome": "AICHI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d0729da7d2272c715955d238",
+    "nome": "ALIANCE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0fdc8057e9501de6cca720c4",
+    "nome": "ALL SEASOM",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "76c1cb55f2365dd6b02038f6",
+    "nome": "ALLIANCE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8dee2d7ee3bf0c8a03b7d358",
+    "nome": "ALLSTEELROAD",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "b0a5568b2d20c5da094877ae",
+    "nome": "ALLWAYS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6e522959a4d79569787d28ce",
+    "nome": "ALTURA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c5a571305eea99cd4a6feff4",
+    "nome": "AM PLUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "bab5828a13bbedfa84592a89",
+    "nome": "AMAZN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2d47a6a35d84e5e315554629",
+    "nome": "AMBERSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "49a8fb0a34d655ada77a7139",
+    "nome": "AMERICA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2fc619e95c1a17f2b8b6669e",
+    "nome": "AMORSTEEL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "dbf16123e7f89420e1236f9a",
+    "nome": "AMULET",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "237d6ec41111d6a0d239b34d",
+    "nome": "ANATEL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "81a6e0be47fa0385eb3670b1",
+    "nome": "ANNAITE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "03223cbe320633d67e19ef03",
+    "nome": "ANTARES",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "accd1d683f50a1678e1ce78b",
+    "nome": "ANTEHNTRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d87a4121bc4d9205c7406efe",
+    "nome": "ANTEO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0be88fe8276dc4aa33fe8fda",
+    "nome": "ANTYRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "dd265d7e310719957ac4dd8d",
+    "nome": "AOTELI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "80ccea71eaeee98a74d2f539",
+    "nome": "AOX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "1bc50d36a846821c14ee12eb",
+    "nome": "APLUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c1da12a5fc02bd509a301621",
+    "nome": "APOLLO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d5b3fe2477f72958b31b35f2",
+    "nome": "APOLLOS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "05e0e38671013ea60053be67",
+    "nome": "APTANY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "87df0dbe7915c56c1f8733d8",
+    "nome": "ARDENT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2c1c446965e2b63a384660c1",
+    "nome": "ARDUZZA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "75995e27c3ed89e9de660fcb",
+    "nome": "ARGANTIS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c05c3bdad283b2e485e2d32f",
+    "nome": "ARGUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4abcd9cfb52883652336ab1f",
+    "nome": "ARISUN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0642b6488fbe952b45c5ceab",
+    "nome": "ARMOUR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9983351415aa790ed9c1e657",
+    "nome": "ARMSTRONG",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "05138d7248ca34b85414b112",
+    "nome": "ARNOSTRAL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ad8f8a04ae3e7e2ba6da8f45",
+    "nome": "ARW1",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "3d842d0b51294831746ad934",
+    "nome": "ASCENSO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "903e293ebbfaf96d8b7daf67",
+    "nome": "ASTRO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "01af967a37ee23372b65b971",
+    "nome": "ATHREEC",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "bf41150c2b1c09e9853a7af0",
+    "nome": "ATLAS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a98b580e57a9b89f549ef37f",
+    "nome": "ATTURO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e38905396e2606b2730b5fd3",
+    "nome": "AUFINE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f3cb2b6a8ab037bf842a1fe4",
+    "nome": "AURORA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9cb67573a1ae6fee6ab89985",
+    "nome": "AUSHINE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d952dec990391e634a641e3a",
+    "nome": "AUSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a56020fc54f9a706c61bce42",
+    "nome": "AUTOCRUZE",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://www.landspidertire.com/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "3e2767cef648f4ca0435e208",
+    "nome": "AUTOGREEN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6a992941626ac9ae1c0c5a0f",
+    "nome": "AUTOGRIP",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4427ce0a6eec10ad9a3022cb",
+    "nome": "AUTORIDE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "98f58a17842bfa4e172c8c0a",
+    "nome": "AVANT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e7b49c276a5acecb1d732909",
+    "nome": "AVAQING",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f6406538ce024c4edac1460a",
+    "nome": "AX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7fa0f38fbe53e4a303da711a",
+    "nome": "BACKHOE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "41e43d194162d1fac869060e",
+    "nome": "BANNERS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "144c430195c68e4878b31a0d",
+    "nome": "BARBARIAM",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c383d6339c9650d799fe62fc",
+    "nome": "BARIUM",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "fa15376c9ef501db87e07a6e",
+    "nome": "BARUM",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9457c6d2bbfca6307cb0e9cc",
+    "nome": "BASSON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f0498a57fe3096ceac63bbf2",
+    "nome": "BCKHOE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6004d4ce99df24438d2a1d45",
+    "nome": "BCT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0e69494f039c7ea52e7a78ee",
+    "nome": "BEAD GUARD",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "47a1721c932cc099ca5ae8c0",
+    "nome": "BELSHINA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "62ab4156ac0f5d1bd440fd7a",
+    "nome": "BELTED",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "652d8c6b009a90b150dc4328",
+    "nome": "BENCHMARK",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "72a89bc0b7e3e09ca80f3b1b",
+    "nome": "BFGOODRICH",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "1430bc9f6a07e410303f1d8e",
+    "nome": "BFGOODRIDE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9daa0529e585c47149e0d8af",
+    "nome": "BILLESTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e3d6e3d69f7f653521cc2146",
+    "nome": "BILSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "787de479b7f61b0d57302fad",
+    "nome": "BIRLA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "35f32806005e7922a3dacd5d",
+    "nome": "BISON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9351cb9459d880dc4104d5c9",
+    "nome": "BKT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "786480244398e585bec1ed18",
+    "nome": "BLACKLIAN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c403cf3614c3628867097fc7",
+    "nome": "BLACKLION",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6037040808ed421682d56bf8",
+    "nome": "BLACKSTAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a3496d8363c3e0f1be409730",
+    "nome": "BLUESTAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "946e66c3b7317fa5d129472a",
+    "nome": "BLUESTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0e2e6e1cbd1452f00f4ba1c7",
+    "nome": "BOB CAT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5fac801543d7a8dc88d15e51",
+    "nome": "BOCKSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8ab82b1ed6cea5a3a3c54a0b",
+    "nome": "BOLEX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "26fe7c199111a6a7cbdff690",
+    "nome": "BONETTI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "584da907ed3d1d54c87c003f",
+    "nome": "BORISTAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "04a71cf6a82898e66d4a2508",
+    "nome": "BOTO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "804bc5ccc3aa8e461627be06",
+    "nome": "BRIDGESTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5d3d38b664e37b8ca7691e2a",
+    "nome": "BRILHANTE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5bd74dd064c8799bbfd40880",
+    "nome": "BROADWAY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "46c7bb654149191a58f31b9f",
+    "nome": "CATERPILLER",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7e096a86827abf219ff59e68",
+    "nome": "CEAT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2f28eedc7255c940cc9c46c8",
+    "nome": "CECONTIRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "de3fcdeab93b0878e884334d",
+    "nome": "CELESTIS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "953e3babe01a135d93b63621",
+    "nome": "CENTARA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8a8dfe33e4aa2fe522669779",
+    "nome": "CENTAURO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2e7c12ad30fc944feb68cd0b",
+    "nome": "CENTELLA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "862021c4a2ff61e4e8b627b5",
+    "nome": "CHALLENGER",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "cc4c438314aa8cddb3db31b5",
+    "nome": "CHAMPION",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "611a7e007bf57e720982073e",
+    "nome": "CHAOYANG",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d4162692abd75a0eb914d990",
+    "nome": "CHENGSHAN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
     "_id": "6ac70ef7b6c6314b2e7b61a4",
     "nome": "Continental",
     "ativo": true,
@@ -9,6 +874,683 @@
     ],
     "createdAt": "2026-10-08T03:33:11.378Z",
     "updatedAt": "2026-10-08T03:33:11.378Z"
+  },
+  {
+    "_id": "74d9d43e012908e1e78a9ed0",
+    "nome": "COOPER",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0335c1d991dee29277fc453f",
+    "nome": "CROSSWIND",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7021d244190e66134a9279ad",
+    "nome": "CST",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5ecb6e687c308ce67d714bd2",
+    "nome": "DAYTON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ef884d95819c46f51c7b0404",
+    "nome": "DELİNTE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "5e754afc1e9d4c29d232f160",
+    "nome": "DOUBLE COIN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7732288bdc3bba60a3e589d1",
+    "nome": "DOUBLE STAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "11ea2e50abdb788a02a8a901",
+    "nome": "DOUBLESTAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d8276f7cff958ecba05b0d5f",
+    "nome": "DPLUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "59391618603502483c38d9b3",
+    "nome": "DRC",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a5dd9f9fbe9afae46468205d",
+    "nome": "DUNLOP",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6849f1de415324f4386c59cd",
+    "nome": "DURABLE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "cf2c9ea884d1746ea900af9a",
+    "nome": "DURATURN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "b746305aec0109c994c5da8b",
+    "nome": "DYNAMO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c5049410a523db281af242a1",
+    "nome": "EUDEMON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "b3c0ae20f5610513f682194d",
+    "nome": "EVERGREEN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "cd2b5de9b721ddd303fb1c33",
+    "nome": "FALKEN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "fcf9571d77b2b5a6c0b48887",
+    "nome": "FARROAD",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "60476c5c267e62218c377b6a",
+    "nome": "FATE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f26f8f7cca6cf2a2674089b3",
+    "nome": "FEDERAL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "42f21e97ed9449b04a40431e",
+    "nome": "FIRESTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "51a3f079dc809430408eac59",
+    "nome": "FORMULA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "bc3fe4e7774da2f04f80f901",
+    "nome": "FORTUNE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e87086a14d433c4964f2bf36",
+    "nome": "FULDA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4442266be2f65679aed79232",
+    "nome": "GENERAL TIRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c429b24d97838612062f03ce",
+    "nome": "GITI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f4b941e0b7cdb9c178cd42ce",
+    "nome": "GOLDEN CROWN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "482b5926c6b44ad8df7c78ae",
+    "nome": "GOODRIDE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d6a69211d4138236d3f3e339",
+    "nome": "GOODSPEED",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d5dfed9874aaa96282005903",
+    "nome": "GOODTIRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8041fcf6cd1cd75ed678660e",
+    "nome": "GOODYEAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "864c19d0e092e7f7d360e1af",
+    "nome": "HAIDA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2445dec3b43bd0c020f452f6",
+    "nome": "HANKOOK",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d955cc54bf9a00dbf46bd15a",
+    "nome": "HEADWAY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e9a9e368b0315b3405bd426d",
+    "nome": "HIFLY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0e1117fba55db8908c6fee85",
+    "nome": "IMPORTADO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "59007cd6a3da8ee25054a20a",
+    "nome": "INFINITY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "b3c4be23e80f25a288bfaaff",
+    "nome": "IRONHEAD",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "60383f4d6aeda08d09c854ad",
+    "nome": "IRONMAN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "b33783240381cb5ace6eff1b",
+    "nome": "JETWAY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "35aa3283dd9b5d5f6423250c",
+    "nome": "JETYRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c566aab11b01700db1016239",
+    "nome": "JIMYU",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "938d6cf262be9ed1e3913331",
+    "nome": "JK TYRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "98a452ba5b0c96cb120ac9bb",
+    "nome": "KELLY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "792bec8f70f6498af1d7b337",
+    "nome": "KORMORAN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c1dbae2e854b6149c3b4caaf",
+    "nome": "KUMHO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "564b2f03a7fa2da633e941db",
+    "nome": "KUSTONE",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://kustone.cn/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "0b5ed1abaf8518f44f47985e",
+    "nome": "LANDSAIL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "63ac52b1f5a794448f21033c",
+    "nome": "LANDSPIDER",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://www.landspidertire.com/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "969cd2584ee16e4f0196812a",
+    "nome": "LANVIGATOR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7d86a4fde5defb73160ca162",
+    "nome": "LASSA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6c0d208c596daeb638019495",
+    "nome": "LAUFENN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7e4f5b129e888a359d94591a",
+    "nome": "LEAO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "9ef3478263878edb8b15e43b",
+    "nome": "LINGLONG",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e81fd717544a6e2103023a23",
+    "nome": "MABOR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c2e1c6411bb9d421398e07aa",
+    "nome": "MAGGION",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c3102a1fbfca3cbd87bf38a9",
+    "nome": "MAGNUM",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f640ed75b7535e6652df63e0",
+    "nome": "MATADOR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "64808fff6c804a18cfe50671",
+    "nome": "MAXXIS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8df7b193fc6af74bea087607",
+    "nome": "MICHELIN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "3b8698755afc1119a60ef900",
+    "nome": "MILESTAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "1acd72d0f0a38d3f2817bad3",
+    "nome": "MINERVA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6b10a65d36a8c15bc81fb4b2",
+    "nome": "MRF",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "1a8c6885bce22aa76382365a",
+    "nome": "NEUPAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a04f84953b818353acff8fa4",
+    "nome": "NEXEN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "2b4aab2c0a6eb8a05b197d13",
+    "nome": "NIPON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4cc5b76112f8b4c19685f7a0",
+    "nome": "NITTO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "dd9d1a52ff1ab722c861c167",
+    "nome": "NOKIAN TYRES",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://www.nokiantyres.com/heavy/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "ccfc7428a7416a2eaf6d9e94",
+    "nome": "ONYX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "afb5318152bf55b674aea10c",
+    "nome": "OVATION",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ad0355a653a310cbdc342482",
+    "nome": "PETLAS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "20888f86e149e1fb4279b32a",
+    "nome": "PIRELLI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4b0c6d2e8d0d4e0a29195945",
+    "nome": "POWERTRAC",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "36be679ff73206d0902f13e8",
+    "nome": "PREMIORRI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "273cb19cb70dd30f167ac9cd",
+    "nome": "PRINX",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://www.prinx.com.br/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "f0f146d03098c456cf4ecbc9",
+    "nome": "PRO-TR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "892773cf190a9738be7d93d4",
+    "nome": "RADAR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ce5fc36965e7666bc7d4095b",
+    "nome": "RAPID",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "3fd6c3b23f8fac02a71f4cb3",
+    "nome": "ROADCRUZA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "35c987f8b61ef5b3d2e3fd65",
+    "nome": "ROADSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "3fa5f21de8977656261c1561",
+    "nome": "ROADWING",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4d2ef7a6fbc41168ac26bf86",
+    "nome": "ROADX",
+    "ativo": true,
+    "categorias": [],
+    "fonte": "https://www.roadxtire.com/",
+    "verificado": true,
+    "verificadoEm": "2026-10-12"
+  },
+  {
+    "_id": "2e441b30b14fae7205545abf",
+    "nome": "ROCKSTONE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a3ffcd4870f973736208dcf1",
+    "nome": "ROTALLA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
   },
   {
     "_id": "6ac70ef7b6c6314b2e7b61a5",
@@ -21,6 +1563,222 @@
     "updatedAt": "2026-10-08T03:33:11.392Z"
   },
   {
+    "_id": "c7da91f0b6fb9a2ee12a4651",
+    "nome": "RUNWAY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "14a973db23f83dbae3e3460f",
+    "nome": "SAFERICH",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ac4d8092c3d56237a3bb672e",
+    "nome": "SAILUN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "590fd39a9ae0b25074fabda4",
+    "nome": "SAMSON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "8f95ffded7fd2d8b716e05a0",
+    "nome": "SANSON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "faae6ce5d40f6ddf8fcdb68c",
+    "nome": "SEMPERIT",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e4ab6a9fb340f4d3ed404e76",
+    "nome": "SESTANTE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "e3b64bd6d3b235b61a58f7a2",
+    "nome": "SPEEDMAX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6083ef57264648d51ed2e0ba",
+    "nome": "STARFIRE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "7191c6b756752cd78e89814a",
+    "nome": "STEELMARK",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "60ee3b3eed57764ba412f980",
+    "nome": "STRADA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "af153021dfe0284212d76184",
+    "nome": "STRIAL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "fe2032c6e31798d49c5864ea",
+    "nome": "SUMITOMO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "98f749b01dc52ce4724786db",
+    "nome": "SUNFULL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "acb0a321f743d98b31c0f6fa",
+    "nome": "SUNNY",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "36f20c3c01f41f7abe809333",
+    "nome": "SUNSET",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d14e185f085b3983114362c4",
+    "nome": "TAURUS",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c53511a7b791d45149113707",
+    "nome": "TBBTIRES",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "215ee7e4c373133828bdb061",
+    "nome": "THUNDERER",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "96b8d520845ebc940afe639a",
+    "nome": "TORQUE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "35ff7164b28c4c814b19af1d",
+    "nome": "TRACMAX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0390144c0054f48d6ea23031",
+    "nome": "TRAZANO",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "42ea0ba42adcb61a2cb34dd7",
+    "nome": "TRIANGLE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "1e4c6ba1de1575cb4f7e4101",
+    "nome": "TYFOON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "f0d6280751da5092ec27d4f7",
+    "nome": "UDEMON",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "6d55cf8ee1639d3cf5cbc0f1",
+    "nome": "UNIROYAL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "52186992f6b842afa7ed6911",
+    "nome": "VIKING",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
     "_id": "6ac70ef7b6c6314b2e7b61a6",
     "nome": "Vipal",
     "ativo": true,
@@ -30,5 +1788,85 @@
     ],
     "createdAt": "2026-10-08T03:33:11.405Z",
     "updatedAt": "2026-10-08T03:33:11.405Z"
+  },
+  {
+    "_id": "a82e9e45b070ec8f517c7309",
+    "nome": "VITOOR",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "0a32a1fd9bec755ecfb779be",
+    "nome": "VREDESTEIN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "ef724b601c7ac5edf8e9eb7e",
+    "nome": "WATERFALL",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "a78aecf24b6e500a0aeb3b20",
+    "nome": "WESTLAKE",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "bbbda960505ea4a94235801c",
+    "nome": "WINRUN",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "3a8ce9ad9baa64621204c4ab",
+    "nome": "XBRI",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "d9864b2ede8ba30ceec3f8af",
+    "nome": "YOKOHAMA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "4712b9cba70716cb4c6e7608",
+    "nome": "ZEETEX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "c861b6cd66f5379c7c2f8a86",
+    "nome": "ZETA",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
+  },
+  {
+    "_id": "49a74a0ffd122351fb717ee1",
+    "nome": "ZMAX",
+    "ativo": true,
+    "categorias": [],
+    "origem": "Base fornecida no aplicativo pelo usuário",
+    "verificado": false
   }
 ]

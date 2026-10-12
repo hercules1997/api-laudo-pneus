@@ -1,0 +1,5 @@
+import {createHmac,timingSafeEqual} from 'node:crypto';
+const fail=()=>Object.assign(new Error('Link inválido ou expirado.'),{status:403});
+const key=()=>{const value=process.env.AUTH_JWT_SECRET;if(!value||value.length<32)throw fail();return value;};
+export function issueShareTicket(doc,now=Date.now()){const body=Buffer.from(JSON.stringify({kind:'document-share',id:doc.id,version:doc.version,sha256:doc.pdfRef.sha256,exp:Math.floor(now/1000)+300})).toString('base64url');return body+'.'+createHmac('sha256',key()).update(body).digest('base64url');}
+export function readShareTicket(ticket,now=Date.now()){try{if(typeof ticket!=='string'||ticket.length>2048)throw fail();const [body,signature,...extra]=ticket.split('.');const expected=createHmac('sha256',key()).update(body).digest(),actual=Buffer.from(signature||'','base64url');if(extra.length||actual.length!==expected.length||!timingSafeEqual(actual,expected))throw fail();const data=JSON.parse(Buffer.from(body,'base64url'));if(data.kind!=='document-share'||!data.id||!Number.isInteger(data.version)||!Number.isInteger(data.exp)||data.exp<=Math.floor(now/1000))throw fail();return data;}catch{throw fail();}}

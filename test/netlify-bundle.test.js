@@ -16,6 +16,6 @@ test('Function CommonJS contém JSON e funciona sem credenciais ou conexão exte
     const status=await new Promise((resolve,reject)=>{const timer=setTimeout(()=>{child.kill();reject(new Error('Bundle excedeu tempo'));},15000);child.once('error',reject);child.once('exit',code=>{clearTimeout(timer);resolve(code);});});
     assert.equal(status,0,stderr);const result=JSON.parse(stdout.trim());
     assert.deepEqual(result.map(r=>r.status),[200,200,200,200]);
-    assert.equal(result[1].storage,'json');assert.equal(result[2].count,9);assert.equal(result[3].count,2);
+    assert.equal(result[1].storage,'json');assert.equal(result[2].count,9);assert.ok(result[3].count>=30);
   }finally{await fs.rm(outfile,{force:true});}
 });
