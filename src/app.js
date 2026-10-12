@@ -11,6 +11,7 @@ import marcaRoutes from './routes/marcaRoutes.js';
 import bandaRoutes from './routes/bandaRoutes.js';
 import pneuRoutes from './routes/pneuRoutes.js';
 import { createAuthRouter } from './auth/authRoutes.js';
+import serverlessJson from './middlewares/serverlessJson.js';
 const app = express();
 app.disable('x-powered-by');
 app.set('query parser', 'simple');
@@ -19,6 +20,7 @@ app.use(cors({ origin(origin, callback) {
   const allowed = (process.env.CORS_ORIGINS || '').split(',').map(s => s.trim()).filter(Boolean);
   callback(null, !origin || !allowed.length || allowed.includes(origin));
 } }));
+app.use(serverlessJson);
 app.use(express.json({ limit: '1mb' }));
 if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
