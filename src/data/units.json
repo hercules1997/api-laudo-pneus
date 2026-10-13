@@ -1,0 +1,13 @@
+[
+{"id":"maravilha","name":"Maravilha (Matriz)","state":"Santa Catarina"},
+{"id":"gaspar","name":"Gaspar","state":"Santa Catarina"},
+{"id":"videira","name":"Videira","state":"Santa Catarina"},
+{"id":"araucaria","name":"Araucária","state":"Paraná"},
+{"id":"guarapuava","name":"Guarapuava","state":"Paraná"},
+{"id":"maringa","name":"Maringá","state":"Paraná"},
+{"id":"toledo","name":"Toledo","state":"Paraná"},
+{"id":"gravatai","name":"Gravataí","state":"Rio Grande do Sul"},
+{"id":"ijui","name":"Ijuí","state":"Rio Grande do Sul"},
+{"id":"passo-fundo","name":"Passo Fundo","state":"Rio Grande do Sul"},
+{"id":"varzea-paulista","name":"Várzea Paulista","state":"São Paulo"}
+]

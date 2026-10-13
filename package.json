@@ -14,9 +14,12 @@
     "test": "node --test --test-concurrency=1",
     "import:catalogo": "node scripts/importCatalogo.js",
     "import:avarias": "node scripts/importAvarias.js",
-    "extract:vipal": "node scripts/extractVipal.js"
+    "extract:vipal": "node scripts/extractVipal.js",
+    "setup:neon": "node --env-file-if-exists=.env scripts/setupNeon.js"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.2.0",
+    "aws4fetch": "^1.0.20",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "helmet": "^8.1.0",

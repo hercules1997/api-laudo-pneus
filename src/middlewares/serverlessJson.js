@@ -3,7 +3,7 @@
 export default function serverlessJson(req, res, next) {
   if (!Buffer.isBuffer(req.body) || !req.is('application/json')) return next();
   try {
-    const limit = /^\/api\/documentos\/[^/]+\/pdf$/.test(req.path) ? 6 * 1024 * 1024 : 1024 * 1024;
+    const limit = /^\/api\/documentos\/[^/]+\/(pdf|fotos)$/.test(req.path) ? 6 * 1024 * 1024 : 1024 * 1024;
     if (req.body.length > limit) throw Object.assign(new Error('Corpo da solicitação excede o limite.'), { status: 413 });
     if (req.get('content-encoding') && req.get('content-encoding') !== 'identity') {
       throw Object.assign(new Error('Codificação do corpo não suportada.'), { status: 415 });

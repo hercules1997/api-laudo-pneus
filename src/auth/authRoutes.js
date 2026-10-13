@@ -2,7 +2,11 @@ import {Router} from 'express';
 import {randomUUID} from 'node:crypto';
 import {createGithubUsers,authConfigured} from './githubUsers.js';
 import {hashPassword,checkPassword,createSession,decodeSession} from './passwords.js';
-const expose=u=>({id:u.id,username:u.username,name:u.name,role:u.role,active:u.active!==false,mustChangePassword:!!u.mustChangePassword});
+import {neonAuthEnabled} from '../config/neon.js';
+import {createNeonUsers} from './neonUsers.js';
+import {validateUnitIds,units} from './unitPolicy.js';
+const expose=u=>({id:u.id,username:u.username,name:u.name,role:u.role,unitIds:u.unitIds||[],active:u.active!==false,mustChangePassword:u.mustChangePassword===true});
+const session=u=>({accessToken:createSession(u),refreshToken:createSession(u,Date.now(),'refresh'),expiresIn:3600,user:expose(u)});
 const fail=(status,message)=>Object.assign(new Error(message),{status});
 const normalize=v=>String(v||'').trim().toLowerCase();
 function validateAccount(body){
@@ -10,7 +14,7 @@ function validateAccount(body){
   if(!['admin','consultor','gestor','leitor'].includes(body.role||'consultor'))throw fail(400,'Perfil inválido.');
   if(typeof body.name!=='string'||!body.name.trim()||body.name.length>100)throw fail(400,'Informe o nome.');
 }
-export function createAuthRouter(store=createGithubUsers()) {
+export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():createGithubUsers()) {
   const router=Router();
   router.use((req,res,next)=>{res.set('Cache-Control','no-store');next();});
   const recent=new Map();
@@ -39,7 +43,7 @@ export function createAuthRouter(store=createGithubUsers()) {
     if(user.failedAttempts||user.lockedUntil){
       user.failedAttempts=0;user.lockedUntil=0;await store.write(snapshot,'Limpar bloqueio de autenticação');
     }
-    res.json({accessToken:createSession(user),expiresIn:3600,user:expose(user)});
+    res.json(session(user));
   });
   async function requireUser(req,res,next){
     const token=req.get('authorization')?.match(/^Bearer (.+)$/)?.[1];
@@ -49,9 +53,17 @@ export function createAuthRouter(store=createGithubUsers()) {
     if(!user||user.active===false||(user.sessionVersion||1)!==claims.version)throw fail(401,'Seu acesso mudou. Entre novamente.');
     req.authUser=user;req.authSnapshot=snapshot;next();
   }
-  router.get('/status',(req,res)=>res.json({configured:authConfigured(),storage:'github-private-json'}));
+  router.get('/status',(req,res)=>res.json({configured:neonAuthEnabled()||authConfigured(),storage:neonAuthEnabled()?'neon-postgresql':'github-private-json'}));
+  router.get('/units',requireUser,(req,res)=>res.json(units));
   router.get('/me',requireUser,(req,res)=>res.json({user:expose(req.authUser)}));
-  router.post('/refresh',requireUser,(req,res)=>res.json({accessToken:createSession(req.authUser),expiresIn:3600,user:expose(req.authUser)}));
+  router.post('/refresh',requireUser,(req,res)=>res.json(session(req.authUser)));
+  router.post('/resume',async(req,res)=>{
+    const claims=decodeSession(req.body?.refreshToken,Date.now(),'refresh');
+    const snapshot=await store.read();const user=snapshot.data.users.find(u=>u.id===claims.sub);
+    if(!user||user.active===false||(user.sessionVersion||1)!==claims.version)throw fail(401,'Seu acesso mudou. Entre novamente.');
+    // Keep the refresh token's original 30-day expiry rather than extending it on every refresh.
+    res.json({accessToken:createSession(user),refreshToken:req.body.refreshToken,expiresIn:3600,user:expose(user)});
+  });
   router.post('/logout',requireUser,async(req,res)=>{
     req.authUser.sessionVersion=(req.authUser.sessionVersion||1)+1;
     await store.write(req.authSnapshot,'Encerrar sessões do usuário');res.status(204).end();
@@ -61,7 +73,7 @@ export function createAuthRouter(store=createGithubUsers()) {
     req.authUser.passwordHash=await hashPassword(req.body?.newPassword);
     req.authUser.mustChangePassword=false;req.authUser.sessionVersion=(req.authUser.sessionVersion||1)+1;
     await store.write(req.authSnapshot,'Alterar senha');
-    res.json({accessToken:createSession(req.authUser),expiresIn:3600,user:expose(req.authUser)});
+    res.json(session(req.authUser));
   });
   const requireAdmin=(req,res,next)=>{
     if(req.authUser.role!=='admin'||req.authUser.mustChangePassword)throw fail(403,'Acesso exclusivo de administrador com senha atualizada.');
@@ -71,21 +83,26 @@ export function createAuthRouter(store=createGithubUsers()) {
   router.post('/users',requireUser,requireAdmin,async(req,res)=>{
     const body=req.body||{};validateAccount(body);
     if(req.authSnapshot.data.users.some(u=>u.username===normalize(body.username)))throw fail(409,'Usuário já cadastrado.');
-    const user={id:randomUUID(),username:normalize(body.username),name:body.name.trim(),role:body.role||'consultor',active:true,passwordHash:await hashPassword(body.password),sessionVersion:1,mustChangePassword:true};
+    const unitIds=validateUnitIds(body.unitIds||[]);
+    if(neonAuthEnabled()&&['consultor','gestor'].includes(body.role||'consultor')&&!unitIds.length)throw fail(400,'Selecione ao menos uma unidade para o consultor ou gestor.');
+    const user={id:randomUUID(),username:normalize(body.username),name:body.name.trim(),role:body.role||'consultor',unitIds,active:true,passwordHash:await hashPassword(body.password),sessionVersion:1,mustChangePassword:true};
     req.authSnapshot.data.users.push(user);await store.write(req.authSnapshot,'Cadastrar usuário');res.status(201).json(expose(user));
   });
   router.patch('/users/:id',requireUser,requireAdmin,async(req,res)=>{
     const body=req.body||{},user=req.authSnapshot.data.users.find(u=>u.id===req.params.id);
     if(!user)throw fail(404,'Usuário não encontrado.');
-    if(Object.keys(body).some(k=>!['active','role','name','password'].includes(k)))throw fail(400,'Campo não permitido.');
+    if(Object.keys(body).some(k=>!['active','role','name','password','unitIds'].includes(k)))throw fail(400,'Campo não permitido.');
+    if(body.unitIds!==undefined)validateUnitIds(body.unitIds);
     if(body.active!==undefined&&typeof body.active!=='boolean')throw fail(400,'active deve ser booleano.');
     if(body.role!==undefined&&!['admin','consultor','gestor','leitor'].includes(body.role))throw fail(400,'Perfil inválido.');
     if(body.name!==undefined&&(typeof body.name!=='string'||!body.name.trim()||body.name.length>100))throw fail(400,'Nome inválido.');
     if(user.id===req.authUser.id&&(body.active===false||(body.role&&body.role!=='admin')))throw fail(400,'Não é permitido suspender ou remover seu próprio perfil de administrador.');
+    if(neonAuthEnabled()&&['consultor','gestor'].includes(body.role||user.role)&&!(body.unitIds||user.unitIds||[]).length)throw fail(400,'Selecione ao menos uma unidade para o consultor ou gestor.');
     if(body.name!==undefined)user.name=body.name.trim();
     if(body.role!==undefined)user.role=body.role;
     if(body.active!==undefined)user.active=body.active;
-    if(body.password){user.passwordHash=await hashPassword(body.password);user.mustChangePassword=true;user.failedAttempts=0;user.lockedUntil=0;}
+    if(body.unitIds!==undefined)user.unitIds=body.unitIds;
+    if(body.password){user.passwordHash=await hashPassword(body.password);user.failedAttempts=0;user.lockedUntil=0;}
     user.sessionVersion=(user.sessionVersion||1)+1;
     await store.write(req.authSnapshot,'Atualizar acesso de usuário');res.json(expose(user));
   });
