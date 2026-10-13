@@ -5,6 +5,8 @@
 
 [build.environment]
   NODE_VERSION = "22"
+  # These values select behavior or identify a bucket; credentials remain scanned.
+  SECRETS_SCAN_OMIT_KEYS = "AUTH_STORAGE,DOCUMENTS_API_ENABLED,APPROVALS_REQUIRED,STORAGE_BUCKET,STORAGE_REGION,STORAGE_ENDPOINT"
 
 [functions]
   node_bundler = "esbuild"
