@@ -1,10 +1,10 @@
-# Documentos privados e aprovação: estrutura para ativação posterior
+# Documentos privados e aprovação
 
-A geração e o compartilhamento atuais continuam funcionando. Os recursos de sincronização e aprovação permanecem desativados por padrão.
+A configuração publicada utiliza Neon para contas, metadados e histórico, e armazenamento S3 privado para PDFs/fotos. Sincronização e aprovação estão ativas. O aplicativo consulta /api/documentos/capabilities: gerar e visualizar PDFs é permitido; compartilhar exige aprovação da versão atual. Consulte NEON-CONFIG.md.
 
-## Armazenamento sem banco
+## Adaptador legado sem banco
 
-O adaptador `githubDocumentStorage.js` utiliza o repositório privado já configurado em AUTH_GITHUB_REPO; DOCUMENTS_GITHUB_REPO permite escolher outro repositório privado acessível ao token.
+O adaptador `githubDocumentStorage.js` permanece disponível como implementação anterior, mas não é usado na configuração publicada. Ele utiliza o repositório privado configurado em AUTH_GITHUB_REPO; DOCUMENTS_GITHUB_REPO permite escolher outro repositório privado acessível ao token.
 
 - `documents/index.json`: documentos, autor, estado, revisões, versões anteriores, atribuições a gestores e eventos futuros de notificação.
 - `documents/pdfs/{ownerId}/{documentId}/v{version}/{sha256}.pdf`: PDFs privados imutáveis, separados dos metadados.
