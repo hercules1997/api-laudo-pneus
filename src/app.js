@@ -1,3 +1,5 @@
+import {criarRotasCatalogos} from './routes/adminCatalogos.js';
+import {criarRotasClientes} from './clientes/clienteRoutes.js';
 import {createDocumentRouter} from "./documents/documentRoutes.js";
 import {criarArquivosPrivados} from './documents/arquivosPrivados.js';
 import {createNeonDocumentStorage} from './documents/neonDocumentStorage.js';
@@ -37,6 +39,8 @@ app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }
 const usersStore=neonAuthEnabled()?createNeonUsers():createGithubUsers();
 const { router: authRoutes, requireUser } = createAuthRouter(usersStore);
 app.use('/api/auth', authRoutes);
+app.use('/api/clientes',criarRotasClientes({requireUser}));
+app.use('/api/admin/catalogos',criarRotasCatalogos(requireUser));
 app.use('/api/documentos', createDocumentRouter({requireUser,store:createNeonDocumentStorage().store,files:criarArquivosPrivados(),resolveManagers:async ids=>{if(!Array.isArray(ids))throw Object.assign(new Error('Selecione gestores válidos.'),{status:400});const {data}=await usersStore.read();return ids.map(id=>data.users.find(u=>u.id===id));}}));
 app.use('/api', (req, res, next) => process.env.AUTH_REQUIRE_LOGIN === 'true' ? requireUser(req, res, next) : next());
 app.use('/api/avarias', avariaRoutes);

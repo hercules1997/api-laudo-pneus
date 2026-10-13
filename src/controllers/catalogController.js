@@ -11,10 +11,11 @@ function matches(value, query, exact = true) {
 }
 export function catalogController(rows, filters, searchFields, sortFields) {
   return {
-    list(req, res) {
+    async list(req, res) {
+      const itens=typeof rows==='function'?await rows():rows;
       const values = Object.fromEntries(filters.map(field => [field, queryString(req.query[field], field)]));
       const busca = queryString(req.query.busca, 'busca');
-      const result = rows.filter(row => row.ativo !== false &&
+      const result = itens.filter(row => row.ativo !== false &&
         filters.every(field => !values[field] || matches(row[field], values[field])) &&
         (!busca || searchFields.some(field => matches(row[field], busca, false))));
       result.sort((a, b) => {
@@ -26,9 +27,10 @@ export function catalogController(rows, filters, searchFields, sortFields) {
       });
       res.json(result);
     },
-    get(req, res) {
+    async get(req, res) {
+      const itens=typeof rows==='function'?await rows():rows;
       if (!/^[a-f\d]{24}$/i.test(req.params.id)) throw bad('ID inválido.');
-      const result = rows.find(row => row._id === req.params.id && row.ativo !== false);
+      const result = itens.find(row => row._id === req.params.id && row.ativo !== false);
       if (!result) return res.status(404).json({ message: 'Registro não encontrado.' });
       res.json(result);
     }

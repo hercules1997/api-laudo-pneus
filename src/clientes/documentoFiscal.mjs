@@ -1,0 +1,4 @@
+export const limparDocumento=valor=>String(valor||'').toUpperCase().replace(/[.\-/\s]/g,'');
+const digito=(valores,pesos)=>{const resto=valores.reduce((soma,valor,index)=>soma+valor*pesos[index],0)%11;return resto<2?0:11-resto;};
+export function validarCpf(valor){const cpf=limparDocumento(valor);if(!/^\d{11}$/.test(cpf)||/^(\d)\1+$/.test(cpf))return false;const numeros=[...cpf].map(Number);return digito(numeros.slice(0,9),[10,9,8,7,6,5,4,3,2])===numeros[9]&&digito(numeros.slice(0,10),[11,10,9,8,7,6,5,4,3,2])===numeros[10];}
+export function validarCnpj(valor){const cnpj=limparDocumento(valor);if(!/^[A-Z0-9]{12}\d{2}$/.test(cnpj)||/^(\d)\1+$/.test(cnpj))return false;const valores=[...cnpj].map(char=>char.charCodeAt(0)-48);return digito(valores.slice(0,12),[5,4,3,2,9,8,7,6,5,4,3,2])===valores[12]&&digito(valores.slice(0,13),[6,5,4,3,2,9,8,7,6,5,4,3,2])===valores[13];}

@@ -2,7 +2,7 @@ import { randomBytes, scrypt, timingSafeEqual, createHmac } from 'node:crypto';
 import { promisify } from 'node:util';
 const derive=promisify(scrypt);
 export async function hashPassword(password) {
-  if(typeof password!=='string'||password.length<12||password.length>256) throw Object.assign(new Error('A senha deve ter entre 12 e 256 caracteres.'),{status:400});
+  if(typeof password!=='string'||password.length<6||password.length>256) throw Object.assign(new Error('A senha deve ter entre 6 e 256 caracteres.'),{status:400});
   const salt=randomBytes(16).toString('hex');
   const hash=await derive(password,salt,64,{N:16384,r:8,p:1,maxmem:64*1024*1024});
   return 'scrypt$'+salt+'$'+hash.toString('hex');

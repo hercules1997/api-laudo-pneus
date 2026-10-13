@@ -1,3 +1,3 @@
-import { catalogs } from '../data/catalogos.js';
+import {catalogoAtual} from '../services/catalogosAdministraveis.js';
 import { catalogController } from './catalogController.js';
-export default catalogController(catalogs.marcas, ["nome","categorias"], ["nome"], ["nome"]);
+export default catalogController(()=>catalogoAtual('marcas'), ["nome","categorias"], ["nome"], ["nome"]);

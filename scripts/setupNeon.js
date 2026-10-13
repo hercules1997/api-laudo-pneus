@@ -2,7 +2,8 @@ import fs from 'node:fs/promises';import path from 'node:path';import {fileURLTo
 import {database,query} from '../src/config/neon.js';import {units} from '../src/auth/unitPolicy.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 try{
- const schema=await fs.readFile(path.join(root,'migrations/001-neon.sql'),'utf8');
+ const arquivos=(await fs.readdir(path.join(root,'migrations'))).filter(nome=>nome.endsWith('.sql')).sort();
+ const schema=(await Promise.all(arquivos.map(nome=>fs.readFile(path.join(root,'migrations',nome),'utf8')))).join('\n-- migration-step\n');
  await database().transaction(schema.split('-- migration-step').map(statement=>database().query(statement.trim(),[])));
  for(const unit of units)await query('INSERT INTO app_units(id,name,state) VALUES($1,$2,$3) ON CONFLICT(id) DO NOTHING',[unit.id,unit.name,unit.state]);
  const usersPath=process.argv.find(arg=>arg.startsWith('--users='))?.slice(8);

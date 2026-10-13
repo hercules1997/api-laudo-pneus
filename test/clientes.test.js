@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {validarCpf,validarCnpj} from '../src/clientes/documentoFiscal.mjs';
+import {validarContato} from '../src/auth/contatos.js';
+test('CPF e CNPJ verificam dígitos, inclusive CNPJ alfanumérico',()=>{assert.equal(validarCpf('529.982.247-25'),true);assert.equal(validarCpf('11111111111'),false);assert.equal(validarCnpj('00.000.000/0001-91'),true);assert.equal(validarCnpj('00.000.000/E08G-12'),true);assert.equal(validarCnpj('00.000.000/E08G-13'),false);assert.equal(validarCnpj('00000000000000'),false);});
+test('Consultores e gestores precisam de contatos válidos no cadastro',()=>{assert.throws(()=>validarContato({role:'consultor'}),e=>e.status===400);assert.throws(()=>validarContato({role:'gestor',email:'gestor@example.test',telefone:'123'}),e=>e.status===400);assert.deepEqual(validarContato({role:'gestor',email:'GESTOR@EXAMPLE.TEST',telefone:'(11) 99999-9999'}),{email:'gestor@example.test',telefone:'(11) 99999-9999'});assert.deepEqual(validarContato({role:'admin'}),{email:'',telefone:''});});

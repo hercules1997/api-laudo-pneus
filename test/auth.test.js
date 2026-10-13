@@ -20,7 +20,7 @@ async function fixture(run){
 test('scrypt e sessões rejeitam senhas, adulteração e expiração',async()=>{
  const hash=await hashPassword('SenhaDeTeste12345!');assert.ok(!hash.includes('SenhaDeTeste'));
  assert.equal(await checkPassword('SenhaDeTeste12345!',hash),true);
- assert.equal(await checkPassword('OutraSenha12345!',hash),false);
+ assert.equal(await checkPassword('583924',hash),false);
  const token=createSession({id:'u',sessionVersion:3},1000000);
  assert.equal(decodeSession(token,1000001).version,3);
  assert.throws(()=>decodeSession(token+'x',1000001));
@@ -30,14 +30,14 @@ test('scrypt e sessões rejeitam senhas, adulteração e expiração',async()=>{
 test('login, administração e suspensão invalidam a sessão do usuário',async()=>fixture(async({request,getData})=>{
  const logged=await request('/login','POST',{username:'admin',password:'SenhaDeTeste12345!'});assert.equal(logged.status,200);
  const {accessToken:admin,user}=await logged.json();assert.ok(!('passwordHash' in user));
- const created=await request('/users','POST',{username:'consultor',name:'Consultor',password:'OutraSenha12345!',role:'consultor'},admin);assert.equal(created.status,201);
+ const created=await request('/users','POST',{username:'consultor',name:'Consultor',password:'583924',role:'consultor',email:'consultor@example.test',telefone:'11999999999'},admin);assert.equal(created.status,201);
  const account=await created.json();assert.equal(account.mustChangePassword,true);
- const login=await (await request('/login','POST',{username:'consultor',password:'OutraSenha12345!'})).json();
+ const login=await (await request('/login','POST',{username:'consultor',password:'583924'})).json();
  assert.equal((await request('/users','GET',null,login.accessToken)).status,403);
  assert.equal((await request('/me','GET',null,login.accessToken)).status,200);
  assert.equal((await request('/users/'+account.id,'PATCH',{active:false},admin)).status,200);
  assert.equal((await request('/me','GET',null,login.accessToken)).status,401);
- assert.equal((await request('/login','POST',{username:'consultor',password:'OutraSenha12345!'})).status,403);
+ assert.equal((await request('/login','POST',{username:'consultor',password:'583924'})).status,403);
  assert.equal(getData().users.length,2);
 }));
 test('troca obrigatória de senha e logout revogam tokens anteriores',async()=>fixture(async({request,initial})=>{
