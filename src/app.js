@@ -1,3 +1,4 @@
+import {criarRotasNotificacoes} from './routes/notificacaoRoutes.js';
 import {criarRotasCatalogos} from './routes/adminCatalogos.js';
 import {criarRotasClientes} from './clientes/clienteRoutes.js';
 import {createDocumentRouter} from "./documents/documentRoutes.js";
@@ -39,6 +40,7 @@ app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }
 const usersStore=neonAuthEnabled()?createNeonUsers():createGithubUsers();
 const { router: authRoutes, requireUser } = createAuthRouter(usersStore);
 app.use('/api/auth', authRoutes);
+app.use('/api/notificacoes',criarRotasNotificacoes(requireUser));
 app.use('/api/clientes',criarRotasClientes({requireUser}));
 app.use('/api/admin/catalogos',criarRotasCatalogos(requireUser));
 app.use('/api/documentos', createDocumentRouter({requireUser,store:createNeonDocumentStorage().store,files:criarArquivosPrivados(),resolveManagers:async ids=>{if(!Array.isArray(ids))throw Object.assign(new Error('Selecione gestores válidos.'),{status:400});const {data}=await usersStore.read();return ids.map(id=>data.users.find(u=>u.id===id));}}));

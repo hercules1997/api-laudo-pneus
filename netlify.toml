@@ -12,6 +12,9 @@
   node_bundler = "esbuild"
   external_node_modules = ["express", "serverless-http"]
 
+[functions.notificacoes]
+  schedule = "*/5 * * * *"
+
 [[headers]]
   for = "/catalogos/*"
   [headers.values]

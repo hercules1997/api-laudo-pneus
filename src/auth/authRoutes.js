@@ -1,3 +1,4 @@
+import {query} from '../config/neon.js';
 import {validarContato} from './contatos.js';
 import {Router} from 'express';
 import {randomUUID} from 'node:crypto';
@@ -67,6 +68,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     res.json({accessToken:createSession(user),refreshToken:req.body.refreshToken,expiresIn:3600,user:expose(user)});
   });
   router.post('/logout',requireUser,async(req,res)=>{
+    if(neonAuthEnabled())await query('DELETE FROM app_dispositivos WHERE usuario_id=$1',[req.authUser.id]);
     req.authUser.sessionVersion=(req.authUser.sessionVersion||1)+1;
     await store.write(req.authSnapshot,'Encerrar sessões do usuário');res.status(204).end();
   });

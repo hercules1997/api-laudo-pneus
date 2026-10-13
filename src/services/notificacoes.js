@@ -1,0 +1,15 @@
+import {query,neonConfigured} from '../config/neon.js';
+import {canReadDocument} from '../documents/documentWorkflow.mjs';
+const titulos={rascunho:'Documento não enviado',pendente:'Documento aguardando aprovação',reenviado:'Documento reenviado para análise',aprovado:'Documento aprovado',reprovado:'Documento recusado'};
+export async function enviarNotificacoesPendentes(consultar=fetch){
+ if(!neonConfigured())return;
+ const eventos=await query("UPDATE app_notificacoes SET push_reservado_ate=now()+interval '2 minutes' WHERE id IN(SELECT n.id FROM app_notificacoes n WHERE n.push_enviado_em IS NULL AND (n.push_reservado_ate IS NULL OR n.push_reservado_ate<now()) AND EXISTS(SELECT 1 FROM app_dispositivos t WHERE t.usuario_id=n.usuario_id) ORDER BY n.criada_em LIMIT 20 FOR UPDATE SKIP LOCKED) RETURNING *");
+ const mensagens=[],origens=[];
+ if(!eventos.length)return;
+ const contextos=await query("SELECT n.id,d.data AS documento,u.data || jsonb_build_object('unitIds',(SELECT coalesce(jsonb_agg(unit_id),'[]'::jsonb) FROM app_user_units WHERE user_id=u.id)) AS usuario,(SELECT coalesce(jsonb_agg(token),'[]'::jsonb) FROM (SELECT token FROM app_dispositivos WHERE usuario_id=u.id LIMIT 5) t) AS tokens FROM app_notificacoes n JOIN app_documents d ON d.id=n.documento_id JOIN app_users u ON u.id=n.usuario_id WHERE n.id=ANY($1::text[])",[eventos.map(evento=>evento.id)]);
+ const descartadas=[];
+ for(const evento of eventos){const contexto=contextos.find(item=>item.id===evento.id);if(!contexto||contexto.usuario.active===false||!canReadDocument(contexto.documento,contexto.usuario)){descartadas.push(evento.id);continue;}for(const token of contexto.tokens){origens.push({id:evento.id,token});mensagens.push({to:token,title:titulos[evento.status]||'Atualização de documento',body:'Há uma atualização nos seus documentos. Abra o aplicativo para consultar.',sound:'default',channelId:'aprovacoes',data:{documentoId:evento.documento_id,notificacaoId:evento.id,versao:evento.versao}});}}
+ if(descartadas.length)await query('UPDATE app_notificacoes SET push_enviado_em=now() WHERE id=ANY($1::text[])',[descartadas]);
+ if(!mensagens.length)return;
+ const resposta=await consultar('https://exp.host/--/api/v2/push/send',{method:'POST',headers:{'Content-Type':'application/json',...(process.env.EXPO_PUSH_ACCESS_TOKEN?{Authorization:'Bearer '+process.env.EXPO_PUSH_ACCESS_TOKEN}:{})},body:JSON.stringify(mensagens),signal:AbortSignal.timeout(8000)});if(!resposta.ok)return;const tickets=(await resposta.json()).data;if(!Array.isArray(tickets))return;const aceitas=new Set(),invalidos=[];for(const [index,ticket] of tickets.entries()){if(!origens[index])continue;if(ticket.status==='ok')aceitas.add(origens[index].id);if(ticket.details?.error==='DeviceNotRegistered')invalidos.push(origens[index].token);}if(invalidos.length)await query('DELETE FROM app_dispositivos WHERE token=ANY($1::text[])',[invalidos]);if(aceitas.size)await query('UPDATE app_notificacoes SET push_enviado_em=now() WHERE id=ANY($1::text[])',[[...aceitas]]);
+}
