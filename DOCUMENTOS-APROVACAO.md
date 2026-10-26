@@ -19,6 +19,8 @@ Administrador gerencia contas e distribuição; consultor cria seus documentos; 
 
 Estados: rascunho, pendente, aprovado, reprovado, reenviado. Editar gera uma nova versão em rascunho, preservando os dados e PDF da versão anterior. A primeira decisão válida de gestor autorizado basta. Revisão esperada e compare-and-swap impedem duas decisões conflitantes. Reprovação exige justificativa.
 
+Para propostas, o gestor da unidade só consulta versões oficialmente enviadas: rascunhos ficam ocultos na listagem, nos detalhes e no acesso ao PDF. O consultor só edita e exclui suas propostas em rascunho ou reprovadas; pendentes, reenviadas e aprovadas ficam bloqueadas. Após corrigir uma reprovação, deve reenviar a nova versão. O gestor pode aprovar, recusar com justificativa e excluir propostas enviadas de sua unidade. A exclusão usa revisão esperada e registra deletedAt, deletedBy e ação deleted no histórico; as listas, PDFs e links de compartilhamento deixam de disponibilizar o documento, sem apagar a auditoria.
+
 ## Contrato disponível na mesma API
 
 Todas as rotas abaixo exigem Bearer token, exceto o link temporário de compartilhamento:
@@ -28,6 +30,7 @@ Todas as rotas abaixo exigem Bearer token, exceto o link temporário de comparti
 - POST /api/documentos: type, payload
 - GET /api/documentos/:id
 - PATCH /api/documentos/:id: payload, expectedRevision
+- DELETE /api/documentos/:id: expectedRevision (propostas; exclusão lógica)
 - POST /api/documentos/:id/pdf: base64, expectedRevision
 - GET /api/documentos/:id/pdf: visualização privada
 - POST /api/documentos/:id/submit: expectedRevision

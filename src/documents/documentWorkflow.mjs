@@ -5,7 +5,13 @@ const clone=value=>JSON.parse(JSON.stringify(value));
 const fail=(status,message)=>Object.assign(new Error(message),{status});
 const manager=user=>['gestor','admin'].includes(user?.role);
 const editor=user=>['consultor','admin'].includes(user?.role);
-export function canReadDocument(doc,user){return user?.role==='admin'||doc.ownerId===user?.id||managerInUnit(user,doc);}
+export function canReadDocument(doc,user){return !!doc&&!doc.deletedAt&&!!user?.id&&(user.role==='admin'||doc.ownerId===user.id||(managerInUnit(user,doc)&&(doc.type!=='proposta'||doc.status!=='rascunho')));}
+export function canEditDocument(doc,user){return canReadDocument(doc,user)&&doc.ownerId===user.id&&editor(user)&&(doc.type!=='proposta'||user.role==='admin'||['rascunho','reprovado'].includes(doc.status));}
+export function canDeleteDocument(doc,user){return doc?.type==='proposta'&&canReadDocument(doc,user)&&(manager(user)||(doc.ownerId===user.id&&user.role==='consultor'&&['rascunho','reprovado'].includes(doc.status)));}
+export function deleteDocument(current,{expectedRevision},user,now=new Date().toISOString()){
+ assertVersion(current,expectedRevision);if(!canDeleteDocument(current,user))throw fail(403,'Você não pode excluir esta proposta. Após o envio, apenas o gestor pode excluí-la, salvo em caso de reprovação.');
+ const doc=clone(current);doc.revision++;doc.deletedAt=now;doc.deletedBy=user.id;doc.updatedAt=now;return audit(doc,'deleted',user,now);
+}
 export function assertVersion(doc,expectedRevision){if(!Number.isInteger(expectedRevision)||doc.revision!==expectedRevision)throw fail(409,'Documento alterado por outra sessão. Atualize antes de continuar.');}
 function audit(doc,action,user,now,notes=''){doc.history.push({action,actorId:user.id,actorRole:user.role,at:now,version:doc.version,revision:doc.revision,notes});return doc;}
 export function newDocument({id,type,payload,pdfRef=null},user,now=new Date().toISOString()){
@@ -14,7 +20,7 @@ export function newDocument({id,type,payload,pdfRef=null},user,now=new Date().to
  return audit({id,ownerId:user.id,ownerName:user.name||user.username,unitId:documentUnit(payload,user),type,payload:clone(payload),pdfRef,version:1,revision:1,status:'rascunho',createdAt:now,updatedAt:now,assignedManagerIds:[],versions:[],history:[],notificationEvents:[]},'created',user,now);
 }
 export function reviseDocument(current,{payload,pdfRef=null,expectedRevision},user,now=new Date().toISOString()){
- assertVersion(current,expectedRevision);if(current.ownerId!==user.id||!editor(user))throw fail(403,'Você só pode editar seus documentos.');
+ assertVersion(current,expectedRevision);if(!canEditDocument(current,user))throw fail(403,'A proposta enviada não pode ser editada. Aguarde a reprovação do gestor para corrigir.');
  if(!payload||typeof payload!=='object'||Array.isArray(payload))throw fail(400,'Dados inválidos.');
  if(documentUnit(payload,user)!==current.unitId)throw fail(400,'A revisão não pode mudar a unidade do documento.');
  const doc=clone(current);doc.versions.push({version:doc.version,status:doc.status,payload:doc.payload,pdfRef:doc.pdfRef,fotos:doc.fotos||[],decision:doc.decision||null,archivedAt:now});doc.version++;doc.revision++;doc.status='rascunho';doc.payload=clone(payload);doc.pdfRef=pdfRef;doc.fotos=[];doc.updatedAt=now;delete doc.decision;delete doc.submittedAt;
