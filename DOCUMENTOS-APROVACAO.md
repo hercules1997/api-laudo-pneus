@@ -1,6 +1,6 @@
 # Documentos privados e aprovação
 
-A configuração publicada utiliza Neon para contas, metadados e histórico, e armazenamento S3 privado para PDFs/fotos. Sincronização e aprovação estão ativas. O aplicativo consulta /api/documentos/capabilities: gerar e visualizar PDFs é permitido; compartilhar exige aprovação da versão atual. Consulte NEON-CONFIG.md.
+A configuração publicada utiliza Neon para contas, metadados e histórico, e armazenamento S3 privado para PDFs/fotos. Sincronização e aprovação estão ativas. O aplicativo consulta /api/documentos/capabilities: gerar e visualizar PDFs é permitido; compartilhar propostas exige aprovação da versão atual. Laudos com fotos e de destinação são salvos diretamente, sem envio para aprovação, e podem ser compartilhados pelos usuários autorizados. Consulte NEON-CONFIG.md.
 
 ## Adaptador legado sem banco
 
@@ -17,7 +17,7 @@ Limites desta implementação para equipe pequena: 4 MB por PDF, índice JSON at
 
 Administrador gerencia contas e distribuição; consultor cria seus documentos; gestor analisa documentos enviados, incluindo múltiplos gestores. A autoria é obtida da sessão, nunca do campo ownerId enviado pelo cliente. Um autor não aprova seu próprio documento.
 
-Estados: rascunho, pendente, aprovado, reprovado, reenviado. Editar gera uma nova versão em rascunho, preservando os dados e PDF da versão anterior. A primeira decisão válida de gestor autorizado basta. Revisão esperada e compare-and-swap impedem duas decisões conflitantes. Reprovação exige justificativa.
+Estados de propostas: rascunho, pendente, aprovado, reprovado, reenviado. Editar gera uma nova versão em rascunho, preservando os dados e PDF da versão anterior. A primeira decisão válida de gestor autorizado basta. Revisão esperada e compare-and-swap impedem duas decisões conflitantes. Reprovação exige justificativa.
 
 Para propostas, o gestor da unidade só consulta versões oficialmente enviadas: rascunhos ficam ocultos na listagem, nos detalhes e no acesso ao PDF. O consultor só edita e exclui suas propostas em rascunho ou reprovadas; pendentes, reenviadas e aprovadas ficam bloqueadas. Após corrigir uma reprovação, deve reenviar a nova versão. O gestor pode aprovar, recusar com justificativa e excluir propostas enviadas de sua unidade. A exclusão usa revisão esperada e registra deletedAt, deletedBy e ação deleted no histórico; as listas, PDFs e links de compartilhamento deixam de disponibilizar o documento, sem apagar a auditoria.
 
@@ -38,7 +38,7 @@ Todas as rotas abaixo exigem Bearer token, exceto o link temporário de comparti
 - POST /api/documentos/:id/assignment: expectedRevision, managerIds
 - POST /api/documentos/:id/share: expectedRevision
 
-Compartilhar exige aprovação da versão exata e checksum do PDF quando APPROVALS_REQUIRED=true. O link retornado expira em cinco minutos. GET /api/documentos/shared/:ticket valida assinatura, prazo, versão, aprovação e integridade novamente; nenhuma URL bruta do GitHub ou token privado é retornada.
+Compartilhar propostas exige aprovação da versão exata e checksum do PDF quando APPROVALS_REQUIRED=true. O link retornado expira em cinco minutos. GET /api/documentos/shared/:ticket valida assinatura, prazo, versão, aprovação e integridade novamente; nenhuma URL bruta do GitHub ou token privado é retornada.
 
 ## Ativação posterior
 
@@ -51,3 +51,9 @@ Compartilhar exige aprovação da versão exata e checksum do PDF quando APPROVA
 Não habilite a obrigatoriedade antes dessas etapas. O campo capabilities informa enabled=false enquanto o fluxo estiver desativado. Notificações não são enviadas nesta versão; notificationEvents é a fila prevista para futura implementação.
 
 Os testes automatizados usam armazenamento simulado; não criam laudos ou propostas reais no repositório do usuário. A interface atual não impede o proprietário de um aparelho de copiar um PDF local por ferramentas externas ao aplicativo; a autorização protege as operações da aplicação e os acessos disponibilizados pelo servidor.
+
+## Laudos sem aprovação
+
+Laudos usam o estado salvo no banco e local no aparelho enquanto o upload não termina. A criação e a revisão preservam autoria, unidade, isolamento de contas e histórico. O envio, decisão e distribuição de aprovação são exclusivos de propostas. Laudos antigos em estados de aprovação são apresentados como salvos, sem apagar o histórico. Capabilities informa approvalTypes: [proposta]. PDFs e fotos continuam privados; o compartilhamento temporário de laudos valida identidade e integridade sem exigir decisão de gestor.
+
+Gestores podem criar laudos e propostas nas suas unidades. Propostas criadas por gestores não passam por aprovação e recebem status salvo. O papel do autor (authorRole) é obtido da sessão no servidor e permanece imutável nas revisões; valores enviados no payload não concedem a dispensa. Propostas antigas sem essa informação mantêm o fluxo de aprovação por padrão.

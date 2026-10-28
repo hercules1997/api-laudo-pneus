@@ -1,12 +1,14 @@
-export const documentStatuses=['rascunho','pendente','aprovado','reprovado','reenviado'];
+export const documentStatuses=['rascunho','pendente','aprovado','reprovado','reenviado','salvo'];
 import {documentUnit,managerInUnit} from '../auth/unitPolicy.js';
 export const documentTypes=['laudo-completo','laudo-destinacao','proposta'];
+export const needsApproval=doc=>doc?.type==='proposta'&&doc?.authorRole!=='gestor';
+export const storedStatus=doc=>needsApproval(doc)?doc.status:'salvo';
 const clone=value=>JSON.parse(JSON.stringify(value));
 const fail=(status,message)=>Object.assign(new Error(message),{status});
 const manager=user=>['gestor','admin'].includes(user?.role);
-const editor=user=>['consultor','admin'].includes(user?.role);
+const editor=user=>['consultor','gestor','admin'].includes(user?.role);
 export function canReadDocument(doc,user){return !!doc&&!doc.deletedAt&&!!user?.id&&(user.role==='admin'||doc.ownerId===user.id||(managerInUnit(user,doc)&&(doc.type!=='proposta'||doc.status!=='rascunho')));}
-export function canEditDocument(doc,user){return canReadDocument(doc,user)&&doc.ownerId===user.id&&editor(user)&&(doc.type!=='proposta'||user.role==='admin'||['rascunho','reprovado'].includes(doc.status));}
+export function canEditDocument(doc,user){return canReadDocument(doc,user)&&doc.ownerId===user.id&&editor(user)&&(!needsApproval(doc)||user.role==='admin'||['rascunho','reprovado'].includes(doc.status));}
 export function canDeleteDocument(doc,user){return doc?.type==='proposta'&&canReadDocument(doc,user)&&(manager(user)||(doc.ownerId===user.id&&user.role==='consultor'&&['rascunho','reprovado'].includes(doc.status)));}
 export function deleteDocument(current,{expectedRevision},user,now=new Date().toISOString()){
  assertVersion(current,expectedRevision);if(!canDeleteDocument(current,user))throw fail(403,'Você não pode excluir esta proposta. Após o envio, apenas o gestor pode excluí-la, salvo em caso de reprovação.');
@@ -17,22 +19,24 @@ function audit(doc,action,user,now,notes=''){doc.history.push({action,actorId:us
 export function newDocument({id,type,payload,pdfRef=null},user,now=new Date().toISOString()){
  if(!user?.id||!editor(user))throw fail(403,'Perfil sem permissão para criar documentos.');
  if(!id||!documentTypes.includes(type)||!payload||typeof payload!=='object'||Array.isArray(payload))throw fail(400,'Documento inválido.');
- return audit({id,ownerId:user.id,ownerName:user.name||user.username,unitId:documentUnit(payload,user),type,payload:clone(payload),pdfRef,version:1,revision:1,status:'rascunho',createdAt:now,updatedAt:now,assignedManagerIds:[],versions:[],history:[],notificationEvents:[]},'created',user,now);
+ return audit({id,ownerId:user.id,ownerName:user.name||user.username,authorRole:user.role,unitId:documentUnit(payload,user),type,payload:clone(payload),pdfRef,version:1,revision:1,status:type==='proposta'&&user.role!=='gestor'?'rascunho':'salvo',createdAt:now,updatedAt:now,assignedManagerIds:[],versions:[],history:[],notificationEvents:[]},'created',user,now);
 }
 export function reviseDocument(current,{payload,pdfRef=null,expectedRevision},user,now=new Date().toISOString()){
  assertVersion(current,expectedRevision);if(!canEditDocument(current,user))throw fail(403,'A proposta enviada não pode ser editada. Aguarde a reprovação do gestor para corrigir.');
  if(!payload||typeof payload!=='object'||Array.isArray(payload))throw fail(400,'Dados inválidos.');
  if(documentUnit(payload,user)!==current.unitId)throw fail(400,'A revisão não pode mudar a unidade do documento.');
- const doc=clone(current);doc.versions.push({version:doc.version,status:doc.status,payload:doc.payload,pdfRef:doc.pdfRef,fotos:doc.fotos||[],decision:doc.decision||null,archivedAt:now});doc.version++;doc.revision++;doc.status='rascunho';doc.payload=clone(payload);doc.pdfRef=pdfRef;doc.fotos=[];doc.updatedAt=now;delete doc.decision;delete doc.submittedAt;
+ const doc=clone(current);doc.versions.push({version:doc.version,status:doc.status,payload:doc.payload,pdfRef:doc.pdfRef,fotos:doc.fotos||[],decision:doc.decision||null,archivedAt:now});doc.version++;doc.revision++;doc.status=needsApproval(doc)?'rascunho':'salvo';doc.payload=clone(payload);doc.pdfRef=pdfRef;doc.fotos=[];doc.updatedAt=now;delete doc.decision;delete doc.submittedAt;
  return audit(doc,'revised',user,now);
 }
 export function submitDocument(current,{expectedRevision},user,now=new Date().toISOString()){
+ if(!needsApproval(current))throw fail(409,'Apenas propostas passam por aprovação. Laudos são salvos diretamente.');
  assertVersion(current,expectedRevision);if(current.ownerId!==user.id||!editor(user))throw fail(403,'Você só pode enviar seus documentos.');
  if(!['rascunho','reprovado'].includes(current.status))throw fail(409,'Documento já enviado ou aprovado.');
  if(!current.pdfRef?.sha256)throw fail(400,'Gere e envie o PDF desta versão antes de solicitar aprovação.');
  const doc=clone(current);doc.revision++;doc.status=doc.history.some(h=>h.action==='rejected')?'reenviado':'pendente';doc.submittedAt=now;doc.updatedAt=now;return audit(doc,'submitted',user,now);
 }
 export function decideDocument(current,{expectedRevision,version,approved,notes=''},user,now=new Date().toISOString()){
+ if(!needsApproval(current))throw fail(409,'Apenas propostas passam por aprovação. Laudos são salvos diretamente.');
  assertVersion(current,expectedRevision);if(!manager(user)||!canReadDocument(current,user)||current.ownerId===user.id||(user.role!=='admin'&&current.assignedManagerIds?.length&&!current.assignedManagerIds.includes(user.id)))throw fail(403,'Gestor não autorizado para analisar este documento.');
  if(version!==current.version||!['pendente','reenviado'].includes(current.status))throw fail(409,'Esta versão não está aguardando análise.');
  if(typeof approved!=='boolean'||typeof notes!=='string'||notes.length>4000||(!approved&&!notes.trim()))throw fail(400,'Informe a decisão e uma justificativa para reprovação.');
@@ -40,8 +44,9 @@ export function decideDocument(current,{expectedRevision,version,approved,notes=
  doc.notificationEvents.push({id:doc.id+':'+doc.revision,recipientId:doc.ownerId,type:'document-decision',createdAt:now,deliveredAt:null});return audit(doc,approved?'approved':'rejected',user,now,notes.trim());
 }
 export function assignDocument(current,{expectedRevision,managerIds},user,now=new Date().toISOString()){
+ if(!needsApproval(current))throw fail(409,'Apenas propostas passam por aprovação. Laudos são salvos diretamente.');
  assertVersion(current,expectedRevision);if(user.role!=='admin')throw fail(403,'Distribuição exclusiva do administrador.');
  if(!Array.isArray(managerIds)||!managerIds.every(id=>typeof id==='string'&&id&&id!==current.ownerId))throw fail(400,'Gestores inválidos.');
  const doc=clone(current);doc.assignedManagerIds=[...new Set(managerIds)];doc.revision++;doc.updatedAt=now;return audit(doc,'assigned',user,now);
 }
-export function canShareDocument(doc,user,{approvalsRequired=true}={}){return canReadDocument(doc,user)&&(!approvalsRequired||(doc.status==='aprovado'&&doc.decision?.version===doc.version&&doc.decision?.pdfSha256===doc.pdfRef?.sha256));}
+export function canShareDocument(doc,user,{approvalsRequired=true}={}){return canReadDocument(doc,user)&&(!needsApproval(doc)||!approvalsRequired||(doc.status==='aprovado'&&doc.decision?.version===doc.version&&doc.decision?.pdfSha256===doc.pdfRef?.sha256));}
