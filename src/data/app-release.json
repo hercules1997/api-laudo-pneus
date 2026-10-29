@@ -1,7 +1,7 @@
 {
-  "version": "1.4.13",
-  "versionCode": 17,
-  "downloadUrl": "",
-  "notes": "",
-  "publishedAt": null
+  "version": "1.4.14",
+  "versionCode": 18,
+  "downloadUrl": "https://expo.dev/artifacts/eas/EOpcX-S8DhXNqzbfzkdV39lZuWIfniw_pr4uVtycmiw.apk",
+  "notes": "Nova aba de atualizações; compartilhamento com cliente, tipo e data; laudos por cliente; câmera horizontal; melhorias nos formulários, cards e PDFs.",
+  "publishedAt": "2026-10-29T02:00:36.743Z"
 }

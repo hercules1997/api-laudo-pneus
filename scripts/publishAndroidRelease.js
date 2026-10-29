@@ -1,5 +1,4 @@
 import fs from 'node:fs/promises';
-import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 // Input is the JSON returned by `eas build:view BUILD_ID --json`.
@@ -7,6 +6,7 @@ import {fileURLToPath} from 'node:url';
 const input = process.argv[2];
 if (!input) throw new Error('Informe o arquivo JSON da compilação finalizada no Expo.');
 const build = JSON.parse(await fs.readFile(input, 'utf8'));
+if (build.project?.id !== '77a63f65-2c46-4086-86bb-1ff3c12ab560') throw new Error('A compilação não pertence ao projeto FM Pneus.');
 if (build.status !== 'FINISHED' || build.platform !== 'ANDROID' || !/^\d+\.\d+\.\d+$/.test(build.appVersion)) throw new Error('A compilação Android ainda não está finalizada.');
 const versionCode = Number(build.appBuildVersion), downloadUrl = build.artifacts?.applicationArchiveUrl || build.artifacts?.buildUrl;
 const url = new URL(downloadUrl);
