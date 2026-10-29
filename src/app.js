@@ -1,3 +1,4 @@
+import appRelease from './data/app-release.json' with {type:'json'};
 import {criarRotasNotificacoes} from './routes/notificacaoRoutes.js';
 import {criarRotasCatalogos} from './routes/adminCatalogos.js';
 import {criarRotasClientes} from './clientes/clienteRoutes.js';
@@ -34,6 +35,7 @@ const jsonParser=express.json({limit:'1mb'}),pdfJsonParser=express.json({limit:'
 app.use((req,res,next)=>(/^\/api\/documentos\/[^/]+\/(pdf|fotos)$/.test(req.path)?pdfJsonParser:jsonParser)(req,res,next));
 if (process.env.NODE_ENV !== 'test') app.use(morgan('dev'));
 app.get('/health', (req, res) => res.json({ status: 'ok' }));
+app.get('/api/app/version', (req, res) => res.set('Cache-Control', 'no-store').json(appRelease));
 app.get('/ready', (req, res) => res.json({ status: 'ok', storage: 'json' }));
 app.use('/uploads', express.static(uploadsDir, { dotfiles: 'deny', index: false }));
 app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }));
