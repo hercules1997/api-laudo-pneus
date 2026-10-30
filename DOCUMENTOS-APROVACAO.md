@@ -57,3 +57,12 @@ Os testes automatizados usam armazenamento simulado; não criam laudos ou propos
 Laudos usam o estado salvo no banco e local no aparelho enquanto o upload não termina. A criação e a revisão preservam autoria, unidade, isolamento de contas e histórico. O envio, decisão e distribuição de aprovação são exclusivos de propostas. Laudos antigos em estados de aprovação são apresentados como salvos, sem apagar o histórico. Capabilities informa approvalTypes: [proposta]. PDFs e fotos continuam privados; o compartilhamento temporário de laudos valida identidade e integridade sem exigir decisão de gestor.
 
 Gestores podem criar laudos e propostas nas suas unidades. Propostas criadas por gestores não passam por aprovação e recebem status salvo. O papel do autor (authorRole) é obtido da sessão no servidor e permanece imutável nas revisões; valores enviados no payload não concedem a dispensa. Propostas antigas sem essa informação mantêm o fluxo de aprovação por padrão.
+
+
+## Regras comerciais da proposta (1.4.15)
+
+`tipoProposta` é `novo` ou `reforma`. Itens exigem `tipo` (`novo`, `reforma` ou `servico`), quantidade inteira e preço em centavos. Pneus novos não aceitam reforma/serviços; reforma não aceita novos. Serviços de vulcanização continuam disponíveis na reforma. Preço nunca vem fixo do catálogo.
+
+Criação, revisão, envio e aprovação HTTP validam as regras comerciais. Itens novos precisam corresponder ao produto/medida em data/pneus.json e à aplicação traduzida de `eixo`. A API rejeita aplicação/descrição manipulada e pede atualização do catálogo/PDF em caso de divergência. Propostas antigas já aprovadas são preservadas; rascunhos incompatíveis precisam ser corrigidos antes de novo envio.
+
+Dados de Operação logística podem acompanhar os laudos no payload JSON existente, sem mudança de autoria, unidade ou permissão. A comparação ocorre somente sobre a seleção autorizada da conta.

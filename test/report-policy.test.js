@@ -45,7 +45,7 @@ test('HTTP persists report PDF/photos, shares legacy reports, and validates appr
   doc.status='pendente';const share=await post('/doc/share',{expectedRevision:doc.revision});assert.equal(share.status,200);
   const ticket=await share.json();assert.equal((await fetch(base+ticket.path)).status,200);
   assert.equal((await post('/doc/submit',{expectedRevision:doc.revision})).status,409);
-  doc={...doc,type:'proposta',status:'pendente',pdfRef:{key:'private',sha256}};
+  doc={...doc,type:'proposta',status:'pendente',payload:{...doc.payload,itens:[{tipo:'servico',descricao:'Vulcanização',quantidade:1,precoCentavos:1000}]},pdfRef:{key:'private',sha256}};
   assert.equal((await post('/doc/share',{expectedRevision:doc.revision})).status,403);
   doc=decideDocument(doc,{expectedRevision:doc.revision,version:doc.version,approved:true},manager);
   const approved=await post('/doc/share',{expectedRevision:doc.revision});assert.equal(approved.status,200);
