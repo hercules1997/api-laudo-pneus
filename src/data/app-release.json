@@ -1,7 +1,7 @@
 {
-  "version": "1.4.16",
-  "versionCode": 20,
-  "downloadUrl": "https://expo.dev/artifacts/eas/iJJwZ40S9kJfhp107FaXp4j3S0CPX49qmPt2tuVgDw0.apk",
-  "notes": "Compartilhamento em ZIP com nomes padronizados; PDFs com colunas centralizadas; identidade FM Pneus; propostas por categoria, listas separadas e análise comparativa de sucata.",
-  "publishedAt": "2026-10-30T09:45:28.245Z"
+  "version": "1.4.17",
+  "versionCode": 21,
+  "downloadUrl": "https://expo.dev/artifacts/eas/Sj6I5QK1pzcWvD62tqSXCWFwuhMbK3JGUGsIkP3va-g.apk",
+  "notes": "Controle de recursos por usuário: visualizar e criar/alterar laudos, destinação e propostas; análise de sucata; acesso completo. Instale esta versão uma vez para ativar as próximas melhorias automáticas compatíveis.",
+  "publishedAt": "2026-11-03T01:19:46.257Z"
 }
