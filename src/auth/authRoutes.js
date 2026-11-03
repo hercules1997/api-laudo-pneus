@@ -1,3 +1,4 @@
+import {normalizeFeatureAccess,validateFeatureAccess,canUseFeature} from './featureAccess.mjs';
 import {query} from '../config/neon.js';
 import {validarContato} from './contatos.js';
 import {Router} from 'express';
@@ -7,7 +8,7 @@ import {hashPassword,checkPassword,createSession,decodeSession} from './password
 import {neonAuthEnabled} from '../config/neon.js';
 import {createNeonUsers} from './neonUsers.js';
 import {validateUnitIds,units} from './unitPolicy.js';
-const expose=u=>({id:u.id,username:u.username,name:u.name,role:u.role,email:u.email||'',telefone:u.telefone||'',unitIds:u.unitIds||[],active:u.active!==false,mustChangePassword:u.mustChangePassword===true});
+const expose=u=>({id:u.id,username:u.username,name:u.name,role:u.role,email:u.email||'',telefone:u.telefone||'',unitIds:u.unitIds||[],featureAccess:normalizeFeatureAccess(u.role==='admin'?undefined:u.featureAccess),active:u.active!==false,mustChangePassword:u.mustChangePassword===true});
 const session=u=>({accessToken:createSession(u),refreshToken:createSession(u,Date.now(),'refresh'),expiresIn:3600,user:expose(u)});
 const fail=(status,message)=>Object.assign(new Error(message),{status});
 const normalize=v=>String(v||'').trim().toLowerCase();
@@ -57,7 +58,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
   }
   router.get('/status',(req,res)=>res.json({configured:neonAuthEnabled()||authConfigured(),storage:neonAuthEnabled()?'neon-postgresql':'github-private-json'}));
   router.get('/units',requireUser,(req,res)=>res.json(units));
-  router.get('/gestores',requireUser,(req,res)=>{const unitId=req.query.unitId;if(typeof unitId!=='string'||!units.some(unit=>unit.id===unitId))throw fail(400,'Selecione uma unidade válida.');if(req.authUser.role!=='admin'&&!req.authUser.unitIds?.includes(unitId))throw fail(403,'Unidade não autorizada.');res.json(req.authSnapshot.data.users.filter(user=>user.active!==false&&user.role==='gestor'&&user.unitIds?.includes(unitId)).map(user=>({id:user.id,name:user.name,email:user.email||'',telefone:user.telefone||''})));});
+  router.get('/gestores',requireUser,(req,res)=>{const unitId=req.query.unitId;if(typeof unitId!=='string'||!units.some(unit=>unit.id===unitId))throw fail(400,'Selecione uma unidade válida.');if(req.authUser.role!=='admin'&&!req.authUser.unitIds?.includes(unitId))throw fail(403,'Unidade não autorizada.');res.json(req.authSnapshot.data.users.filter(user=>user.active!==false&&user.role==='gestor'&&canUseFeature(user,'propostas','write')&&user.unitIds?.includes(unitId)).map(user=>({id:user.id,name:user.name,email:user.email||'',telefone:user.telefone||''})));});
   router.get('/me',requireUser,(req,res)=>res.json({user:expose(req.authUser)}));
   router.post('/refresh',requireUser,(req,res)=>res.json(session(req.authUser)));
   router.post('/resume',async(req,res)=>{
@@ -89,13 +90,14 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     if(req.authSnapshot.data.users.some(u=>u.username===normalize(body.username)))throw fail(409,'Usuário já cadastrado.');
     const unitIds=validateUnitIds(body.unitIds||[]);
     if(neonAuthEnabled()&&['consultor','gestor'].includes(body.role||'consultor')&&!unitIds.length)throw fail(400,'Selecione ao menos uma unidade para o consultor ou gestor.');
-    const user={id:randomUUID(),username:normalize(body.username),name:body.name.trim(),role:body.role||'consultor',...contato,unitIds,active:true,passwordHash:await hashPassword(body.password),sessionVersion:1,mustChangePassword:true};
+    const user={id:randomUUID(),username:normalize(body.username),name:body.name.trim(),role:body.role||'consultor',...contato,unitIds,featureAccess:body.featureAccess===undefined?normalizeFeatureAccess():validateFeatureAccess(body.featureAccess),active:true,passwordHash:await hashPassword(body.password),sessionVersion:1,mustChangePassword:true};
     req.authSnapshot.data.users.push(user);await store.write(req.authSnapshot,'Cadastrar usuário');res.status(201).json(expose(user));
   });
   router.patch('/users/:id',requireUser,requireAdmin,async(req,res)=>{
     const body=req.body||{},user=req.authSnapshot.data.users.find(u=>u.id===req.params.id);
     if(!user)throw fail(404,'Usuário não encontrado.');
-    if(Object.keys(body).some(k=>!['active','role','name','password','unitIds','email','telefone'].includes(k)))throw fail(400,'Campo não permitido.');
+    if(Object.keys(body).some(k=>!['active','role','name','password','unitIds','email','telefone','featureAccess'].includes(k)))throw fail(400,'Campo não permitido.');
+    if(body.featureAccess!==undefined)validateFeatureAccess(body.featureAccess);
     if(body.unitIds!==undefined)validateUnitIds(body.unitIds);
     const mudouAcesso=(body.role!==undefined&&body.role!==user.role)||(body.active!==undefined&&body.active!==user.active)||(body.unitIds!==undefined&&JSON.stringify([...body.unitIds].sort())!==JSON.stringify([...(user.unitIds||[])].sort()))||!!body.password;
     if(body.unitIds!==undefined)validateUnitIds(body.unitIds);
@@ -108,6 +110,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     if(contato)Object.assign(user,contato);
     if(body.name!==undefined)user.name=body.name.trim();
     if(body.role!==undefined)user.role=body.role;
+    if(body.featureAccess!==undefined)user.featureAccess=validateFeatureAccess(body.featureAccess);
     if(body.active!==undefined)user.active=body.active;
     if(body.unitIds!==undefined)user.unitIds=body.unitIds;
     if(body.password&&!/^\d{6}$/.test(body.password))throw fail(400,'Use uma senha numérica de 6 dígitos.');

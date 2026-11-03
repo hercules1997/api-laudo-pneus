@@ -66,3 +66,15 @@ Gestores podem criar laudos e propostas nas suas unidades. Propostas criadas por
 Criação, revisão, envio e aprovação HTTP validam as regras comerciais. Itens novos precisam corresponder ao produto/medida em data/pneus.json e à aplicação traduzida de `eixo`. A API rejeita aplicação/descrição manipulada e pede atualização do catálogo/PDF em caso de divergência. Propostas antigas já aprovadas são preservadas; rascunhos incompatíveis precisam ser corrigidos antes de novo envio.
 
 Dados de Operação logística podem acompanhar os laudos no payload JSON existente, sem mudança de autoria, unidade ou permissão. A comparação ocorre somente sobre a seleção autorizada da conta.
+
+## Permissões por recurso
+
+`featureAccess` pertence ao cadastro do usuário e somente o administrador pode defini-lo por POST/PATCH de `/api/auth/users`.
+Chaves: `laudoFoto`, `destinacao`, `propostas`, `analiseSucata`; cada uma usa booleanos `view` e `write`.
+Uma política ausente mantém compatibilidade com contas antigas. Numa política explícita, recursos omitidos são negados.
+`write` exige `view`; análise admite somente consulta. Os perfis e os vínculos de unidade continuam limitando as ações.
+Administradores mantêm acesso completo e leitores não podem escrever.
+As sessões carregam os acessos na resposta de login/refresh. Cada operação no servidor lê o cadastro atual.
+Listagem, leitura, PDF, fotos, criação, alteração, envio, exclusão e decisão verificam a política vigente.
+Gestores sem escrita em propostas não podem aprovar nem ser selecionados como responsáveis por novas propostas.
+O campo é persistido no JSON já existente do usuário no Neon, sem migração destrutiva.

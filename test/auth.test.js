@@ -61,3 +61,19 @@ test('cadastro GitHub recusa repositório público e conflitos não sobrescrevem
  const privateStore=createGithubUsers(async()=>({ok:true,json:async()=>responses.shift()}));
  const snapshot=await privateStore.read();assert.equal(snapshot.sha,'abc');
 });
+
+test('Only admin manages feature grants and refresh returns updated policy without losing account data',async()=>fixture(async({request,getData})=>{
+ const admin=(await(await request('/login','POST',{username:'admin',password:'SenhaDeTeste12345!'})).json()).accessToken;
+ const created=await request('/users','POST',{username:'permissions',name:'Consultor',password:'583924',role:'consultor',email:'permissions@example.test',telefone:'11999999999',featureAccess:{propostas:{view:true,write:false}}},admin);
+ assert.equal(created.status,201);const account=await created.json();
+ const logged=await(await request('/login','POST',{username:'permissions',password:'583924'})).json();
+ assert.equal(logged.user.featureAccess.propostas.view,true);
+ assert.equal(logged.user.featureAccess.laudoFoto.view,false);
+ assert.equal((await request('/users/'+account.id,'PATCH',{featureAccess:{}},logged.accessToken)).status,403);
+ assert.equal((await request('/users/'+account.id,'PATCH',{featureAccess:{propostas:{view:false,write:true}}},admin)).status,400);
+ assert.equal((await request('/users/'+account.id,'PATCH',{featureAccess:{laudoFoto:{view:true,write:true}}},admin)).status,200);
+ const refreshed=await request('/refresh','POST',null,logged.accessToken);assert.equal(refreshed.status,200);
+ const next=await refreshed.json();assert.equal(next.user.featureAccess.propostas.view,false);assert.equal(next.user.featureAccess.laudoFoto.write,true);
+ assert.equal(getData().users.find(user=>user.id===account.id).email,'permissions@example.test');
+ assert.equal('passwordHash' in next.user,false);
+}));
