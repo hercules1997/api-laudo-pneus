@@ -10,7 +10,7 @@ const manager=user=>['gestor','admin'].includes(user?.role);
 const editor=user=>['consultor','gestor','admin'].includes(user?.role);
 export function canReadDocument(doc,user){return !!doc&&!doc.deletedAt&&!!user?.id&&canAccessDocument(user,doc)&&(user.role==='admin'||doc.ownerId===user.id||(managerInUnit(user,doc)&&(doc.type!=='proposta'||doc.status!=='rascunho')));}
 export function canEditDocument(doc,user){return canReadDocument(doc,user)&&canAccessDocument(user,doc,'write')&&doc.ownerId===user.id&&editor(user)&&(!needsApproval(doc)||user.role==='admin'||['rascunho','reprovado'].includes(doc.status));}
-export function canDeleteDocument(doc,user){return doc?.type==='proposta'&&canReadDocument(doc,user)&&canAccessDocument(user,doc,'write')&&(manager(user)||(doc.ownerId===user.id&&user.role==='consultor'&&['rascunho','reprovado'].includes(doc.status)));}
+export function canDeleteDocument(doc,user){if(doc?.type!=='proposta')return canReadDocument(doc,user)&&canAccessDocument(user,doc,'write')&&(doc.ownerId===user.id&&editor(user)||manager(user));return canReadDocument(doc,user)&&canAccessDocument(user,doc,'write')&&(manager(user)||(doc.ownerId===user.id&&user.role==='consultor'&&['rascunho','reprovado'].includes(doc.status)));}
 export function deleteDocument(current,{expectedRevision},user,now=new Date().toISOString()){
  assertVersion(current,expectedRevision);if(!canDeleteDocument(current,user))throw fail(403,'Você não pode excluir esta proposta. Após o envio, apenas o gestor pode excluí-la, salvo em caso de reprovação.');
  const doc=clone(current);doc.revision++;doc.deletedAt=now;doc.deletedBy=user.id;doc.updatedAt=now;return audit(doc,'deleted',user,now);

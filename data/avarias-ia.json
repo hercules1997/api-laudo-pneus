@@ -1,0 +1,287 @@
+[
+  {
+    "codigo": "01",
+    "titulo": "DESCOLAMENTO/SEPARAÇÃO DAS CINTAS",
+    "aparencia": "Extremidades das cinturas do pneu soltas e/ou separadas."
+  },
+  {
+    "codigo": "02",
+    "titulo": "DESGASTE IRREGULAR ACENTUADO NO OMBRO",
+    "aparencia": "Ombro do pneu apresentando excesso de desgaste, resultando em extremidade de cintura exposta"
+  },
+  {
+    "codigo": "03",
+    "titulo": "ARRANCAMENTO/DESCOLAMENTO DA BANDA DE RODAGEM",
+    "aparencia": "Arrancamento parcial e/ou total da banda de rodagem."
+  },
+  {
+    "codigo": "04",
+    "titulo": "EXCESSO DE PICOTAMENTO NA BANDA DE RODAGEM",
+    "aparencia": "Numerosos cortes na banda de rodagem, podendo alcançar as cinturas do pneu. "
+  },
+  {
+    "codigo": "05",
+    "titulo": "LACERAÇÕES CIRCUNFERENCIAIS NA BANDA DE RODAGEM",
+    "aparencia": "Excesso de cortes no sentido circunferencial na banda de rodagem. "
+  },
+  {
+    "codigo": "06",
+    "titulo": "ROÇAMENTO NA BANDA DE RODAGEM",
+    "aparencia": "Avaria circunferencial."
+  },
+  {
+    "codigo": "07",
+    "titulo": "ARRANCAMENTO DA RAIA/RIBE NA BANDA DE RODAGEM",
+    "aparencia": "Soltura/laceração no fundo do sulco com arrancamento parcial ou total da raia/ribe."
+  },
+  {
+    "codigo": "08",
+    "titulo": "DESGASTE DIAGONAL",
+    "aparencia": "Desgastes localizados e acentuados em toda a circunferência em sentido diagonal. "
+  },
+  {
+    "codigo": "09",
+    "titulo": "DESGASTE IRREGULAR ASSIMÉTRICO",
+    "aparencia": "Áreas da banda de rodagem desgastadas em pontos alternados."
+  },
+  {
+    "codigo": "10",
+    "titulo": "RACHADURA NO SULCO DO DESENHO EM PNEUS DIAGONAIS",
+    "aparencia": "Rachadura no sulco da banda de rodagem."
+  },
+  {
+    "codigo": "11",
+    "titulo": "PICOTAMENTO NA BANDA DE RODAGEM",
+    "aparencia": "Numerosos cortes na banda de rodagem."
+  },
+  {
+    "codigo": "12",
+    "titulo": "DANO LOCALIZADO",
+    "aparencia": "Desgaste localizado na banda de rodagem/lados da banda de rodagem"
+  },
+  {
+    "codigo": "13",
+    "titulo": "DESGASTE CENTRALIZADO",
+    "aparencia": "Desgaste acentuado na região central da banda de rodagem."
+  },
+  {
+    "codigo": "14",
+    "titulo": "ARRANCAMENTO DE BLOCOS",
+    "aparencia": "Rachaduras na base do desenho, rupturas parciais ou completas do bloco em desenhos trativos."
+  },
+  {
+    "codigo": "15",
+    "titulo": "AVARIA NA BANDA DE RODAGEM",
+    "aparencia": "Área da banda de rodagem danificada."
+  },
+  {
+    "codigo": "16",
+    "titulo": "DESGASTE IRREGULAR NOS BLOCOS",
+    "aparencia": "Blocos desgastados irregularmente em toda a circunferência (tipo dente de serra). "
+  },
+  {
+    "codigo": "17",
+    "titulo": "DESGASTE CÔNICO NA BANDA DE RODAGEM",
+    "aparencia": "O pneu apresenta maior desgaste em um dos lados da banda de rodagem. "
+  },
+  {
+    "codigo": "18",
+    "titulo": "SOLTURA PARCIAL DA BANDA DE RODAGEM",
+    "aparencia": "Desprendimento de parte da banda de rodagem com perfuração aparente. "
+  },
+  {
+    "codigo": "19",
+    "titulo": "DESGASTE IRREGULAR EM DEGRAUS",
+    "aparencia": "Desgaste acentuado em algumas raias do desenho da banda de rodagem. "
+  },
+  {
+    "codigo": "20",
+    "titulo": "SEPARAÇÃO EM ESTÁGIO INICIAL DA BANDA DE RODAGEM",
+    "aparencia": "Banda mais larga que a carcaça. "
+  },
+  {
+    "codigo": "21",
+    "titulo": "DESCOLAMENTO DA BANDA DE RODAGEM",
+    "aparencia": "Desprendimento entre a banda de rodagem e a estrutura do pneu. "
+  },
+  {
+    "codigo": "22",
+    "titulo": "DESGASTE NOS OMBROS DA BANDA DE RODAGEM",
+    "aparencia": "Ombros apresentam desgaste mais acentuado em relação ao centro da banda de rodagem. "
+  },
+  {
+    "codigo": "23",
+    "titulo": "CAPTURA DE PEDRAS NA BANDA DE RODAGEM",
+    "aparencia": "Banda de rodagem com retenção de pedras nos sulcos. "
+  },
+  {
+    "codigo": "30",
+    "titulo": "SOLTURA DE ENCHIMENTO",
+    "aparencia": "Soltura ou desgaste na região de enchimento realizado durante o processo de reforma ou reparação."
+  },
+  {
+    "codigo": "31",
+    "titulo": "PENETRAÇÃO DE OBJETO",
+    "aparencia": "Perfuração passante com objeto na região da banda de rodagem."
+  },
+  {
+    "codigo": "32",
+    "titulo": "QUEBRA CIRCUNFERENCIAL NA ZONA DE FLEXÃO",
+    "aparencia": "Ruptura circunferencial na lateral do pneu em formato de “zíper”."
+  },
+  {
+    "codigo": "33",
+    "titulo": "RUPTURA CIRCUNFERENCIAL NO FLANCO",
+    "aparencia": "Avaria e/ou deformação na lateral do pneu. "
+  },
+  {
+    "codigo": "34",
+    "titulo": "DANO INTERNO NO LINER",
+    "aparencia": "Estrutura do pneu com liner danificado. "
+  },
+  {
+    "codigo": "35",
+    "titulo": "RUPTURA RADIAL DO PNEU",
+    "aparencia": "Pneu com ruptura radial."
+  },
+  {
+    "codigo": "36",
+    "titulo": "DESCOLAMENTO ENTRE LINER E CARCAÇA",
+    "aparencia": "Bolha ou separação entre o liner e a estrutura do pneu. "
+  },
+  {
+    "codigo": "37",
+    "titulo": "SEPARAÇÃO DOS CABOS DA CARCAÇA",
+    "aparencia": "Fios da carcaça espaçados ou aparentes"
+  },
+  {
+    "codigo": "38",
+    "titulo": "DANO POR INFILTRAÇÃO",
+    "aparencia": "Descolamento da borracha da estrutura na região do flanco em carcaças radiais. "
+  },
+  {
+    "codigo": "39",
+    "titulo": "REPARO INADEQUADO 1",
+    "aparencia": "Dano com reparo temporário. "
+  },
+  {
+    "codigo": "40",
+    "titulo": "REPARO INADEQUADO 2",
+    "aparencia": "Pneu com reparo destinado a câmara de ar ou com pedaço de borracha (reparo artesanal) ."
+  },
+  {
+    "codigo": "41",
+    "titulo": "REPARAÇÃO INADEQUADA",
+    "aparencia": "Trinca ou ruptura parcial ou total do reparo (manchão). "
+  },
+  {
+    "codigo": "50",
+    "titulo": "DESCOLAMENTO ENTRE FLANCO E CARCAÇA",
+    "aparencia": " Desprendimento da borracha no flanco e carcaça em pneus radias."
+  },
+  {
+    "codigo": "51",
+    "titulo": "DESCOLAMENTO ENTRE CARCAÇA E FLANCO COM PERFURAÇÃO",
+    "aparencia": " Perfuração na carcaça e descolamento no flanco. "
+  },
+  {
+    "codigo": "52",
+    "titulo": "DESCOLAMENTO/SEPARAÇÃO NA REGIÃO DO OMBRO",
+    "aparencia": "Desprendimento da banda de rodagem da estrutura na região do ombro. "
+  },
+  {
+    "codigo": "53",
+    "titulo": "ROÇAMENTO LATERAL DO PNEU",
+    "aparencia": "Roçamento acidental na região do flanco em toda a circunferência do pneu. "
+  },
+  {
+    "codigo": "54",
+    "titulo": "DESCOLAMENTO DO OMBRO EM PNEU DIAGONAL",
+    "aparencia": "Separação na região do ombro e/ou banda de rodagem. "
+  },
+  {
+    "codigo": "55",
+    "titulo": "ONDULAÇÃO NO FLANCO DO PNEU RADIAL",
+    "aparencia": "Deformação (veia) no flanco do pneu. "
+  },
+  {
+    "codigo": "56",
+    "titulo": "AVARIA ACIDENTAL NO FLANCO 1",
+    "aparencia": "Estrutura do flanco cortada ou danificada. "
+  },
+  {
+    "codigo": "57",
+    "titulo": "ABERTURA RADIAL NO FLANCO",
+    "aparencia": "Rachadura no sentido raio/radial na lateral do pneu"
+  },
+  {
+    "codigo": "58",
+    "titulo": "AVARIA ACIDENTAL NO FLANCO 2",
+    "aparencia": "Lateral danificada ou cortada. "
+  },
+  {
+    "codigo": "59",
+    "titulo": "RACHADURAS/TRINCAS NA LATERAL DO PNEU",
+    "aparencia": "Numerosa quantidade de pequenas rachaduras/trincas na lateral do pneu."
+  },
+  {
+    "codigo": "60",
+    "titulo": "RACHADURA NO CONTRAFORTE",
+    "aparencia": "Abertura parcial entre o flanco e região do ombro"
+  },
+  {
+    "codigo": "70",
+    "titulo": "RACHADURA CIRCUNFERENCIAL NO TALÃO",
+    "aparencia": "Abertura na região do talão atingindo a extremidade da carcaça. "
+  },
+  {
+    "codigo": "71",
+    "titulo": "TALÃO DEGRADADO",
+    "aparencia": "Talão danificado e/ou deformado. "
+  },
+  {
+    "codigo": "72",
+    "titulo": "TALÃO QUEIMADO",
+    "aparencia": "Superfície do talão queimada por superaquecimento. "
+  },
+  {
+    "codigo": "73",
+    "titulo": "TALÃO DANIFICADO",
+    "aparencia": "Quebras, trincas e arrancamento na área do talão"
+  },
+  {
+    "codigo": "75",
+    "titulo": "ESCORREGAMENTO DO TALÃO SOBRE O ARO",
+    "aparencia": "Talão apresentando avaria circunferencial em sua base"
+  },
+  {
+    "codigo": "79",
+    "titulo": "DANO NO ÍNCAVO DO TALÃO",
+    "aparencia": "Talão apresentando quebra ou deformação no seu íncavo."
+  },
+  {
+    "codigo": "90",
+    "titulo": "CONTAMINAÇÃO NO PNEU",
+    "aparencia": "Pneu com óleo, graxa e água. "
+  },
+  {
+    "codigo": "91",
+    "titulo": "MONTAGEM INCORRETA",
+    "aparencia": "Pneus em rodado duplo montados com construção, marca e desenho diferentes."
+  },
+  {
+    "codigo": "92",
+    "titulo": "ARMAZENAGEM INCORRETA",
+    "aparencia": "Pneus empilhados de forma irregular, amassados e/ou deformados."
+  },
+  {
+    "codigo": "94",
+    "titulo": "LIMITE DE UTILIZAÇÃO ATINGIDO",
+    "aparencia": "Desgaste da banda de rodagem atingindo o TWI. "
+  },
+  {
+    "codigo": "96",
+    "titulo": "FILETE DE CENTRAGEM NÃO CONCÊNTRICO",
+    "aparencia": "Pneu apresentando descentralização em relação ao aro/roda. "
+  }
+]

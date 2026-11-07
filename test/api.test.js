@@ -24,13 +24,13 @@ test('JSON preserva todos os dados e formato React Native', async () => {
   assert.deepEqual(rows.map(r=>r.title),[...catalogs.medidas].sort((a,b)=>a.ordem-b.ordem).map(r=>r.title));
   assert.deepEqual(Object.keys(rows[0]).sort(),['data','title']);
   assert.deepEqual(Object.keys(rows[0].data[0]).sort(),['label','value']);
-  for(const [route,count] of [['/api/marcas',catalogs.marcas.length],['/api/bandas-vipal',catalogs.bandas.length],['/api/bandas',catalogs.bandas.length],['/api/pneus-novos',catalogs.pneus.length],['/api/pneus',catalogs.pneus.length],['/api/avarias',0]]) {
+  for(const [route,count] of [['/api/marcas',catalogs.marcas.length],['/api/bandas-vipal',catalogs.bandas.length],['/api/bandas',catalogs.bandas.length],['/api/pneus-novos',catalogs.pneus.filter(row=>row.ativo!==false).length],['/api/pneus',catalogs.pneus.filter(row=>row.ativo!==false).length],['/api/avarias',0]]) {
     const r=await get(route);assert.equal(r.status,200);assert.equal((await r.json()).length,count);
   }
 });
 test('filtros por fabricante/medida/eixo e busca funcionam sem banco', async () => {
   const pneus=await (await get('/api/pneus-novos?fabricante=royal%20black&medida=295%2F80%20R22.5')).json();
-  assert.ok(pneus.length>=5);assert.ok(pneus.some(p=>p.modelo==='RS205'));assert.ok(pneus.every(p=>p.fabricante==='Royal Black'&&p.medida==='295/80 R22.5')); 
+  assert.equal(pneus.length,1);assert.equal(pneus[0].modelo,'SL102');assert.ok(pneus.every(p=>p.fabricante==='Royal Black'&&p.medida==='295/80 R22.5'));
   assert.ok((await (await get('/api/pneus-novos?eixo=Direcional')).json()).every(p=>p.eixo.includes('Direcional')));
   assert.equal((await (await get('/api/pneus-novos?medida=295%2F80%20R22x5')).json()).length,0);
   assert.equal((await (await get('/api/bandas-vipal?busca=VT110')).json()).length,1);

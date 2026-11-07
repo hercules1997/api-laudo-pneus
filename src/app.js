@@ -1,3 +1,4 @@
+import {createPhotoAnalysisRouter} from './routes/photoAnalysisRoutes.js';
 import appRelease from './data/app-release.json' with {type:'json'};
 import {criarRotasNotificacoes} from './routes/notificacaoRoutes.js';
 import {criarRotasCatalogos} from './routes/adminCatalogos.js';
@@ -42,6 +43,7 @@ app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }
 const usersStore=neonAuthEnabled()?createNeonUsers():createGithubUsers();
 const { router: authRoutes, requireUser } = createAuthRouter(usersStore);
 app.use('/api/auth', authRoutes);
+app.use('/api/ia',createPhotoAnalysisRouter({requireUser}));
 app.use('/api/notificacoes',criarRotasNotificacoes(requireUser));
 app.use('/api/clientes',criarRotasClientes({requireUser}));
 app.use('/api/admin/catalogos',criarRotasCatalogos(requireUser));
