@@ -31,7 +31,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     const username=normalize(req.body?.username),password=req.body?.password;
     if(typeof password!=='string'||password.length>256)throw fail(401,'Usuário ou senha inválidos.');
     let snapshot=await store.read();
-    const user=snapshot.data.users.find(u=>u.username===username);
+    const user=snapshot.data.users.find(u=>u.username===username&&!u.deletedAt);
     if(user?.lockedUntil>Date.now())throw fail(429,'Muitas tentativas. Aguarde alguns minutos.');
     const valid=user?await checkPassword(password,user.passwordHash):await checkPassword(password,'scrypt$00000000000000000000000000000000$'+'0'.repeat(128));
     if(!user||!valid){
@@ -84,7 +84,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     if(req.authUser.role!=='admin'||req.authUser.mustChangePassword)throw fail(403,'Acesso exclusivo de administrador com senha atualizada.');
     next();
   };
-  router.get('/users',requireUser,requireAdmin,(req,res)=>res.json(req.authSnapshot.data.users.map(expose)));
+  router.get('/users',requireUser,requireAdmin,(req,res)=>res.json(req.authSnapshot.data.users.filter(user=>!user.deletedAt).map(expose)));
   router.post('/users',requireUser,requireAdmin,async(req,res)=>{
     const body=req.body||{};validateAccount(body);const contato=validarContato(body);if(!/^\d{6}$/.test(body.password||''))throw fail(400,'Use uma senha numérica de 6 dígitos.');
     if(req.authSnapshot.data.users.some(u=>u.username===normalize(body.username)))throw fail(409,'Usuário já cadastrado.');
@@ -95,7 +95,7 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
   });
   router.patch('/users/:id',requireUser,requireAdmin,async(req,res)=>{
     const body=req.body||{},user=req.authSnapshot.data.users.find(u=>u.id===req.params.id);
-    if(!user)throw fail(404,'Usuário não encontrado.');
+    if(!user||user.deletedAt)throw fail(404,'Usuário não encontrado.');
     if(Object.keys(body).some(k=>!['active','role','name','password','unitIds','email','telefone','featureAccess'].includes(k)))throw fail(400,'Campo não permitido.');
     if(body.featureAccess!==undefined)validateFeatureAccess(body.featureAccess);
     if(body.unitIds!==undefined)validateUnitIds(body.unitIds);
@@ -117,6 +117,19 @@ export function createAuthRouter(store=neonAuthEnabled()?createNeonUsers():creat
     if(body.password){user.passwordHash=await hashPassword(body.password);user.failedAttempts=0;user.lockedUntil=0;}
     if(mudouAcesso)user.sessionVersion=(user.sessionVersion||1)+1;
     await store.write(req.authSnapshot,'Atualizar acesso de usuário');res.json(expose(user));
+  });
+  router.delete('/users/:id',requireUser,requireAdmin,async(req,res)=>{
+    const user=req.authSnapshot.data.users.find(account=>account.id===req.params.id);
+    if(!user)throw fail(404,'Usuário não encontrado.');
+    if(user.id===req.authUser.id)throw fail(400,'Você não pode excluir sua própria conta de administrador.');
+    if(user.deletedAt)return res.status(204).end();
+    user.active=false;
+    user.deletedAt=new Date().toISOString();
+    user.deletedBy=req.authUser.id;
+    user.sessionVersion=(user.sessionVersion||1)+1;
+    delete user.passwordHash;
+    await store.write(req.authSnapshot,'Excluir acesso de usuário e preservar autoria');
+    res.status(204).end();
   });
   return {router,requireUser};
 }

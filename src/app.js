@@ -1,4 +1,3 @@
-import {createPhotoAnalysisRouter} from './routes/photoAnalysisRoutes.js';
 import appRelease from './data/app-release.json' with {type:'json'};
 import {criarRotasNotificacoes} from './routes/notificacaoRoutes.js';
 import {criarRotasCatalogos} from './routes/adminCatalogos.js';
@@ -43,7 +42,10 @@ app.use('/images', express.static(uploadsDir, { dotfiles: 'deny', index: false }
 const usersStore=neonAuthEnabled()?createNeonUsers():createGithubUsers();
 const { router: authRoutes, requireUser } = createAuthRouter(usersStore);
 app.use('/api/auth', authRoutes);
-app.use('/api/ia',createPhotoAnalysisRouter({requireUser}));
+// Compatibility for installed clients that still check the retired cloud feature.
+app.get('/api/ia/status',requireUser,(_req,res)=>res.set('Cache-Control','no-store').json({enabled:false}));
+app.post('/api/ia/avarias',requireUser,(_req,res)=>res.set('Cache-Control','no-store').status(410)
+  .json({message:'A análise online foi desativada. Use a comparação offline no app ou selecione a avaria manualmente.'}));
 app.use('/api/notificacoes',criarRotasNotificacoes(requireUser));
 app.use('/api/clientes',criarRotasClientes({requireUser}));
 app.use('/api/admin/catalogos',criarRotasCatalogos(requireUser));

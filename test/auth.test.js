@@ -48,6 +48,28 @@ test('troca obrigatória de senha e logout revogam tokens anteriores',async()=>f
  assert.equal((await request('/logout','POST',null,next.accessToken)).status,204);
  assert.equal((await request('/me','GET',null,next.accessToken)).status,401);
 }));
+test('Admin can delete another account without deleting its historical identity',async()=>fixture(async({request,initial,getData})=>{
+ const admin=(await(await request('/login','POST',{username:'admin',password:'SenhaDeTeste12345!'})).json()).accessToken;
+ const created=await request('/users','POST',{username:'excluir',name:'Usuário de teste',password:'583924',role:'consultor',email:'excluir@example.test',telefone:'11999999999'},admin);
+ assert.equal(created.status,201);
+ const account=await created.json();
+ const tokens=await(await request('/login','POST',{username:'excluir',password:'583924'})).json();
+ const path='/users/'+account.id;
+ assert.equal((await request(path,'DELETE',null,tokens.accessToken)).status,403);
+ assert.equal((await request('/users/'+initial.id,'DELETE',null,admin)).status,400);
+ assert.equal((await request(path,'DELETE',null,admin)).status,204);
+ assert.equal((await request('/me','GET',null,tokens.accessToken)).status,401);
+ assert.equal((await request('/resume','POST',{refreshToken:tokens.refreshToken})).status,401);
+ assert.equal((await request('/login','POST',{username:'excluir',password:'583924'})).status,401);
+ assert.equal((await request(path,'PATCH',{active:true},admin)).status,404);
+ const users=await(await request('/users','GET',null,admin)).json();
+ assert.equal(users.some(user=>user.id===account.id),false);
+ const archived=getData().users.find(user=>user.id===account.id);
+ assert.equal(archived.deletedBy,initial.id);
+ assert.ok(archived.deletedAt);
+ assert.equal(archived.name,account.name);
+ assert.equal('passwordHash' in archived,false);
+}));
 test('bloqueio persistente após cinco tentativas incorretas',async()=>fixture(async({request,getData})=>{
  for(let n=0;n<5;n++)assert.equal((await request('/login','POST',{username:'admin',password:'SenhaErrada12345!'})).status,401);
  assert.ok(getData().users[0].lockedUntil>Date.now());
