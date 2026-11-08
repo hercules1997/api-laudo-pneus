@@ -15,28 +15,29 @@ test('Proposal permissions cover every status, units, rejection and deletion aud
  for(const status of ['rascunho','pendente','reenviado','aprovado','reprovado']){
   const doc={...draft,status};const editable=['rascunho','reprovado'].includes(status);
   assert.equal(canEditDocument(doc,consultant),editable,status);
-  assert.equal(canDeleteDocument(doc,consultant),editable,status);
+  assert.equal(canDeleteDocument(doc,consultant),false,status);
   assert.equal(canReadDocument(doc,manager),status!=='rascunho',status);
-  assert.equal(canDeleteDocument(doc,manager),status!=='rascunho',status);
+  assert.equal(canDeleteDocument(doc,manager),false,status);
+  assert.equal(canDeleteDocument(doc,admin),true,status);
   assert.equal(canDeleteDocument(doc,other),false);
   assert.equal(canDeleteDocument(doc,{...manager,unitIds:['gaspar']}),false);
   if(!editable)assert.throws(()=>reviseDocument(doc,{expectedRevision:1,payload:doc.payload},consultant),{status:403});
  }
  const sent=submitDocument(draft,{expectedRevision:1},consultant);
  assert.throws(()=>deleteDocument(sent,{expectedRevision:2},consultant),{status:403});
- const removed=deleteDocument(sent,{expectedRevision:2},manager);
- assert.equal(removed.deletedBy,manager.id);assert.equal(removed.history.at(-1).action,'deleted');
+ const removed=deleteDocument(sent,{expectedRevision:2},admin);
+ assert.equal(removed.deletedBy,admin.id);assert.equal(removed.history.at(-1).action,'deleted');
  for(const user of [consultant,manager,admin])assert.equal(canReadDocument(removed,user),false);
  assert.equal(canShareDocument(removed,admin,{approvalsRequired:false}),false);
- assert.throws(()=>deleteDocument(sent,{expectedRevision:1},manager),{status:409});
+ assert.throws(()=>deleteDocument(sent,{expectedRevision:1},admin),{status:409});
  const rejected=decideDocument(sent,{expectedRevision:2,version:1,approved:false,notes:'Corrigir'},manager);
  const revised=reviseDocument(rejected,{expectedRevision:3,payload:rejected.payload,pdfRef:draft.pdfRef},consultant);
  assert.equal(canReadDocument(revised,manager),false);
  assert.equal(canReadDocument(submitDocument(revised,{expectedRevision:4},consultant),manager),true);
 });
-test('HTTP routes hide drafts and PDFs, enforce submitted locks and manager approval/deletion',async()=>{
+test('HTTP routes hide drafts, allow manager approval and restrict deletion to administrators',async()=>{
  let doc=create();const store={ready:true,list:async()=>[doc],get:async id=>id===doc.id?doc:null,compareAndSwap:async(id,revision,next)=>{assert.equal(doc.revision,revision);doc=next;}};
- const app=express();app.use(express.json());app.use('/api/documentos',createDocumentRouter({enabled:true,approvalsRequired:true,store,files:{ready:true,read:async()=>Buffer.from('%PDF-1.7')},requireUser:(req,res,next)=>{req.authUser=req.headers['x-role']==='gestor'?manager:consultant;next();}}));
+ const app=express();app.use(express.json());app.use('/api/documentos',createDocumentRouter({enabled:true,approvalsRequired:true,store,files:{ready:true,read:async()=>Buffer.from('%PDF-1.7')},requireUser:(req,res,next)=>{req.authUser={gestor:manager,admin}[req.headers['x-role']]||consultant;next();}}));
  app.use((e,req,res,next)=>res.status(e.status||500).json({message:e.message}));
  const server=app.listen(0);await new Promise(r=>server.once('listening',r));const base='http://127.0.0.1:'+server.address().port+'/api/documentos';
  const call=(path,role='consultor',method='GET',body)=>fetch(base+path,{method,headers:{'x-role':role,'Content-Type':'application/json'},...(body?{body:JSON.stringify(body)}:{})});
@@ -50,9 +51,18 @@ test('HTTP routes hide drafts and PDFs, enforce submitted locks and manager appr
   assert.equal((await call('/d1/decision','gestor','POST',{expectedRevision:2,version:1,approved:true})).status,200);
   assert.equal(doc.status,'aprovado');
   assert.equal((await call('/d1','consultor','DELETE',{expectedRevision:3})).status,403);
-  assert.equal((await call('/d1','gestor','DELETE',{expectedRevision:2})).status,409);
-  assert.equal((await call('/d1','gestor','DELETE',{expectedRevision:3})).status,204);
+  assert.equal((await call('/d1','gestor','DELETE',{expectedRevision:3})).status,403);
+  assert.equal((await call('/d1','admin','DELETE',{expectedRevision:2})).status,409);
+  assert.equal((await call('/d1','admin','DELETE',{expectedRevision:3})).status,204);
   assert.deepEqual(await(await call('')).json(),[]);
   assert.equal((await call('/d1/pdf')).status,404);
  }finally{await new Promise(r=>server.close(r));}
+});
+
+test('Both saved report types require an administrator even before PDF upload',()=>{
+ for(const type of ['laudo-completo','laudo-destinacao']){
+  const doc=newDocument({id:type,type,payload:{unidade:'maravilha'}},consultant);
+  for(const user of [consultant,manager])assert.throws(()=>deleteDocument(doc,{expectedRevision:1},user),{status:403});
+  assert.equal(deleteDocument(doc,{expectedRevision:1},admin).deletedBy,admin.id);
+ }
 });
